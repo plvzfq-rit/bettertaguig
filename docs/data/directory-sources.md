@@ -73,13 +73,19 @@ Legislative:
     - Fort Bonifacio: Jorge Daniel S. Bocobo became Representative for the 2nd District.
     - Pembo: Kim M. Abbang became a councilor (1st District).
     - North Signal: Danilo G. Castro became a councilor (2nd District).
-    - Rizal: Arnold J. Cruz became a councilor (1st District). *Probable* match to Arnold Jaramiel Cruz; verify.
+    - Rizal: Arnold J. "Sammy" Cruz became a councilor (1st District). Confirmed: news reports Rizal captain "Sammy Cruz" joining the council, and the councilor's linked profile is `facebook.com/sammy.cruz.9026`. A search snippet names kagawad Allan Jay J. Cruz as the current captain, but this is unverified, so the post is still listed as vacant.
   - Under the Local Government Code, the highest-ranking kagawad succeeds as captain. Who that is hasn't been sourced yet.
   - Western Bicutan: the SK chairperson and 5 SK members were never proclaimed (Comelec Minute Resolution No. 23-0730). Only the 2 proclaimed SK members are listed.
 - **Barangay data quirks** in the official source:
   - North Daang Hari's email is the placeholder `secretary@gmail.com`, so I dropped it.
   - Central Signal's second number, `(02) 8883 70495`, has an extra digit (kept as published).
-  - Post Proper Northside's address says "Barangay Cembo" (kept as published).
+  - Post Proper Northside's address says "Barangay Cembo". This is correct: the hall is in the Macda Compound in Cembo, outside the barangay ([Wikipedia](https://en.wikipedia.org/wiki/Post_Proper_Northside)).
+- **Barangay name spellings checked (2026-10-05):**
+  - "BRAIAN BERIA BARNEDO" (North Daang Hari) is a genuine spelling; he was also kagawad in 2013–2016.
+  - "MELCHCR BOLANTE BENGANAL" (Rizal) is probably "Melchor", but no source confirms it, so it's kept as published.
+- **Cross-checks against city officials:**
+  - Liga president Marilyn F. Marcelino is Ususan's captain, and SK Federation president Joanna Mae M. Pagkalinawan is Sta. Ana's SK chairperson. Both hold their council seats ex officio, as expected.
+  - Not the same people as similarly named city officials: Lower Bicutan kagawad Ricardo R. Cruz IV (not Rep. Ricardo S. Cruz Jr.) and Rizal kagawad Allan Jay J. Cruz (not councilor Allan Paul C. Cruz).
 
 - **Emails:** none published for departments or department heads, except the SP Secretariat.
 - **Head contact numbers:** none published.
