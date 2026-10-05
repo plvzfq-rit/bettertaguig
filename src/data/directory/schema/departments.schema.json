@@ -20,13 +20,14 @@
       },
       "trunkline": {
         "oneOf": [
+          { "type": "string" },
           {
             "type": "array",
             "items": { "type": ["string", "null"] }
           },
           { "type": "null" }
         ],
-        "description": "Array of phone numbers (items can be null) or null"
+        "description": "Phone number(s) as a string (multiple separated by ' / '), an array (items can be null), or null"
       },
       "website": {
         "type": ["string", "null"],

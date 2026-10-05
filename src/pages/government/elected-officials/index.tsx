@@ -25,6 +25,7 @@ import { DetailSection, PageHero } from '@/components/layout/PageLayouts';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent } from '@/components/ui/Card';
 
+import { lguLabels } from '@/lib/lguLabels';
 import { toTitleCase } from '@/lib/stringUtils';
 
 import executiveData from '@/data/directory/executive.json';
@@ -41,8 +42,14 @@ interface ExecutiveOfficial {
   email?: string;
   website?: string;
   isElected: boolean;
+  group?: ExecutiveGroup;
   personId?: string;
 }
+
+type ExecutiveGroup = 'executive' | 'appointed' | 'congress';
+
+const groupOf = (o: ExecutiveOfficial): ExecutiveGroup =>
+  o.group ?? (o.isElected ? 'executive' : 'appointed');
 
 interface Committee {
   committee: string;
@@ -240,13 +247,19 @@ export default function ElectedOfficialsPage() {
   const allExecutive = executiveData as ExecutiveOfficial[];
 
   const electedLeaders = useMemo(
-    () => allExecutive.filter(o => o.isElected),
+    () => allExecutive.filter(o => groupOf(o) === 'executive'),
+    [allExecutive]
+  );
+  const supportStaff = useMemo(
+    () => allExecutive.filter(o => groupOf(o) === 'appointed'),
+    [allExecutive]
+  );
+  const representatives = useMemo(
+    () => allExecutive.filter(o => groupOf(o) === 'congress'),
     [allExecutive]
   );
 
-  const sbData = legislativeData.find(
-    item => item.slug === '12th-sangguniang-bayan'
-  );
+  const sbData = legislativeData[0];
 
   const getChairedCommittees = (memberName: string): Committee[] =>
     (sbData?.permanent_committees ?? []).filter(
@@ -263,7 +276,7 @@ export default function ElectedOfficialsPage() {
     <div className='space-y-8'>
       <PageHero
         title='Elected Officials'
-        description='The elected leaders and legislative body of the Municipal Government.'
+        description={`The elected leaders and legislative body of the ${lguLabels.adjective} Government.`}
         breadcrumb={[
           { label: 'Government', href: '/government' },
           { label: 'Elected Officials', href: '/government/elected-officials' },
@@ -284,7 +297,7 @@ export default function ElectedOfficialsPage() {
       </DetailSection>
 
       {/* ── SECTION 2: OFFICE OF THE MAYOR STAFF ── */}
-      {/* {supportStaff.length > 0 && (
+      {supportStaff.length > 0 && (
         <DetailSection
           title='Office of the Mayor'
           icon={Briefcase}
@@ -298,11 +311,11 @@ export default function ElectedOfficialsPage() {
               >
                 <CardContent className='flex items-start gap-3 p-4'>
                   <div className='border-kapwa-border-weak bg-kapwa-bg-surface-raised text-kapwa-text-disabled shrink-0 rounded-lg border p-2'>
-                    <User2 className='h-5 w-5' />
+                    <UserIcon className='h-5 w-5' />
                   </div>
                   <div className='min-w-0 flex-1'>
                     <h4 className='text-kapwa-text-strong text-sm leading-snug font-bold'>
-                      {toTitleCase(official.name)}
+                      {official.name}
                     </h4>
                     <p className='text-kapwa-text-brand mt-0.5 truncate text-[10px] font-bold tracking-widest uppercase'>
                       {official.role}
@@ -313,7 +326,22 @@ export default function ElectedOfficialsPage() {
             ))}
           </div>
         </DetailSection>
-      )} */}
+      )}
+
+      {/* ── SECTION 2B: CONGRESSIONAL REPRESENTATIVES ── */}
+      {representatives.length > 0 && (
+        <DetailSection
+          title='House of Representatives'
+          icon={Landmark}
+          className='shadow-sm'
+        >
+          <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
+            {representatives.map(rep => (
+              <ElectedLeaderCard key={rep.slug} leader={rep} />
+            ))}
+          </div>
+        </DetailSection>
+      )}
 
       {/* ── SECTION 3: LEGISLATIVE BRANCH ── */}
       {sbData && (
@@ -394,8 +422,8 @@ export default function ElectedOfficialsPage() {
               Looking for Department Heads?
             </h4>
             <p className='text-kapwa-text-disabled text-sm'>
-              Municipal Treasurer, Assessor, Engineer, and other service heads
-              are listed in the directory.
+              {lguLabels.adjective} Treasurer, Assessor, Engineer, and other
+              service heads are listed in the directory.
             </p>
           </div>
         </div>

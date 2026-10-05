@@ -6,14 +6,15 @@
     "office": "Office of the Mayor",
     "address": "Taguig City Hall, General Luna Street, Tuktukan, Taguig City",
     "phone": "8555 7800, 7795-8888",
-    "email": "cityoftaguig07@gmail.com, taguig.lanicayetano@gmail.com, lanicayetano@gmail.com",
+    "email": "cityoftaguig07@gmail.com",
     "website": "https://www.facebook.com/officiallanicayetano",
     "isElected": true,
+    "group": "executive",
     "personId": "cayetano-maria-laarni-l"
   },
   {
     "slug": "office-of-the-vice-mayor",
-    "name": "Arvin Ian Alit",
+    "name": "Arvin Ian V. Alit",
     "role": "Vice Mayor",
     "office": "Office of the Vice Mayor",
     "address": "Taguig City Hall, General Luna Street, Tuktukan, Taguig City",
@@ -21,6 +22,43 @@
     "email": "vmarvinalit@gmail.com",
     "website": "https://www.facebook.com/ArvinAlit88",
     "isElected": true,
-    "personId": "alit-arvin-ian"
+    "group": "executive",
+    "personId": "alit-arvin-ian-v"
+  },
+  {
+    "slug": "city-administrator",
+    "name": "Cecilia R. Montales, M.D.",
+    "role": "City Administrator",
+    "office": "Office of the City Administrator",
+    "address": "3rd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "isElected": false,
+    "group": "appointed"
+  },
+  {
+    "slug": "representative-1st-district",
+    "name": "Ricardo S. Cruz Jr.",
+    "role": "Representative, 1st District (Taguig–Pateros)",
+    "office": "House of Representatives",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "website": "https://www.facebook.com/adingcruzjr",
+    "isElected": true,
+    "group": "congress"
+  },
+  {
+    "slug": "representative-2nd-district",
+    "name": "Jorge Daniel S. Bocobo",
+    "role": "Representative, 2nd District (Taguig)",
+    "office": "House of Representatives",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "website": "https://www.facebook.com/OfficialJorgeBocobo",
+    "isElected": true,
+    "group": "congress"
   }
 ]

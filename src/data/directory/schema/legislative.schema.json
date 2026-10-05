@@ -12,6 +12,10 @@
       "chamber": { "type": "string" },
       "address": { "type": ["string", "null"] },
       "trunkline": { "type": ["string", "null"] },
+      "email": {
+        "type": ["string", "null"],
+        "format": "email"
+      },
       "website": {
         "type": ["string", "null"],
         "format": "uri"
@@ -25,6 +29,7 @@
             "role": { "type": "string" },
             "name": { "type": "string" },
             "contact": { "type": ["string", "null"] },
+            "personId": { "type": "string" },
             "website": {
               "type": ["string", "null"],
               "format": "uri"

@@ -6,7 +6,7 @@
     "address": "Sangguniang Panlungsod Legislative Building, City Hall Compound, Barangay Tuktukan, Taguig City / SP Session Hall, 5th-7th Floor, New Taguig City Hall, Cayetano Boulevard, Barangay Ususan, Taguig City",
     "trunkline": null,
     "website": "https://sp.taguig.gov.ph",
-    "email": null,
+    "email": "spsecretariat@taguig.gov.ph",
     "officials": [
       {
         "role": "Vice Mayor / Presiding Officer",
@@ -75,7 +75,7 @@
         "personId": "ogalinola-carlito-m"
       },
       {
-        "role": "Councilor, 1st District",
+        "role": "Majority Floor Leader / Councilor, 1st District",
         "name": "FANELLA JOY B. PANGA-CRUZ",
         "website": "https://www.facebook.com/attyjoypangacruz",
         "personId": "panga-cruz-fanella-joy-b"
@@ -160,15 +160,15 @@
       },
       {
         "role": "Liga ng mga Barangay (ABC) President / Ex-Officio Councilor",
-        "name": "MARIE MARCELINO",
+        "name": "MARILYN F. MARCELINO",
         "website": null,
-        "personId": "marcelino-marie"
+        "personId": "marcelino-marilyn-f"
       },
       {
         "role": "SK Federation President / Ex-Officio Councilor",
-        "name": "JOANNA MAE PAGKALINAWAN",
+        "name": "JOANNA MAE M. PAGKALINAWAN",
         "website": null,
-        "personId": "pagkalinawan-joanna-mae"
+        "personId": "pagkalinawan-joanna-mae-m"
       }
     ],
     "permanent_committees": [

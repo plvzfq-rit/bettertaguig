@@ -9,6 +9,7 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { EmptyState } from '@/components/ui/EmptyState';
 import SearchInput from '@/components/ui/SearchInput';
 
+import { lguLabels } from '@/lib/lguLabels';
 import { toTitleCase } from '@/lib/stringUtils';
 
 import legislativeData from '@/data/directory/legislative.json';
@@ -27,9 +28,7 @@ interface Committee {
 export default function MunicipalCommitteesPage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const sbData = legislativeData.find(
-    item => item.slug === '12th-sangguniang-bayan'
-  );
+  const sbData = legislativeData[0];
 
   const committees = useMemo(
     () => (sbData?.permanent_committees ?? []) as Committee[],
@@ -51,7 +50,7 @@ export default function MunicipalCommitteesPage() {
     <>
       <PageHero
         title='Standing Committees'
-        description={`Active committees of the ${sbData?.chamber ?? 'Sangguniang Bayan'}.`}
+        description={`Active committees of the ${sbData?.chamber ?? lguLabels.body}.`}
         breadcrumb={[
           { label: 'Government', href: '/government' },
           { label: 'Elected Officials', href: '/government/elected-officials' },

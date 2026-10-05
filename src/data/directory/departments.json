@@ -18,11 +18,20 @@
     "department_head": { "name": "Evelyn T. Arago", "contact": null, "email": null }
   },
   {
+    "slug": "bids-and-awards-committee",
+    "office_name": "BIDS AND AWARDS COMMITTEE",
+    "address": "3rd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
+    "trunkline": null,
+    "website": null,
+    "email": null,
+    "department_head": { "name": "Elmer Pagsisihan", "contact": null, "email": null }
+  },
+  {
     "slug": "business-permits-and-licensing-office",
     "office_name": "BUSINESS PERMITS AND LICENSING OFFICE",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": "(02) 8628 2813",
-    "website": "https://www.facebook.com/BPLOTaguigCity",
+    "trunkline": "(02) 8555 7868",
+    "website": "https://www.facebook.com/taguig.bplo",
     "email": null,
     "department_head": { "name": "Atty. Maria Theresa S. Veloso", "contact": null, "email": null }
   },
@@ -42,16 +51,16 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Jose Luis G. Montales", "contact": null, "email": null }
+    "department_head": { "name": "Cecilia R. Montales, M.D.", "contact": null, "email": null }
   },
   {
     "slug": "city-budget-office",
     "office_name": "CITY BUDGET OFFICE",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": "(02) 7795 9935 / (02) 8628 1653",
+    "trunkline": "(02) 7795 8863 / (02) 8628 1653",
     "website": null,
     "email": null,
-    "department_head": { "name": "Agnes T. Abratique", "contact": null, "email": null }
+    "department_head": { "name": "Atty. Maricar Loinaz-Sarmiento", "contact": null, "email": null }
   },
   {
     "slug": "city-civil-registry",
@@ -69,13 +78,13 @@
     "trunkline": "(02) 7795 9932 / +63 919 070 3112",
     "website": "https://www.facebook.com/TaguigCityDRRMO",
     "email": null,
-    "department_head": { "name": "Erwin Niño Palima", "contact": null, "email": null }
+    "department_head": { "name": "Dr. Luis Sy Jr.", "contact": null, "email": null }
   },
   {
     "slug": "city-engineering-office",
     "office_name": "CITY ENGINEERING OFFICE",
     "address": "3rd floor, Convention Center, Barangay Ususan, Taguig City",
-    "trunkline": null,
+    "trunkline": "(02) 7795 8840",
     "website": "https://www.facebook.com/taguigcityengineeringoffice",
     "email": null,
     "department_head": { "name": "Engr. Marcelo M. Serpa Juan", "contact": null, "email": null }
@@ -123,7 +132,7 @@
     "trunkline": null,
     "website": "https://www.facebook.com/taguigcityhealthoffice",
     "email": null,
-    "department_head": { "name": "Dr. Norena R. Osano", "contact": null, "email": null }
+    "department_head": { "name": "Dr. Susana Amiscua", "contact": null, "email": null }
   },
   {
     "slug": "city-human-resource-management-office",
@@ -132,16 +141,16 @@
     "trunkline": "(02) 8628 3449",
     "website": "https://www.facebook.com/hrtaguiggov",
     "email": null,
-    "department_head": { "name": "Jeanette Clemente", "contact": null, "email": null }
+    "department_head": { "name": "Jeanette C. Clemente", "contact": null, "email": null }
   },
   {
     "slug": "city-legal-office",
     "office_name": "CITY LEGAL OFFICE",
     "address": "4th floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": null,
+    "trunkline": "(02) 7795 8895",
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Fatima Relente", "contact": null, "email": null }
+    "department_head": { "name": "Atty. Fatima A. Relente", "contact": null, "email": null }
   },
   {
     "slug": "city-library",
@@ -150,7 +159,16 @@
     "trunkline": null,
     "website": "https://www.facebook.com/TaguigCityLibrary",
     "email": null,
-    "department_head": { "name": "Joselito Carpena Jr.", "contact": null, "email": null }
+    "department_head": { "name": "Joselito P. Carpena Jr.", "contact": null, "email": null }
+  },
+  {
+    "slug": "city-local-economic-development-and-investment-promotion-office",
+    "office_name": "CITY LOCAL ECONOMIC DEVELOPMENT AND INVESTMENT PROMOTION OFFICE",
+    "address": null,
+    "trunkline": null,
+    "website": null,
+    "email": null,
+    "department_head": { "name": "Atty. Maria Theresa S. Veloso", "contact": null, "email": null }
   },
   {
     "slug": "city-mayors-office",
@@ -168,7 +186,7 @@
     "trunkline": "(02) 7795 9931",
     "website": "https://www.facebook.com/TaguigNutrition",
     "email": null,
-    "department_head": { "name": "Julita Bernabe", "contact": null, "email": null }
+    "department_head": { "name": "Julita S. Bernabe", "contact": null, "email": null }
   },
   {
     "slug": "city-parks-and-recreation-office",
@@ -183,7 +201,7 @@
     "slug": "city-planning-and-development-office",
     "office_name": "CITY PLANNING AND DEVELOPMENT OFFICE",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": "(02) 7795 9947",
+    "trunkline": "(02) 7795 9999 loc. 111 / 124",
     "website": "https://www.facebook.com/profile.php?id=100067135269166",
     "email": null,
     "department_head": { "name": "Arch. Ronnie Pagkalinawan", "contact": null, "email": null }
@@ -195,22 +213,22 @@
     "trunkline": "(02) 8555 7919",
     "website": "https://www.facebook.com/CSWDOTAGUIG",
     "email": null,
-    "department_head": { "name": "Nikki Rose Operario", "contact": null, "email": null }
+    "department_head": { "name": "Nikki Rose H. Operario", "contact": null, "email": null }
   },
   {
     "slug": "city-treasurers-office",
     "office_name": "CITY TREASURER'S OFFICE",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": "(02) 8640 7006 / (02) 8628 4103",
+    "trunkline": "(02) 7795 8844",
     "website": "https://www.facebook.com/cto.taguigcity",
     "email": null,
-    "department_head": { "name": "Atty. Jonathan Voltaire L. Enriquez", "contact": null, "email": null }
+    "department_head": { "name": "Atty. Alvin Esmenda", "contact": null, "email": null }
   },
   {
     "slug": "facilities-management-office",
     "office_name": "FACILITIES MANAGEMENT OFFICE",
     "address": null,
-    "trunkline": null,
+    "trunkline": "(02) 8642 7557",
     "website": "https://www.facebook.com/fmotaguig",
     "email": null,
     "department_head": { "name": "Eugene Bilaw", "contact": null, "email": null }
@@ -229,7 +247,7 @@
     "office_name": "INFORMATION AND TECHNOLOGY OFFICE",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
     "trunkline": "(02) 8555 7920",
-    "website": null,
+    "website": "https://www.facebook.com/taguigito",
     "email": null,
     "department_head": { "name": "Allen T. Noromor", "contact": null, "email": null }
   },
@@ -276,14 +294,14 @@
     "trunkline": "(02) 8642 3567",
     "website": "https://www.facebook.com/taguiglocalschoolboard",
     "email": null,
-    "department_head": { "name": "Dr. Natividad Jimenez", "contact": null, "email": null }
+    "department_head": { "name": "Aljenneth Vivar", "contact": null, "email": null }
   },
   {
     "slug": "local-utility-office",
     "office_name": "LOCAL UTILITY OFFICE",
     "address": null,
     "trunkline": "(02) 8642 1599",
-    "website": "https://www.facebook.com/profile.php?id=100041167705996",
+    "website": "https://www.facebook.com/people/Local-Na-Utilidad/100077046991184",
     "email": null,
     "department_head": { "name": "Eduardo U. Ronquillo", "contact": null, "email": null }
   },
@@ -291,7 +309,7 @@
     "slug": "market-management-office",
     "office_name": "MARKET MANAGEMENT OFFICE",
     "address": "Cayetano Blvd., Barangay Ususan, Taguig City",
-    "trunkline": "(02) 7795 9933",
+    "trunkline": "(02) 8254 1638",
     "website": "https://www.facebook.com/profile.php?id=100090983198832",
     "email": null,
     "department_head": { "name": "Asuncion C. Escoto", "contact": null, "email": null }
@@ -303,13 +321,22 @@
     "trunkline": "(02) 7795 9939",
     "website": "https://www.facebook.com/TaguigCityMedicalAssistanceOffice",
     "email": null,
-    "department_head": { "name": "Elisa Bunyi", "contact": null, "email": null }
+    "department_head": { "name": "Elisa M. Bunyi", "contact": null, "email": null }
+  },
+  {
+    "slug": "mobility-office",
+    "office_name": "MOBILITY OFFICE",
+    "address": "Ground floor, Ricardo Papa Bldg., Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
+    "trunkline": null,
+    "website": null,
+    "email": null,
+    "department_head": { "name": "William Francis S. Mariano", "contact": null, "email": null }
   },
   {
     "slug": "office-of-the-city-assessor",
     "office_name": "OFFICE OF THE CITY ASSESSOR",
     "address": "2nd floor, Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": "(02) 7795 9938 / +63 919 079 9114",
+    "trunkline": "(02) 7795 9938",
     "website": null,
     "email": null,
     "department_head": { "name": "Engr. Roberto Villaluz", "contact": null, "email": null }
@@ -340,6 +367,15 @@
     "website": "https://www.facebook.com/taguigpdao",
     "email": null,
     "department_head": { "name": "Helario B. Supaz", "contact": null, "email": null }
+  },
+  {
+    "slug": "procurement-office",
+    "office_name": "PROCUREMENT OFFICE",
+    "address": "Taguig City Hall, General Luna Street, Barangay Tuktukan, Taguig City",
+    "trunkline": null,
+    "website": null,
+    "email": null,
+    "department_head": { "name": null, "contact": null, "email": null }
   },
   {
     "slug": "public-employment-and-services-office",
@@ -383,7 +419,7 @@
     "address": "General Luna Street, Barangay Tuktukan, Taguig City",
     "trunkline": null,
     "website": "https://www.facebook.com/secretariatSPtaguig",
-    "email": null,
+    "email": "spsecretariat@taguig.gov.ph",
     "department_head": { "name": "Dickson R. Roño", "contact": null, "email": null }
   },
   {
@@ -420,7 +456,7 @@
     "trunkline": "(02) 8635 8300",
     "website": "https://www.facebook.com/TaguigCityUniversity",
     "email": null,
-    "department_head": { "name": "Dr. Desiree B. Guiraldo", "contact": null, "email": null }
+    "department_head": { "name": "Dr. Raymundo Arcega", "contact": null, "email": null }
   },
   {
     "slug": "taguig-cooperative-development-office",
@@ -450,6 +486,15 @@
     "department_head": { "name": "Corazon Victoria L. Ybañez", "contact": null, "email": null }
   },
   {
+    "slug": "taguig-open-weather-and-environmental-reporting-system",
+    "office_name": "TAGUIG OPEN WEATHER AND ENVIRONMENTAL REPORTING SYSTEM",
+    "address": null,
+    "trunkline": "(02) 8789 3200",
+    "website": "https://www.facebook.com/TOWERTaguig",
+    "email": null,
+    "department_head": { "name": null, "contact": null, "email": null }
+  },
+  {
     "slug": "taguig-scholarship-office",
     "office_name": "TAGUIG SCHOLARSHIP OFFICE",
     "address": "Taguig Scholarship Office, SRCCMSTHS, BCDA, Diego Silang, C5, Barangay Ususan, Taguig City",
@@ -465,7 +510,7 @@
     "trunkline": "(02) 8837 3022",
     "website": "https://www.facebook.com/TPDHospital",
     "email": null,
-    "department_head": { "name": "Dr. Anna Richie A. Quilatan", "contact": null, "email": null }
+    "department_head": { "name": "Dr. Timoteo Niel T. Trinidad", "contact": null, "email": null }
   },
   {
     "slug": "tourism-and-trade-development",
@@ -489,10 +534,10 @@
     "slug": "urban-poor-affairs-office",
     "office_name": "URBAN POOR AFFAIRS OFFICE",
     "address": "Second floor, Taguig City Hall Auditorium, General Luna Street, Barangay Tuktukan, Taguig City",
-    "trunkline": null,
+    "trunkline": "(02) 7795 8820",
     "website": "https://www.facebook.com/profile.php?id=100087159833580",
     "email": null,
-    "department_head": { "name": "Agapito M. Cruz", "contact": null, "email": null }
+    "department_head": { "name": "Atty. Christian G. Eco", "contact": null, "email": null }
   },
   {
     "slug": "local-youth-development-office",
@@ -501,6 +546,6 @@
     "trunkline": null,
     "website": "https://www.facebook.com/profile.php?id=61572500181263",
     "email": null,
-    "department_head": { "name": "Aldrin Nexel S. Sinues", "contact": null, "email": null }
+    "department_head": { "name": "Atty. Aldrin Nexel S. Sinues", "contact": null, "email": null }
   }
 ]
