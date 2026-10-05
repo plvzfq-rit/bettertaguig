@@ -1,4 +1,4 @@
-import { GlobeIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
+import { GlobeIcon, MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
 
 import { Badge } from '@/components/ui/Badge';
 
@@ -10,7 +10,8 @@ interface BarangayHeaderProps {
     barangay_name: string;
     address?: string;
     trunkline?: string[];
-    website?: string;
+    website?: string | null;
+    email?: string | null;
   };
 }
 
@@ -45,7 +46,9 @@ export function BarangayHeader({ barangay }: BarangayHeaderProps) {
       {/* Middle: Address */}
       {barangay.address && (
         <p className='text-kapwa-text-support mb-4 text-sm'>
-          {barangay.address}, {lguLabels.location}
+          {barangay.address.includes(lguLabels.name)
+            ? barangay.address
+            : `${barangay.address}, ${lguLabels.location}`}
         </p>
       )}
 
@@ -58,6 +61,15 @@ export function BarangayHeader({ barangay }: BarangayHeaderProps) {
           >
             <PhoneIcon aria-hidden='true' className='h-4 w-4' />
             <span>{contactValue}</span>
+          </a>
+        )}
+        {barangay.email && (
+          <a
+            href={`mailto:${barangay.email}`}
+            className='text-kapwa-text-support hover:text-kapwa-text-brand flex items-center gap-2 transition-colors'
+          >
+            <MailIcon aria-hidden='true' className='h-4 w-4' />
+            <span>{barangay.email}</span>
           </a>
         )}
         {barangay.website && (

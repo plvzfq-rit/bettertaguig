@@ -19,7 +19,11 @@ import {
 
 import { toTitleCase } from '@/lib/stringUtils';
 
-import barangaysData from '@/data/directory/barangays.json';
+import type { Barangay } from '@/types/directoryTypes';
+
+import rawBarangays from '@/data/directory/barangays.json';
+
+const barangaysData = rawBarangays as Barangay[];
 
 export default function BarangayDetail() {
   const { barangay: slug } = useParams();
@@ -88,6 +92,31 @@ export default function BarangayDetail() {
           </h2>
         </div>
 
+        {!barangay.officials?.length && (
+          <p className='text-kapwa-text-support text-sm'>
+            The list of officials for this barangay has not been added yet.
+            Contact the barangay hall for current officials.
+          </p>
+        )}
+
+        {barangay.officials?.length ? (
+          <p className='text-kapwa-text-disabled text-xs'>
+            As proclaimed by Comelec after the October 2023 Barangay and SK
+            Elections. Terms run until the November 2028 elections.
+          </p>
+        ) : null}
+
+        {barangay.vacancies?.map(role => (
+          <p
+            key={role}
+            className='border-kapwa-border-weak bg-kapwa-bg-surface-raised text-kapwa-text-support rounded-lg border px-4 py-3 text-sm'
+          >
+            <strong>{role}:</strong> vacant. The official elected in 2023 took
+            city or national office in 2025, and the successor is not yet listed
+            here.
+          </p>
+        ))}
+
         {/* Punong Barangay */}
         {punongBarangay && (
           <div className='space-y-2' role='group' aria-label='Chief Executive'>
@@ -100,26 +129,28 @@ export default function BarangayDetail() {
         )}
 
         {/* Sangguniang Barangay */}
-        <div
-          className='space-y-2'
-          role='group'
-          aria-label='Sangguniang Barangay'
-        >
-          <p className='sr-only'>Sangguniang Barangay</p>
-          <p className='text-kapwa-text-disabled pl-1 text-[10px] font-bold tracking-widest uppercase'>
-            Sangguniang Barangay
-          </p>
-          <div className='grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3'>
-            {kagawads?.map(kagawad => (
-              <OfficialCard
-                key={kagawad.name}
-                official={kagawad}
-                role='Barangay Kagawad'
-                icon={UsersIcon}
-              />
-            ))}
+        {kagawads && kagawads.length > 0 && (
+          <div
+            className='space-y-2'
+            role='group'
+            aria-label='Sangguniang Barangay'
+          >
+            <p className='sr-only'>Sangguniang Barangay</p>
+            <p className='text-kapwa-text-disabled pl-1 text-[10px] font-bold tracking-widest uppercase'>
+              Sangguniang Barangay
+            </p>
+            <div className='grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3'>
+              {kagawads?.map(kagawad => (
+                <OfficialCard
+                  key={kagawad.name}
+                  official={kagawad}
+                  role='Barangay Kagawad'
+                  icon={UsersIcon}
+                />
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Sangguniang Kabataan */}
         {skOfficials && skOfficials.length > 0 && (
@@ -146,32 +177,34 @@ export default function BarangayDetail() {
         )}
 
         {/* Barangay Administration */}
-        <div
-          className='space-y-2'
-          role='group'
-          aria-label='Barangay Administration'
-        >
-          <p className='sr-only'>Barangay Administration</p>
-          <p className='text-kapwa-text-disabled pl-1 text-[10px] font-bold tracking-widest uppercase'>
-            Barangay Administration
-          </p>
-          <div className='grid grid-cols-1 gap-3 md:grid-cols-2'>
-            {secretary && (
-              <OfficialCard
-                official={secretary}
-                role='Barangay Secretary'
-                icon={Briefcase}
-              />
-            )}
-            {treasurer && (
-              <OfficialCard
-                official={treasurer}
-                role='Barangay Treasurer'
-                icon={Briefcase}
-              />
-            )}
+        {(secretary || treasurer) && (
+          <div
+            className='space-y-2'
+            role='group'
+            aria-label='Barangay Administration'
+          >
+            <p className='sr-only'>Barangay Administration</p>
+            <p className='text-kapwa-text-disabled pl-1 text-[10px] font-bold tracking-widest uppercase'>
+              Barangay Administration
+            </p>
+            <div className='grid grid-cols-1 gap-3 md:grid-cols-2'>
+              {secretary && (
+                <OfficialCard
+                  official={secretary}
+                  role='Barangay Secretary'
+                  icon={Briefcase}
+                />
+              )}
+              {treasurer && (
+                <OfficialCard
+                  official={treasurer}
+                  role='Barangay Treasurer'
+                  icon={Briefcase}
+                />
+              )}
+            </div>
           </div>
-        </div>
+        )}
       </main>
     </div>
   );

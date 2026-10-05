@@ -1,1119 +1,2777 @@
 [
   {
-    "slug": "barangay-anos",
-    "barangay_name": "ANOS",
-    "address": "Barangay Hall, Brgy. Anos, Los Baños, Laguna",
-    "trunkline": ["0917 146 9167"],
-    "website": "https://www.facebook.com/barangayanosofficialbarangay",
+    "slug": "barangay-bagumbayan",
+    "barangay_name": "BAGUMBAYAN",
+    "address": "Purok 3 Manuel L. Quezon St., Barangay Bagumbayan, Taguig City",
+    "trunkline": ["+63 929 336 4778"],
+    "website": "https://www.facebook.com/BrgyBagumbayanOfficialPage",
+    "email": "secretariat.bagumbayantaguig@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "BENITO B. ELEC"
+        "name": "DELIO JAVIER SANTOS"
       },
       {
         "role": "SB Member",
-        "name": "EDITHA V. LOZANO"
+        "name": "ROVINA JANE MAGADIA SANTOS"
       },
       {
         "role": "SB Member",
-        "name": "ROSALIE P. PANTING"
+        "name": "JESSIE TORTOZA CONCEPCION"
       },
       {
         "role": "SB Member",
-        "name": "MIGUEL E. SORIANO"
+        "name": "ALEXANDER TRINIDAD AQUINO"
       },
       {
         "role": "SB Member",
-        "name": "EDGARDO R. EVANGELISTA"
+        "name": "MA. ROWENA PINEDA BLANCO"
       },
       {
         "role": "SB Member",
-        "name": "ANGELITA N. ALVAREZ"
+        "name": "EJAY ABCEDE JAVIER"
       },
       {
         "role": "SB Member",
-        "name": "NORA S. ROBLES"
+        "name": "ARNOLD ESPIRITU CALDOZO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MA. LUISA FABRICANTE CARTEL"
       },
       {
         "role": "SK Chairperson",
-        "name": "SAMANTHALIN S. BANASIHAN"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "SARAH M. ROBLES"
+        "name": "AVA CASSANDRA VOLPE VICTORIA"
       },
       {
         "role": "SK Member",
-        "name": "KATRINA B. MENDOZA"
+        "name": "ARLENE GARCIA SUAREZ"
       },
       {
         "role": "SK Member",
-        "name": "REAN ROSALES"
+        "name": "BASTY GARCIA SANTOS"
       },
       {
         "role": "SK Member",
-        "name": "ALEXIS ROSALES"
+        "name": "JEFFERSON BALUYO PADILLA"
       },
       {
         "role": "SK Member",
-        "name": "ALIYAH AVSONIO ABEDANIA"
+        "name": "ACE DELEMOS PUNZALAN"
       },
       {
         "role": "SK Member",
-        "name": "JANELLE TEYENG"
+        "name": "EDWARD JOSH SANTILLAN AGUILA"
       },
       {
         "role": "SK Member",
-        "name": "MICAELA C. BANDIAN"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "RYAM JOR G. BARREDA"
-      }
-    ]
-  },
-  {
-    "slug": "barangay-bagong-silang",
-    "barangay_name": "BAGONG SILANG",
-    "address": "Barangay Hall, Brgy. Bagong Silang, Los Baños, Laguna",
-    "trunkline": ["0955 527 9328"],
-    "website": "https://www.losbanos.gov.ph",
-    "officials": [
-      {
-        "role": "Punong Barangay",
-        "name": "ROGELIO N. DELOS REYES"
-      },
-      {
-        "role": "SB Member",
-        "name": "HAROLD L. DELOS REYES"
-      },
-      {
-        "role": "SB Member",
-        "name": "JOEL PANGANI"
-      },
-      {
-        "role": "SB Member",
-        "name": "ALVINO D. QUIATCHON"
-      },
-      {
-        "role": "SB Member",
-        "name": "DELOS REYES QUIATCHON JACINTO"
-      },
-      {
-        "role": "SB Member",
-        "name": "BABY JANE M. CALAO"
-      },
-      {
-        "role": "SB Member",
-        "name": "PRIMITIVO C. NAVAREZ"
-      },
-      {
-        "role": "SB Member",
-        "name": "AMADOR A. DELOS REYES"
-      },
-      {
-        "role": "SK Chairperson",
-        "name": "SHENA M. CALAO"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "MYLA L. LAYOG"
+        "name": "RAFAEL DOMINIC GARCIA DECANO"
       },
       {
         "role": "SK Member",
-        "name": "IVAN D. QUIATCHON"
-      },
-      {
-        "role": "SK Member",
-        "name": "MAXINE Z. QUIATCHON"
-      },
-      {
-        "role": "SK Member",
-        "name": "BHABY AN DELOS REYES MALABANAN"
-      },
-      {
-        "role": "SK Member",
-        "name": "ANTONIO N. DELA CRUZ"
-      },
-      {
-        "role": "SK Member",
-        "name": "CHRISTIA V. QUIATCHON"
-      },
-      {
-        "role": "SK Member",
-        "name": "NATHALIE M. SULLEGUIN"
-      },
-      {
-        "role": "SK Member",
-        "name": "KEYLA D. BADILLO"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "FRANCINE D. MONTEZA"
+        "name": "IVAN PONICE PAGSISIHAN"
       }
     ]
   },
   {
     "slug": "barangay-bambang",
     "barangay_name": "BAMBANG",
-    "address": "Barangay Hall, Brgy. Bambang, Los Baños, Laguna",
-    "trunkline": ["0906 725 9232"],
-    "website": "https://www.facebook.com/barangay.bambang.50",
+    "address": "Manuel L. Quezon St., Barangay Bambang, Taguig City",
+    "trunkline": ["(02) 8995 3459"],
+    "website": "https://www.facebook.com/BarangayBambangOfficialPage",
+    "email": "bambangpaglingkuran@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "ARLENE P. DELOS SANTO"
+        "name": "RYAN CALDERON ESTEBAN"
       },
       {
         "role": "SB Member",
-        "name": "MARIA AILEEN M. APACIONADO"
+        "name": "DANILO PASCO MANALO"
       },
       {
         "role": "SB Member",
-        "name": "HENRY M. YANGO"
+        "name": "KATHERINE ESPIRITU STA. ANA"
       },
       {
         "role": "SB Member",
-        "name": "GERARD TATAD"
+        "name": "NENITA SARMIENTO SINUES"
       },
       {
         "role": "SB Member",
-        "name": "TERESA M. MIRANDAN"
+        "name": "RICARDO MAURICIO MANALO JR."
       },
       {
         "role": "SB Member",
-        "name": "RODRIGO S. GALANG"
+        "name": "ROBIN ROLDAN BERNARDINO"
       },
       {
         "role": "SB Member",
-        "name": "JOY B. BAS"
+        "name": "FRANCISCO RAMOS ESTEBAN JR."
       },
       {
         "role": "SB Member",
-        "name": "CORAZON S. BOSTON"
+        "name": "JEZZER PESIGAN IGNACIO"
       },
       {
         "role": "SK Chairperson",
-        "name": "GLENDEL F. PACCIAL"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "MA. NENE A. REALISTA"
+        "name": "ADRIAN SARMIENTO SINUES"
       },
       {
         "role": "SK Member",
-        "name": "AISEYIAH A. CANLAS"
+        "name": "KATE LOMOD CABE"
       },
       {
         "role": "SK Member",
-        "name": "MARYAN M. MARINO"
+        "name": "ERIC PELIPEL REDECIO"
       },
       {
         "role": "SK Member",
-        "name": "AUBREY M. GAVILAN"
+        "name": "LIEZEL ANNE PEPITO ALINGCOMOT"
       },
       {
         "role": "SK Member",
-        "name": "PRINCE ZYR SALAZAR"
+        "name": "ROMNICK YUSORES CABAS"
       },
       {
         "role": "SK Member",
-        "name": "AUDREY V. GANGIL"
+        "name": "JOHN ROGIE ESPIRITU SIM"
       },
       {
         "role": "SK Member",
-        "name": "ALESSANDRA C. GUDA"
+        "name": "CARMELLA DALIT ESPIRITU"
       },
       {
         "role": "SK Member",
-        "name": "STEPHEN C. OBRA"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "PATRICIA A. GAVILAN"
+        "name": "SHERWIN MANALO HERALDO"
       }
     ]
   },
   {
-    "slug": "barangay-batong-malake",
-    "barangay_name": "BATONG MALAKE",
-    "address": "Barangay Hall, Brgy. Batong Malake, Los Baños, Laguna",
-    "trunkline": ["0945 544 2954", "0919 254 4257"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-calzada-tipas",
+    "barangay_name": "CALZADA-TIPAS",
+    "address": "New Building, 03 Ruhale St., Barangay Calzada-Tipas, Taguig City",
+    "trunkline": ["+63 919 096 8208", "+63 919 096 8209"],
+    "website": "https://www.facebook.com/BarangayCalzadaTipas",
+    "email": "calzadatipastaguig@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "IAN N. KALAW"
+        "name": "ROMMEL BUNYI TANYAG"
       },
       {
         "role": "SB Member",
-        "name": "DELFIN M. PABALATE"
+        "name": "RALPH ALLAN ISAGON GERONIMO"
       },
       {
         "role": "SB Member",
-        "name": "KRISTINE P. CADAPAN"
+        "name": "DAVIS DAGUISO LANDRITO"
       },
       {
         "role": "SB Member",
-        "name": "JOEY R. DE GALA"
+        "name": "VIRGILIO ESTACIO MAGLIPON"
       },
       {
         "role": "SB Member",
-        "name": "NELSON R. BANDIAN"
+        "name": "VICENTE TEBELIN MAGDARAOG"
       },
       {
         "role": "SB Member",
-        "name": "RONDELL R. RAZALDO"
+        "name": "BERNARDO PATRON GEROMO"
       },
       {
         "role": "SB Member",
-        "name": "ELVIRA A. TEVES"
+        "name": "LUISA MATREO ENCANTO"
       },
       {
         "role": "SB Member",
-        "name": "LEO L. CATIMBANG"
+        "name": "JOSEPH ANTHONY CARLOS CARLOS"
       },
       {
         "role": "SK Chairperson",
-        "name": "VINCENT P. BANASIHAN"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "GENESIS J. BANDONG"
+        "name": "JAZZEL LOUISE FLORES SANGA"
       },
       {
         "role": "SK Member",
-        "name": "KAELA CERVANTINA CADAPAN"
+        "name": "KIM DE ASIS CRUZ"
       },
       {
         "role": "SK Member",
-        "name": "MIKAS SHANE M. AQUINO"
+        "name": "PAULEEN DOMINIQUE SILVESTRE SULIT"
       },
       {
         "role": "SK Member",
-        "name": "RAIVEN NICOLE E. BUENA"
+        "name": "CRISTINE TADO MAÑOSCA"
       },
       {
         "role": "SK Member",
-        "name": "ALIETH B. LANCETA"
+        "name": "KIANNAH REIGME GUERRA SULIT"
       },
       {
         "role": "SK Member",
-        "name": "FAYE MIKAELA BATUGON DIZON"
+        "name": "JAN ANTHONY ESTACIO SANGA"
       },
       {
         "role": "SK Member",
-        "name": "JOHN MOSES M. DONOS"
+        "name": "ROSE ANN FOSTANES SAN JUAN"
       },
       {
         "role": "SK Member",
-        "name": "JENNYLOU C. ABAYAN"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "JANNA HE L. DAHONOG"
+        "name": "GILLIAN ANTON DELEON"
       }
     ]
   },
   {
-    "slug": "barangay-baybayin",
-    "barangay_name": "BAYBAYIN",
-    "address": "Barangay Hall, Brgy. Baybayin, Los Baños, Laguna",
-    "trunkline": ["0995 679 2525"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-cembo",
+    "barangay_name": "CEMBO",
+    "address": "Kalayaan Ave., Barangay Cembo, Taguig City",
+    "trunkline": ["(02) 8672 3845", "(02) 8532 9098"],
+    "website": "https://www.facebook.com/barangay25cembo",
+    "email": "barangay25.cembo@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "GAUDENCIO VILLAMOR LORESTO"
+        "name": "ROMEO BADUA MILLO"
       },
       {
         "role": "SB Member",
-        "name": "NICANOR P. LEDESMA"
+        "name": "ANTHONY AGPAY BOREGAS"
       },
       {
         "role": "SB Member",
-        "name": "ROBERT T. PALACPAC"
+        "name": "JOHN MIKO DIONIDO ARIONES"
       },
       {
         "role": "SB Member",
-        "name": "JEFFREY G. SAN VALENTIN"
+        "name": "RODOLFO CATALAN SAN PEDRO JR."
       },
       {
         "role": "SB Member",
-        "name": "CHONA V. PALACPAC"
+        "name": "MA. LUISA ORILLOSA CUERDO"
       },
       {
         "role": "SB Member",
-        "name": "RAMESES M. LIKWONG"
+        "name": "EDGAR JAPON ORDOÑO"
       },
       {
         "role": "SB Member",
-        "name": "DELFIN H. CARPIO"
+        "name": "PAUL LEONARDO CADAG MAGPANTAY"
       },
       {
         "role": "SB Member",
-        "name": "MERLITA L. RALLOS"
+        "name": "RAMSEZYL DOTADO FERNANDEZ"
       },
       {
         "role": "SK Chairperson",
-        "name": "FRANZES D. TOLENTINO"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "MARIE JOY P. PALACPAC"
+        "name": "JEANNE PAUL MEDINA CADAPAN"
       },
       {
         "role": "SK Member",
-        "name": "TRICIA NICOLE S. CONSULTI"
+        "name": "AIRA MAE GALANG LAYUG"
       },
       {
         "role": "SK Member",
-        "name": "KRISTINA G. DE VILLA"
+        "name": "LALAINE SY DAWANG"
       },
       {
         "role": "SK Member",
-        "name": "JOHN BRYLE C. GOMEZ"
+        "name": "LEIGH EYAN CORTEZ"
       },
       {
         "role": "SK Member",
-        "name": "JOEL O. RAMOS"
+        "name": "ERIN MARGARET MONTOYA ORDOÑO"
       },
       {
         "role": "SK Member",
-        "name": "JAYPEE D. AGOJO"
+        "name": "KATHLEEN CRISOLO GUZMAN"
       },
       {
         "role": "SK Member",
-        "name": "JUNE O. DEL MUNDO"
+        "name": "ANGELIQUE BAYSA TALPLACIDO"
       },
       {
         "role": "SK Member",
-        "name": "TREXY C. CLARIDAD"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "ARNEL M. PESTANO"
+        "name": "ALEXANDRA REBAYA BELTRAN"
       }
     ]
   },
   {
-    "slug": "barangay-bayog",
-    "barangay_name": "BAYOG",
-    "address": "Barangay Hall, Brgy. Bayog, Los Baños, Laguna",
-    "trunkline": ["0926 963 4402"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-central-bicutan",
+    "barangay_name": "CENTRAL BICUTAN",
+    "address": "DPWH Compound, Sunflower St., Barangay Central Bicutan, Taguig City",
+    "trunkline": ["(02) 8535 3975", "+63 906 447 7764", "+63 962 683 6893"],
+    "website": "https://www.facebook.com/profile.php?id=61552727621629",
+    "email": "baragongcentralbicutan@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "EDUARDO E. DELMING"
+        "name": "RODOLFO ESTOESTA TANGPUZ II"
       },
       {
         "role": "SB Member",
-        "name": "OBDULIA C. VASQUEZ"
+        "name": "KARL MAVERICK VELASCO ARAGO"
       },
       {
         "role": "SB Member",
-        "name": "JONAS E. ARAGON"
+        "name": "MARIA CECILIA TATOY BALMORI"
       },
       {
         "role": "SB Member",
-        "name": "ROLANDO V. EVANGELISTA"
+        "name": "VENADIK MASINSIN CASTRO"
       },
       {
         "role": "SB Member",
-        "name": "VIRGILIO A. TANDANG"
+        "name": "LEAH MASANGKAY PEREZ"
       },
       {
         "role": "SB Member",
-        "name": "FELICIANO S. TANDANG"
+        "name": "CRISTINA OAFERINA SANARES"
+      },
+      {
+        "role": "SB Member",
+        "name": "OLIVER GANICHERO OSANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "PIULY BALDEVIESO DULANG"
       },
       {
         "role": "SK Chairperson",
-        "name": "ERICA P. PAR"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "LORELEI M. HINTURAL"
+        "name": "ALYNN REIGN ALMAZAR RAFIÑAN"
       },
       {
         "role": "SK Member",
-        "name": "TRICIA MAE B. REYES"
+        "name": "KHYLA TAN"
       },
       {
         "role": "SK Member",
-        "name": "JANRIAN P. PAR"
+        "name": "KACEY ROBERTO"
       },
       {
         "role": "SK Member",
-        "name": "MARIVEL P. CARILLAGA"
+        "name": "CINDY MARIE PARONE FRESCO"
       },
       {
         "role": "SK Member",
-        "name": "GIEN C. MAZO"
+        "name": "FRANCIS CARL DUCO ALBA"
       },
       {
         "role": "SK Member",
-        "name": "GUIA LORRAINE M. CATILLO"
+        "name": "ANDREA ALCARAZ MADRIAGA"
       },
       {
         "role": "SK Member",
-        "name": "KURT KEVIN Q. CLAVE"
+        "name": "JARRED CHRISTIAN LACANDOLA FONTIVEROS"
       },
       {
         "role": "SK Member",
-        "name": "CYRUS JYL M. FELIX"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "PATRICK E. ARCINUE"
+        "name": "JOHN PATRICK MAUR PEREZ"
       }
     ]
   },
   {
-    "slug": "barangay-lalakay",
-    "barangay_name": "LALAKAY",
-    "address": "Barangay Hall, Brgy. Lalakay, Los Baños, Laguna",
-    "trunkline": ["0908 890 9125"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-central-signal",
+    "barangay_name": "CENTRAL SIGNAL",
+    "address": "2 Col Miranda St., Zone 2 Barangay Central Signal, Taguig City",
+    "trunkline": ["(02) 8814 3930", "(02) 8883 70495"],
+    "website": "https://www.facebook.com/bgycentralsignalofficial",
+    "email": "brgycsv2018@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "MARIO P. MAGULI"
+        "name": "HENRY ALZATE DUEÑAS III"
       },
       {
         "role": "SB Member",
-        "name": "LETICIA C. CONCEPCION"
+        "name": "MANUEL RIVERA BINAG JR."
       },
       {
         "role": "SB Member",
-        "name": "KAYNETH M. BATAS"
+        "name": "DADO LANG-AY DOGWE"
       },
       {
         "role": "SB Member",
-        "name": "ELVIS Q. ATIENZA"
+        "name": "ROSEJEAN LAVILLA ZABALA"
       },
       {
         "role": "SB Member",
-        "name": "ROBERT R. DELA CRUZ"
+        "name": "PAUL NICOLE DE GUZMAN LLANTO"
       },
       {
         "role": "SB Member",
-        "name": "CRISTOPHER BAUTISTA REVILLEZA"
+        "name": "ARTHUR RODELAS TAN"
       },
       {
         "role": "SB Member",
-        "name": "DOMINGO T. OBOSA"
+        "name": "PRINCIPE POBLETE DE VILIER"
       },
       {
         "role": "SB Member",
-        "name": "ALLAN R. GARROVILLAS"
+        "name": "ANDRE RODRIGUEZ POLO"
       },
       {
         "role": "SK Chairperson",
-        "name": "JOHN KYLE N. PAMPLONA"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "EILEEN RUTH S. FABAYOS"
+        "name": "MA. YVONE CALUCAB GERMAN"
       },
       {
         "role": "SK Member",
-        "name": "CARLO B. TOLEDO"
+        "name": "CHRISTINA GARCES COLATA"
       },
       {
         "role": "SK Member",
-        "name": "KAYE MARTINEZ ORTE"
+        "name": "KRISSIA MEGG MALACAS LINING"
       },
       {
         "role": "SK Member",
-        "name": "DANIEL PAOLO S. TUMDALA"
+        "name": "LYZA LILETH SAUCELO OQUIAS"
       },
       {
         "role": "SK Member",
-        "name": "ELLA MAE C. ELASIGUE"
+        "name": "PAUL ERWIN VILLANUEVA HERNANDEZ"
       },
       {
         "role": "SK Member",
-        "name": "DESIREE J. ALMEYDA"
+        "name": "PRINCE STEVEN PALMON KASAN"
       },
       {
         "role": "SK Member",
-        "name": "ERICA JOY B. ALEMANEA"
+        "name": "MARK ROIN PICHAY ECHAPARE"
       },
       {
         "role": "SK Member",
-        "name": "NORMAN L. DELA CRUZ"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "SHERALYN E. NAS"
+        "name": "IAN JOSHUA DELA CRUZ SUASBA"
       }
     ]
   },
   {
-    "slug": "barangay-maahas",
-    "barangay_name": "MAAHAS",
-    "address": "Barangay Hall, Brgy. Maahas, Los Baños, Laguna",
-    "trunkline": ["0928 285 2720"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-comembo",
+    "barangay_name": "COMEMBO",
+    "address": "Anahaw St., Barangay Comembo, Taguig City",
+    "trunkline": ["(02) 7738 1883"],
+    "website": "https://www.facebook.com/profile.php?id=61555165777821",
+    "email": "barangaycomemboofficial@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "FERDINAND P. VARGAS"
+        "name": "EDGARDO PASCUAL CLEOFAS"
       },
       {
         "role": "SB Member",
-        "name": "EVA MARIE C. LASANAS"
+        "name": "JOSEPH ABALOS NAVALTA"
       },
       {
         "role": "SB Member",
-        "name": "BERNARD S. BAUTISTA"
+        "name": "CIELITA CORNEL CORTEZ"
       },
       {
         "role": "SB Member",
-        "name": "CARIDAD T. LANUANG"
+        "name": "MIRA BAGATNAN FAJARDO"
       },
       {
         "role": "SB Member",
-        "name": "GINO M. LAWAS"
+        "name": "ROLANDO LAGUITAN CALLEJO"
       },
       {
         "role": "SB Member",
-        "name": "GAUDENCIO M. PAGCANLUNGAN"
+        "name": "WILSON REYES OMAR"
       },
       {
         "role": "SB Member",
-        "name": "JOSEPH T. ALVAREZ"
+        "name": "ANTONIO ZUNIEGA GEROMO"
       },
       {
         "role": "SB Member",
-        "name": "GERARDO A. LANTICAN"
+        "name": "PIO SORIAO TABOR JR."
       },
       {
         "role": "SK Chairperson",
-        "name": "CATHERINE D. EISMA"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "ALONA T. CANICOSA"
+        "name": "BREANNE GALON PERALTA"
       },
       {
         "role": "SK Member",
-        "name": "RAEJ P. SIMAN"
+        "name": "NICOLE ANDRE MANABAT MANABAT"
       },
       {
         "role": "SK Member",
-        "name": "KYLA NICOLE L. LINGON"
+        "name": "FAITH NICOLE NATIVIDAD DELOS REYES"
       },
       {
         "role": "SK Member",
-        "name": "JOHN ROY M. TAMIS"
+        "name": "ADRIENNE ANN BUSTINERA"
       },
       {
         "role": "SK Member",
-        "name": "RALPH MARK M. MABILANGAN"
+        "name": "JOHN ERVVIN DOLOR MARCIAL"
       },
       {
         "role": "SK Member",
-        "name": "SONNY M. ALVEZ"
+        "name": "RENZEL ANTONIO"
       },
       {
         "role": "SK Member",
-        "name": "SHANIA ISABEL B. MOLINAWAN"
+        "name": "JOHN PATRICK PAGARAGAN PAROCHA"
       },
       {
         "role": "SK Member",
-        "name": "KYLE AERON L. BATULINA"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "MYLENE G. LAPIZ"
+        "name": "LEI IVANA OLANGAR ROMERO"
       }
     ]
   },
   {
-    "slug": "barangay-malinta",
-    "barangay_name": "MALINTA",
-    "address": "Barangay Hall, Brgy. Malinta, Los Baños, Laguna",
-    "trunkline": ["0906 934 5752"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-eastrembo",
+    "barangay_name": "EAST REMBO",
+    "address": "7th Avenue, Barangay East Rembo, Taguig City",
+    "trunkline": ["(02) 7728 1588"],
+    "website": "https://www.facebook.com/EastRembo2018",
+    "email": "eastremboparasabayan@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "JESUS H. DE UNA JR"
+        "name": "THELMA PARAYNO RAMIREZ"
       },
       {
         "role": "SB Member",
-        "name": "ROLANDO L. ERROBA"
+        "name": "IRVIN GLEMA SANCHEZ"
       },
       {
         "role": "SB Member",
-        "name": "RANIE F. ANDAL"
+        "name": "NOEL MAGBANUA LAUDE"
       },
       {
         "role": "SB Member",
-        "name": "ERNESTO G. ALCANTARA"
+        "name": "JAMIN BUSA BERNAL"
       },
       {
         "role": "SB Member",
-        "name": "ALLAN B. BIENES"
+        "name": "LYNDEN DE DIOS DIEGO"
       },
       {
         "role": "SB Member",
-        "name": "BENNY S. MORALDE"
+        "name": "ROBERTO DOMINGO COLOMA"
       },
       {
         "role": "SB Member",
-        "name": "SHERYL S. BAGNES"
+        "name": "MYLEEN REPOLLES MENDOZA"
       },
       {
         "role": "SB Member",
-        "name": "GAUDENCIO D. MARIANO"
+        "name": "ALVIN ROSALES MURCIA"
       },
       {
         "role": "SK Chairperson",
-        "name": "EDMUND E. VELASCO"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "RICHEL C. TAKAHASHI"
+        "name": "SHANE CLARENCE SONZA AGOOT"
       },
       {
         "role": "SK Member",
-        "name": "RONA KAY F. PELEGRINA"
+        "name": "ODESSA MAE ESTERON MANALOTO"
       },
       {
         "role": "SK Member",
-        "name": "JOSE ROD T. RECARIO"
+        "name": "JAYVEE CAGSAWA DE GUZMAN"
       },
       {
         "role": "SK Member",
-        "name": "JUDITH R. SARMIENTO"
+        "name": "ALTHEA BENITEZ CUNANAN"
       },
       {
         "role": "SK Member",
-        "name": "MARY JOY E. BIENES"
+        "name": "DON HAREN ROLIAN SERNA"
       },
       {
         "role": "SK Member",
-        "name": "MA. ALTHEA Q. VALLEJO"
+        "name": "MARIA LOUISA ROQUE"
       },
       {
         "role": "SK Member",
-        "name": "ROSEMER V. SUBIAGA"
+        "name": "RYAN DAYLE REJANO CELIS"
       },
       {
         "role": "SK Member",
-        "name": "JIMUELL N. LEGASPI"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "KARL LOU T. LABARETE"
+        "name": "RLEYN CAEDO OCCIDENTAL"
       }
     ]
   },
   {
-    "slug": "barangay-mayondon",
-    "barangay_name": "MAYONDON",
-    "address": "Barangay Hall, Brgy. Mayondon, Los Baños, Laguna",
-    "trunkline": ["0906 783 7773", "0956 721 7127", "0938 298 8166"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-fort-bonifacio",
+    "barangay_name": "FORT BONIFACIO",
+    "address": "Barangay Fort Bonifacio, Taguig City",
+    "trunkline": ["(02) 8477 2106"],
+    "website": "https://www.facebook.com/barangayfortbonifacioofficial",
+    "email": "fortbonifaciosecretariat@gmail.com",
+    "vacancies": ["Punong Barangay"],
     "officials": [
       {
-        "role": "Punong Barangay",
-        "name": "ROMMEL N. MANINGAS"
+        "role": "SB Member",
+        "name": "LYSANDRE TUANG VERTULFO"
       },
       {
         "role": "SB Member",
-        "name": "DANILO V. APOLINAR"
+        "name": "HELEN VARGAS LARA"
       },
       {
         "role": "SB Member",
-        "name": "MIGUEL C. CONCIO"
+        "name": "VILMA VALLE PADUA"
       },
       {
         "role": "SB Member",
-        "name": "MICHAEL E. ESCOBIN"
+        "name": "JOSEPH SORIANO PARRAS"
       },
       {
         "role": "SB Member",
-        "name": "ERICSON B. REYES"
+        "name": "AMANTE AGUSTIN DELA CRUZ JR."
       },
       {
         "role": "SB Member",
-        "name": "MARTA D. LONTOC"
+        "name": "MARICRIS HELTINDEZ PALMA"
       },
       {
         "role": "SB Member",
-        "name": "FELISA C. CAUNCA"
-      },
-      {
-        "role": "SB Member",
-        "name": "MARJORIE E. DE ADA"
+        "name": "SARAH GRACE MIJARES ASYAO"
       },
       {
         "role": "SK Chairperson",
-        "name": "MARIA AN A. EUSEBIO"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "REYMARC V. TORRES"
+        "name": "YANCY MAE CASTILLO SAPINOSO"
       },
       {
         "role": "SK Member",
-        "name": "JANEYA M. SAPIN"
+        "name": "GIZELLE MASAGANDA OLASO"
       },
       {
         "role": "SK Member",
-        "name": "FRANCIS D. AJO"
+        "name": "ROCHELE ALBINO ABALA"
       },
       {
         "role": "SK Member",
-        "name": "CHESKA MAE H. DULAY"
+        "name": "LYZET TIMBAL ALINDAO"
       },
       {
         "role": "SK Member",
-        "name": "CHARLES M. ARABIT"
+        "name": "JOHN CHRISTIAN ASYAO HEMOR"
       },
       {
         "role": "SK Member",
-        "name": "DENNIS R. OARTE"
+        "name": "CHRISTIAN IVAN SEMILLANO VALIAO"
       },
       {
         "role": "SK Member",
-        "name": "SOPHIA M. DIZON"
+        "name": "RENZO GELLANG JUMAPAO"
       },
       {
         "role": "SK Member",
-        "name": "WENCIE J. BANASIHAN"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "ARIANE JOY M. TERBIO"
+        "name": "CARL ANTHONY OCQUIANA ALTARES"
       }
     ]
   },
   {
-    "slug": "barangay-putho-tuntungi",
-    "barangay_name": "PUTHO-TUNTUNGIN",
-    "address": "Barangay Hall, Brgy. Putho Tuntungi, Los Baños, Laguna",
-    "trunkline": ["0962 077 4706", "0970 736 3270"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-hagonoy",
+    "barangay_name": "HAGONOY",
+    "address": "Manuel L. Quezon St., Barangay Hagonoy, Taguig City",
+    "trunkline": ["(02) 7001 5655", "(02) 7000 9532"],
+    "website": "https://www.facebook.com/barangayhagonoy",
+    "email": "barangayhagonoy.taguigcity@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "FRANCISCO O. TORRES JR"
+        "name": "ROMMEL ROLDAN OLAZO"
       },
       {
         "role": "SB Member",
-        "name": "RONALDO O. ONATE"
+        "name": "EDWARD MAGLIPON ENCARNACION"
       },
       {
         "role": "SB Member",
-        "name": "ELMER R. GARCIA"
+        "name": "DONN KENNETH PROFETA JOAQUIN"
       },
       {
         "role": "SB Member",
-        "name": "ELENA S. RAMOS"
+        "name": "GINA CASPLLO GARDUQUE"
       },
       {
         "role": "SB Member",
-        "name": "JOHN ANDREW PEREZ"
+        "name": "ISIDRO FRANCO DE MESA"
       },
       {
         "role": "SB Member",
-        "name": "ESTELITA L. JACOBO"
+        "name": "MARLON BALAGTAS BUNYI"
       },
       {
         "role": "SB Member",
-        "name": "ERVIM F. MALABANAN"
+        "name": "LILIBETH GATAPIA BAUTISTA"
       },
       {
         "role": "SB Member",
-        "name": "MANUEL P. ALBORIDA"
+        "name": "SONNY LEGASPI GARCIA"
       },
       {
         "role": "SK Chairperson",
-        "name": "JEMELYN E. TATAD"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "JOSEPH M. CARDINO"
+        "name": "KEVIN CARL NUFUENTE JULIAN"
       },
       {
         "role": "SK Member",
-        "name": "LEVI JEN R. CUEVAS"
+        "name": "JANELLE CABASAG DIO"
       },
       {
         "role": "SK Member",
-        "name": "JOHNCEL P. BUEZA"
+        "name": "DOMINIC BATALLER LUCAS"
       },
       {
         "role": "SK Member",
-        "name": "ANNE MAE P. FAUNDO"
+        "name": "ANGELIKA BAGACINA MIRASOL"
       },
       {
         "role": "SK Member",
-        "name": "OMAR C. CASTILLO"
+        "name": "JOHN ERNEST NOVENO SANTOS"
       },
       {
         "role": "SK Member",
-        "name": "DOROTHY C. RAMOS"
+        "name": "JERICO SIBAYOOLIS COMBO"
       },
       {
         "role": "SK Member",
-        "name": "JINUEL D. ALBORIDA"
+        "name": "MARILYN BASA DEBORJA"
       },
       {
         "role": "SK Member",
-        "name": "LORENXE B. DIOKNO"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "JAYVEE A. ESCOTON"
+        "name": "MICHAELA GEROSANIB APOSTOL"
       }
     ]
   },
   {
-    "slug": "barangay-san-antonio",
-    "barangay_name": "SAN ANTONIO",
-    "address": "Barangay Hall, Brgy. San Antonio, Los Baños, Laguna",
-    "trunkline": ["0960 576 0044"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-ibayo-tipas",
+    "barangay_name": "IBAYO-TIPAS",
+    "address": "700 Dr. Natividad St., Barangay Ibayo-Tipas, Taguig City",
+    "trunkline": ["+63 918 962 0231"],
+    "website": "https://www.facebook.com/profile.php?id=100092404114029",
+    "email": "brgyibayotipas120123@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "RELLY C. MANAY"
+        "name": "WILFREDO DE GUZMAN FLORES"
       },
       {
         "role": "SB Member",
-        "name": "VICKY G. LAWAS"
+        "name": "GLENN QUILATAN BOBOTIOK"
       },
       {
         "role": "SB Member",
-        "name": "DAISY E. MANESE"
+        "name": "NILO LADRERA CAPISTRANO"
       },
       {
         "role": "SB Member",
-        "name": "ANGELINA M. MUNDIN"
+        "name": "ERICSON MOZO TANYAG"
       },
       {
         "role": "SB Member",
-        "name": "JONATHAN M. MEJIA"
+        "name": "RIZALDY MENDIOLA PAGKALINAWAN"
       },
       {
         "role": "SB Member",
-        "name": "LIBERATO A. CALICA"
+        "name": "OCTAVIO CRUZ ESTACIO"
       },
       {
         "role": "SB Member",
-        "name": "JOSEPHINE M. DIMASANGAL"
+        "name": "RUDY OCOL QUILATAN"
       },
       {
         "role": "SB Member",
-        "name": "RENA THEA V. DIZON"
+        "name": "CARLOS DEL EON CATIGAY JR."
       },
       {
         "role": "SK Chairperson",
-        "name": "ASHLEY J. PAYAS"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "MARIE JOY S. JUNIO"
+        "name": "CLARIZ LONTOC CAPISTRANO"
       },
       {
         "role": "SK Member",
-        "name": "MAEWIN L. GENIL"
+        "name": "KYLE ANGELIE VILLAFRIA BOBOTIOK"
       },
       {
         "role": "SK Member",
-        "name": "CRISEL JOY B. OGALIN"
+        "name": "SARAH MAE ESTACIO CRUZ"
       },
       {
         "role": "SK Member",
-        "name": "BERNADETTE LOPEZ"
+        "name": "CARLOS YUAN LONTOC ANTONIO"
       },
       {
         "role": "SK Member",
-        "name": "ASHLEY N. SORRERA"
+        "name": "REDANTE MEDINA DIMAGUILA"
       },
       {
         "role": "SK Member",
-        "name": "DENISE GRACE BALOGO"
+        "name": "NINA RICCI MAG-ATAS RAMOS"
       },
       {
         "role": "SK Member",
-        "name": "YLA MARIE O. ROSARIO"
+        "name": "ZED ASHLEY ESTACIO BUMATAY"
       },
       {
         "role": "SK Member",
-        "name": "JOHN CARLO C. GUBA"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "ELAINE M. LAPITAN"
+        "name": "JOHN EDSON MAG-ATAS LABAO"
       }
     ]
   },
   {
-    "slug": "barangay-tadlak",
-    "barangay_name": "TADLAK",
-    "address": "Barangay Hall, Brgy. Tadlak, Los Baños, Laguna",
-    "trunkline": ["0921 526 3893"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-katuparan",
+    "barangay_name": "KATUPARAN",
+    "address": "7th St., GHQ Village, Barangay Katuparan, Taguig City",
+    "trunkline": ["(02) 8273 0592"],
+    "website": "https://www.facebook.com/BarangayKatuparan",
+    "email": "mtaparrijr.barangaykatuparan@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "JAIME B. BUENDIA"
+        "name": "MARIO RIVERA HERNANDEZ"
       },
       {
         "role": "SB Member",
-        "name": "VICTOR M. DEL ROSA"
+        "name": "VERNA LASTIMOSA LADIA"
       },
       {
         "role": "SB Member",
-        "name": "NANNET R. SALDANA"
+        "name": "NOMY CHUA LUMAGBAS"
       },
       {
         "role": "SB Member",
-        "name": "IRENEO L. DIAZ"
+        "name": "MICHAEL SORIA BAPTISTA"
       },
       {
         "role": "SB Member",
-        "name": "ARMANDO C. LLANES JR"
+        "name": "BEN DEGALA BRILLO"
       },
       {
         "role": "SB Member",
-        "name": "HENRY R. EVANGELISTA"
+        "name": "JOSE MARIO REYES BOTO"
       },
       {
         "role": "SB Member",
-        "name": "LEOPOLDO M. TATAD"
+        "name": "ANNABELLE HERNAEZ GARCIA"
       },
       {
         "role": "SB Member",
-        "name": "GILBERTO G. BAUTISTA"
+        "name": "VITORIO PAJINAG PACARIEM"
       },
       {
         "role": "SK Chairperson",
-        "name": "JEROME F. ELIZALDE"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "MA. CECCILIA P. ESCULTOR"
+        "name": "JEROME PAOLO BERNARDO GONZALES"
       },
       {
         "role": "SK Member",
-        "name": "JESSEL C. LORIA"
+        "name": "JERMAINE JAN HERERRA AGUILA"
       },
       {
         "role": "SK Member",
-        "name": "KYLENE R. CAHINDI"
+        "name": "ERIANNE JOY ANQUILLANO GARCIA"
       },
       {
         "role": "SK Member",
-        "name": "ROY D. LUMIBAO"
+        "name": "MIKAELA GARGOLES BALBUENA"
       },
       {
         "role": "SK Member",
-        "name": "JHON PATRICK S. ERASGA"
+        "name": "DAVID JOHN PILAPIL CRUZ"
       },
       {
         "role": "SK Member",
-        "name": "MARC ANTHONY A. MILAN"
+        "name": "KEN REFUERZO CELESTIAL"
       },
       {
         "role": "SK Member",
-        "name": "JOSEPH R. MORALES"
+        "name": "RHEIBER HEART TACULAO ESPINO"
       },
       {
         "role": "SK Member",
-        "name": "DIALYN SAMSON"
-      },
-      {
-        "role": "SK Secretary",
-        "name": "MARY ROSE P. ERASGA"
+        "name": "JUDEL ALOPOOP CABERTE"
       }
     ]
   },
   {
-    "slug": "barangay-timugan",
-    "barangay_name": "TIMUGAN",
-    "address": "Barangay Hall, Brgy. Timugan, Los Baños, Laguna",
-    "trunkline": ["0932 063 7743"],
-    "website": "https://www.losbanos.gov.ph",
+    "slug": "barangay-ligid-tipas",
+    "barangay_name": "LIGID-TIPAS",
+    "address": "17 C Ordoñez St., Barangay Ligid-Tipas, Taguig City",
+    "trunkline": ["(02) 8642 4745"],
+    "website": "https://www.facebook.com/officialBarangayLigidTipas",
+    "email": "brgyligidtipas20@gmail.com",
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "RENATO A. SAMSON"
+        "name": "JOHN UMALI LONTOC"
       },
       {
         "role": "SB Member",
-        "name": "ISAGANI D. BAUTISTA"
+        "name": "JOSEPH TRINE BILAW"
       },
       {
         "role": "SB Member",
-        "name": "RODERICK S. ISIDRO"
+        "name": "LORNA MOZO MAÑOSCA"
       },
       {
         "role": "SB Member",
-        "name": "LIZA C. MATUNDAN"
+        "name": "ARIEL NATIVIDAD LONTOK"
       },
       {
         "role": "SB Member",
-        "name": "SOLIDAD D. ABDAH"
+        "name": "ALMER IMBAO GERVASIO"
       },
       {
         "role": "SB Member",
-        "name": "ELEAZAR B. AQUINO"
+        "name": "ARTHUR POLINTAN MORALES"
       },
       {
         "role": "SB Member",
-        "name": "PAMELA FLORDELIZA F. DE VERA"
+        "name": "JENINA ESTACIO BALDERRAMA"
       },
       {
         "role": "SB Member",
-        "name": "MARY JEAN C. AQUINO"
+        "name": "RICARDO OCOL SILVESTRE"
       },
       {
         "role": "SK Chairperson",
-        "name": "RICO T. YADAO"
-      },
-      {
-        "role": "Barangay Secretary",
-        "name": "WILROSE L. PENALVER"
+        "name": "DAN PATRICK TEJANO RAMOS"
       },
       {
         "role": "SK Member",
-        "name": "FELICITY T. BAGAO"
+        "name": "JASPER ADRIAN GERONIMO OKOL"
       },
       {
         "role": "SK Member",
-        "name": "RICA P. GAYLON"
+        "name": "JIM MORISSON LABAO ORDOÑEZ"
       },
       {
         "role": "SK Member",
-        "name": "PHIL BOJO REPOTEN"
+        "name": "ALJOHN ESTACIO RAMOS"
       },
       {
         "role": "SK Member",
-        "name": "MARJORY B. GUIMMAYEN"
+        "name": "JHANDAYL CIPRIANO MAGLIPON"
       },
       {
         "role": "SK Member",
-        "name": "DERICK B. ORAP"
+        "name": "EARL JOY HAGOS AUSA"
       },
       {
         "role": "SK Member",
-        "name": "KC MAE M. DELA CRUZ"
+        "name": "MARJORIE ANDREA MONIQUE NATIVIDAD UMALI"
       },
       {
         "role": "SK Member",
-        "name": "JUSTINE JAKE L. EDUCADO"
+        "name": "JOSHUA MORALES DIMAGUILA"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-lower-bicutan",
+    "barangay_name": "LOWER BICUTAN",
+    "address": "#1 C6 Road Purok 5, Barangay Lower Bicutan, Taguig City",
+    "trunkline": ["+63 948 366 3755"],
+    "website": "https://www.facebook.com/barangaylowerbicutan",
+    "email": "officialbarangaylowerbicutan@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "ROEL OCENADA PACAYRA"
       },
       {
-        "role": "SK Secretary",
-        "name": "CHARLES I. DE VERA"
+        "role": "SB Member",
+        "name": "GERONIMO FRANCO BAQUIRAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "DENNIS REYES ADRIANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "RICARDO RODRIGUEZ CRUZ IV"
+      },
+      {
+        "role": "SB Member",
+        "name": "LESTER NOVE PADILLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "OSCAR MARQUEZ NORBE"
+      },
+      {
+        "role": "SB Member",
+        "name": "BENJAMIN ALVIN GUDAY CRUZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "MARICAR BERNAL"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JUNELYN ALUMBRE TABANAO"
+      },
+      {
+        "role": "SK Member",
+        "name": "APRIL JOY ALTEA REYES"
+      },
+      {
+        "role": "SK Member",
+        "name": "IRIS DELA CRUZ PALAMOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARK ANTHONY CAÑETE CAPULONG"
+      },
+      {
+        "role": "SK Member",
+        "name": "CHESTER JOHIN CAPULONG SALIVIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "NOIME TOLOSA LLAGAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "JAMILA JOSEFA ESTRELLADO GALLANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "SUMMER VARRON SANTOS"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-maharlika",
+    "barangay_name": "MAHARLIKA",
+    "address": "Mindanao Ave., Barangay Maharlika, Taguig City",
+    "trunkline": ["(02) 8837 7002"],
+    "website": "https://www.facebook.com/profile.php?id=100072056536594",
+    "email": "brgy.maharlika.taguig@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "HAREEM PANGANDAMAN PAUTIN"
+      },
+      {
+        "role": "SB Member",
+        "name": "HADJI AKMAD DIANALAN WAHAB"
+      },
+      {
+        "role": "SB Member",
+        "name": "JAMAL PANGANDAMAN MACAALIN"
+      },
+      {
+        "role": "SB Member",
+        "name": "KHALID ABO HASIM"
+      },
+      {
+        "role": "SB Member",
+        "name": "CAMAL MANAN USMAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "ABDULFAHAD MANGONDATO MUSA"
+      },
+      {
+        "role": "SB Member",
+        "name": "HADJI ESMAEL AMPATUA SARIP"
+      },
+      {
+        "role": "SB Member",
+        "name": "HAYME MENOR DITANO"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "AMIR CANOY MASBUD"
+      },
+      {
+        "role": "SK Member",
+        "name": "OMAR BAYAO HASIM"
+      },
+      {
+        "role": "SK Member",
+        "name": "OMERA LAVADOR SALIK"
+      },
+      {
+        "role": "SK Member",
+        "name": "SITTIE CAROLINE GRACIO SUMA"
+      },
+      {
+        "role": "SK Member",
+        "name": "CAIROL BADLIS CASAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "BASHER ECORAS AKMAD"
+      },
+      {
+        "role": "SK Member",
+        "name": "MUSANOR INTOL DISIMBAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "SAMIR LAPEDZING AMIL"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-napindan",
+    "barangay_name": "NAPINDAN",
+    "address": "Labao St., Purok 4, Barangay Napindan, Taguig City",
+    "trunkline": ["(02) 8253 5606"],
+    "website": "https://www.facebook.com/barangaynapindantaguig",
+    "email": "barangaynapindan.taguig@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "GEROME MICHAEL RESURRECCION SAN PEDRO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN-JOHN ESGUERRA BAUTISTA"
+      },
+      {
+        "role": "SB Member",
+        "name": "ANDY SANTOS GERONIMO"
+      },
+      {
+        "role": "SB Member",
+        "name": "CARLITO PARAN BERNABE"
+      },
+      {
+        "role": "SB Member",
+        "name": "ERICK QUINTO ESGUERRA"
+      },
+      {
+        "role": "SB Member",
+        "name": "GLENMORE OLINAREZ TALAMPAS"
+      },
+      {
+        "role": "SB Member",
+        "name": "CHRISTOPHER MOZO DELA PAZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "RODELIO POLICARPIO BERNARDO"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "KAYE DOMINIQUE GALENZOGA PANGANIBAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "ROBIC ARCA QUINTO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CARLO GET SANTOS PARAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "MICO CALMA MAGBITANG"
+      },
+      {
+        "role": "SK Member",
+        "name": "ELYJAH JARWIN DANAO TALAMPAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "RAMON ESTEEAN CASA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KURT JOHANN ALINGCASTRE GERONIMO"
+      },
+      {
+        "role": "SK Member",
+        "name": "NORIEL MOZO GATAN"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-new-lower-bicutan",
+    "barangay_name": "NEW LOWER BICUTAN",
+    "address": "71 Manuel L. Quezon St., Barangay New Lower Bicutan, Taguig City",
+    "trunkline": ["(02) 8808 2722"],
+    "website": "https://www.facebook.com/profile.php?id=61553727082902",
+    "email": "brgynewlowerbicutan@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "ERNESTO ADRIATICO RAFAEL JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN ALDRIN STA. ANA FERMIN"
+      },
+      {
+        "role": "SB Member",
+        "name": "CONCHITA CAMPILLOS FADEROG"
+      },
+      {
+        "role": "SB Member",
+        "name": "NICKSON FLORES PAGUIRIGAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "IVIE ALCANTARA MARIANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "ALFREDO LUCIDO ENANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "PRINCESS DARWIZA SANGKULA BAYAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "RUEL QUINDOZA DELA CUEVA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "KATE OYOS PAPA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MIKAELA ANGELA DE BORJA CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "MYLENE CANETE CAMACHO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CARLO ARGAME"
+      },
+      {
+        "role": "SK Member",
+        "name": "YOSEPH DIAZ CUADERA"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOSHUA MAE REBADOS ABARINTOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "ARCHIE PANGAN SISON"
+      },
+      {
+        "role": "SK Member",
+        "name": "JEREMY RIO MOSTOLES"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-north-daang-hari",
+    "barangay_name": "NORTH DAANG HARI",
+    "address": "Purok 7 Road 1 Extension, Barangay North Daang Hari, Taguig City",
+    "trunkline": ["(02) 8837 2658"],
+    "website": "https://www.facebook.com/BarangayNorthDaangHari",
+    "email": null,
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "LHORELYN LANDAGAN FORTUNO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN CARLO GARAMAY ALMERO"
+      },
+      {
+        "role": "SB Member",
+        "name": "CRISPIN RANARA ANDAYA"
+      },
+      {
+        "role": "SB Member",
+        "name": "BRAIAN BERIA BARNEDO"
+      },
+      {
+        "role": "SB Member",
+        "name": "HAROLD MARCO BADY BALINA"
+      },
+      {
+        "role": "SB Member",
+        "name": "LARRY CARMEN TUYAY"
+      },
+      {
+        "role": "SB Member",
+        "name": "MARRY ANN ROMARAOG DELA CRUZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "ARTHUR ESPARAGO FLORES"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JOHN PAUL TOLIN"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHANE BOSE CAMPOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHIELA MAE GATPAYAT ALIBUSA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KISHA CLAIRE LIMPIN AÑANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "TRINA LOUISE DIEGOR PALO"
+      },
+      {
+        "role": "SK Member",
+        "name": "AILA GRACE SALCEDO PERIODICO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARY JOY BOSQUE"
+      },
+      {
+        "role": "SK Member",
+        "name": "PAULEENE TOQUE DELOS SANTOS"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-north-signal",
+    "barangay_name": "NORTH SIGNAL",
+    "address": "Ipil Ipil St., Barangay North Signal, Taguig City",
+    "trunkline": ["(02) 8983 9298"],
+    "website": "https://www.facebook.com/profile.php?id=61553108162456",
+    "email": "northsignalvillage.taguig@gmail.com",
+    "vacancies": ["Punong Barangay"],
+    "officials": [
+      {
+        "role": "SB Member",
+        "name": "RICARDO TEJERO JORDAN JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSEPH DIMAGIBA QUIJANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JIMMY AROZ GOMEZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "JONAS TALAVERA BARCA"
+      },
+      {
+        "role": "SB Member",
+        "name": "YOLANDA CANINO VELASCO"
+      },
+      {
+        "role": "SB Member",
+        "name": "RONALD MANAOG RAMIREZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "REGINA STA. MARIA INGCO"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "CHRISHA MAE CALAGUI MATA"
+      },
+      {
+        "role": "SK Member",
+        "name": "AISHA BILLONES CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "JUSTIN EDRADA BORJA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KRISTELAR JOY CUDAL MANZANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "DANICA SOLIDUM BALAORO"
+      },
+      {
+        "role": "SK Member",
+        "name": "LYNDY DELOS SANTOS CONTADO"
+      },
+      {
+        "role": "SK Member",
+        "name": "KENNETH COTON OCHEDA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA. JILLIANNE JORDAN MAYUGA"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-palingon-tipas",
+    "barangay_name": "PALINGON-TIPAS",
+    "address": "62 F. Manalo St., Barangay Palingon-Tipas, Taguig City",
+    "trunkline": ["(02) 8640 7773"],
+    "website": "https://www.facebook.com/p/Barangay-Palingon-Tipas-100069165520988",
+    "email": "barangaypalingontipas@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "CHARLIE MARIANO MENDIOLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "MERLIN GUINTO MARIANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JHONY ESTACIO CABUSORA"
+      },
+      {
+        "role": "SB Member",
+        "name": "CHOLO FELIFE SANGA BERNABE"
+      },
+      {
+        "role": "SB Member",
+        "name": "GINA MARY LONTOC CLEMENTE"
+      },
+      {
+        "role": "SB Member",
+        "name": "LUTGARDO ARRIOLA LONTOC"
+      },
+      {
+        "role": "SB Member",
+        "name": "REYNALDO UMALI CRUZ JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN ALBERT HERRERA ARCEGA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "YU RI ESPERA KIM"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHAIRA ELAISA ELIAS CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "PATRICIA RIVERA CARLOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "JULIANA MAG-ATAS GARCIA"
+      },
+      {
+        "role": "SK Member",
+        "name": "EDSEL MELANIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "JUSTINE JOHN EBIO GUAPE"
+      },
+      {
+        "role": "SK Member",
+        "name": "RALPH LOUIS FLORES BOLISAY"
+      },
+      {
+        "role": "SK Member",
+        "name": "RONALD URIARTE BONSILAO"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-pembo",
+    "barangay_name": "PEMBO",
+    "address": "Plaza Cariaga Sampaguita St., Barangay Pembo, Taguig City",
+    "trunkline": ["(02) 8856 5672"],
+    "website": "https://www.facebook.com/pembo.kapkim2023",
+    "email": "pembo.dilg@gmail.com",
+    "vacancies": ["Punong Barangay"],
+    "officials": [
+      {
+        "role": "SB Member",
+        "name": "MICHAEL ROBLES ARCILLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "KEITH PARDIÑAN DIAZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "DEXTER SALAZAR MIRANDA"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROSALYN NUNEZ LAPASARAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSEPHINE AVENIDO BAUTISTA"
+      },
+      {
+        "role": "SB Member",
+        "name": "VICENTE ASENCE RAMIREZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "RONALDO RICARO VILLANUEVA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "BRIDGETTE LINDSAY STUMP SISON"
+      },
+      {
+        "role": "SK Member",
+        "name": "ANGELA GRACE PRINCESA ARRIOLA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KEITH VINCENT LAGOS FANGON"
+      },
+      {
+        "role": "SK Member",
+        "name": "RYAN ALBA"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALTHEA LUNA"
+      },
+      {
+        "role": "SK Member",
+        "name": "GEORGE NARAG TABOBO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CATHERINE DANE GOMBA ESPINOSA"
+      },
+      {
+        "role": "SK Member",
+        "name": "CARLO JOHN TEVES CACAYUAN"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-pinagsama",
+    "barangay_name": "PINAGSAMA",
+    "address": "Pampanga St., Phase 1, Barangay Pinagsama, Taguig City",
+    "trunkline": ["+63 915 089 3517"],
+    "website": "https://www.facebook.com/VMToServeYouMore",
+    "email": "barangaypinagsama2023@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "MA. VICTORIA MARTINEZ MORTEL"
+      },
+      {
+        "role": "SB Member",
+        "name": "GEMMA CANTOR GONZALES"
+      },
+      {
+        "role": "SB Member",
+        "name": "NESTOR BACALA ALVIOR"
+      },
+      {
+        "role": "SB Member",
+        "name": "APOLONIO KIBRAL FULO JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "PRUDENCIO AGBUYA CUARESMA"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOMARIE GABAS LAGGUI"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROMEO CHAVEZ RUADO"
+      },
+      {
+        "role": "SB Member",
+        "name": "REAGAN BENDISULA RICAFORT"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "DANIELA MICAH PASCUAL CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHANE MARIE RUBIO FORCA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MIACY DELIGERO SUMAGAYSAY"
+      },
+      {
+        "role": "SK Member",
+        "name": "JEMWEL SABADO BORROMEO"
+      },
+      {
+        "role": "SK Member",
+        "name": "DEMI NESAR EBIAS DAYAON"
+      },
+      {
+        "role": "SK Member",
+        "name": "GERARD CALUNSAG FERRER"
+      },
+      {
+        "role": "SK Member",
+        "name": "JAN FRANCES MORTEL GLOMAR"
+      },
+      {
+        "role": "SK Member",
+        "name": "LOUIE JAYSON SUAREZ COSIDO"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-pitogo",
+    "barangay_name": "PITOGO",
+    "address": "502 Cebu St., Barangay Pitogo, Taguig City",
+    "trunkline": ["+63 966 388 5513"],
+    "website": "https://www.facebook.com/brgypitz",
+    "email": "barangay23pitogo@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "IVES MANANO EBRADA"
+      },
+      {
+        "role": "SB Member",
+        "name": "EMMANUEL RECTRA ALFON"
+      },
+      {
+        "role": "SB Member",
+        "name": "ERWIN CATINGCOY MACANDOG"
+      },
+      {
+        "role": "SB Member",
+        "name": "JAYSON QUIJANO MONTALLANA"
+      },
+      {
+        "role": "SB Member",
+        "name": "BERNILDO MONTERO GUZMAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSELITO ESGUERRA MENDOZA"
+      },
+      {
+        "role": "SB Member",
+        "name": "NORLITO ANDRES GARCIA"
+      },
+      {
+        "role": "SB Member",
+        "name": "LEONEL VALER RIVERA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "CRIS JUSTIN GASCON RAMIS"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALYSSA KIM VIRLEY BONAO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA JOANNA NICOLE BLANCE AGMATA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARIA NIÑA BENIGNO RONQUILLO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CRISTA MARIE SARAZA VELASCO"
+      },
+      {
+        "role": "SK Member",
+        "name": "DANICA MAE SANTOS PEÑARANDA"
+      },
+      {
+        "role": "SK Member",
+        "name": "PATRICIA ANN ARANILLA ODULIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "JULIUS LUMELAY MARTINEZ"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-postpropernorthside",
+    "barangay_name": "POST PROPER NORTHSIDE",
+    "address": "6 Macda Guido Extn., Barangay Cembo, Taguig City",
+    "trunkline": ["(02) 8710 6711", "(02) 8788 1764"],
+    "website": "https://www.facebook.com/PPNorthside",
+    "email": "barangaypostpropernorthside@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "RICHARD CONTADO PASADILLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "EDNA MARZO BACCAY"
+      },
+      {
+        "role": "SB Member",
+        "name": "CHRISTINE JAGONIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "NILDA BERMAS CAYABYAB"
+      },
+      {
+        "role": "SB Member",
+        "name": "ISAGANI MAMERTO DELGADO"
+      },
+      {
+        "role": "SB Member",
+        "name": "IRENE GRACE GENIO REALOSA"
+      },
+      {
+        "role": "SB Member",
+        "name": "ARNEL PIGUERO MATUTINO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MYRNA PULONGBARIT MIGUEL"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JOSHUA DANIEL CONCEPCION ESPEJO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CARLA MARY CABURNAY CALIXTRO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA. KATHLENE TIPAY JAPSON"
+      },
+      {
+        "role": "SK Member",
+        "name": "RALPH SIMEON PEREZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "JAMAICA MARIE OPERIO RAMOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "MAURENE KAYE TAGAYUN SANCHEZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "REGGIE CUALES GUTLAY"
+      },
+      {
+        "role": "SK Member",
+        "name": "CHARLES DION LOPEZ PARTIDO"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-postpropersouthside",
+    "barangay_name": "POST PROPER SOUTHSIDE",
+    "address": "Brgy. 31 Lawton Avenue, Barangay P. P. Southside, Taguig City",
+    "trunkline": ["(02) 8986 2484"],
+    "website": "https://www.facebook.com/profile.php?id=100064983634602&_rdc=1&_rdr",
+    "email": "ppsouthside.official11974@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "QUIRINO VILLALON SARONO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JENNIFER LAGGUI ABANIEL"
+      },
+      {
+        "role": "SB Member",
+        "name": "ELMER TAGALOG BALDONADO"
+      },
+      {
+        "role": "SB Member",
+        "name": "WILMA VASQUEZ DAVA"
+      },
+      {
+        "role": "SB Member",
+        "name": "RHODORA PEROL PATINGO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOBERT LLEGO QUIAMBAO"
+      },
+      {
+        "role": "SB Member",
+        "name": "CAROLINA GRACIA GENER"
+      },
+      {
+        "role": "SB Member",
+        "name": "DANILO AURELIO TOLENTINO"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "FRANCIS JOHN RODAS SAN VICENTE"
+      },
+      {
+        "role": "SK Member",
+        "name": "ERICA FEYNE ILAGAN CABRERA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KYLE RAMIREZ TOTESORA"
+      },
+      {
+        "role": "SK Member",
+        "name": "JERICHO ICONG GUZMAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "JANA LORRAINE VARGAS ALUNAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARK JOSEPH SUMILE LIMET"
+      },
+      {
+        "role": "SK Member",
+        "name": "KYLA ANGELES CABALLES"
+      },
+      {
+        "role": "SK Member",
+        "name": "GRACE ANN SALCEDO PARCE"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-rizal",
+    "barangay_name": "RIZAL",
+    "address": "Blk 99 Lot 19 J.P. Rizal St., Barangay Rizal, Taguig City",
+    "trunkline": ["(02) 7117 1995", "(02) 7729 1995"],
+    "website": "https://www.facebook.com/profile.php?id=100057153322641&sk=about",
+    "email": "official.barangayrizal@gmail.com",
+    "vacancies": ["Punong Barangay"],
+    "officials": [
+      {
+        "role": "SB Member",
+        "name": "ALLAN JAY JARAMIEL CRUZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "VLADIMIR SANTOS LUCIDO"
+      },
+      {
+        "role": "SB Member",
+        "name": "HECTOR URREA SANTOS JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSE EDRADA BIAZON JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "WENEFREDA MACABUGWAS UREÑA"
+      },
+      {
+        "role": "SB Member",
+        "name": "VIRGILIO DE CASTRO GUNDRAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "MELCHCR BOLANTE BENGANAL"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "KYLA DORIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "PHOEBE HEART LOPEZ RUEDAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "JENNIFER CUETO ACOSTA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MADELYN SANTIAGO BORDALLO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ERICA VERON CHAVEZ CO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA. LORRAINE KATHLEEN LAUREL GABITANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ED DOMINIC TAMUNDO BARISO"
+      },
+      {
+        "role": "SK Member",
+        "name": "VIC FRANCIS SANSALONA YBANEZ"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-san-miguel",
+    "barangay_name": "SAN MIGUEL",
+    "address": "Seagul Ave., Barangay San Miguel, Taguig City",
+    "trunkline": ["+63 967 211 2106"],
+    "website": "https://www.facebook.com/profile.php?id=61553436001288",
+    "email": "bagongsanmiguel2023@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "ARNOLD MARTIN FABIAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROBERTO DE BELEN CAUSON"
+      },
+      {
+        "role": "SB Member",
+        "name": "ARIEL ROMAN BRAVO"
+      },
+      {
+        "role": "SB Member",
+        "name": "EUFROCINIO CASAS SILVESTRE"
+      },
+      {
+        "role": "SB Member",
+        "name": "MARCELO BARLINAN NILO"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROGELIO CLARO CACHO JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "CELSO GUERRERO ARENAS II"
+      },
+      {
+        "role": "SB Member",
+        "name": "LORETA REYES CORPUZ"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "MARK STEVEN ARGANDA FLORES"
+      },
+      {
+        "role": "SK Member",
+        "name": "HIRO JAMORA"
+      },
+      {
+        "role": "SK Member",
+        "name": "NIKKA BILBAO LAUDINO"
+      },
+      {
+        "role": "SK Member",
+        "name": "PAULINE EDCEL MANGAHAS PAGUIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ROBIN MORGADO NON"
+      },
+      {
+        "role": "SK Member",
+        "name": "MACO MICHAELLA ALIM SALVADOR"
+      },
+      {
+        "role": "SK Member",
+        "name": "SIMON JOSHUA CONCIO DE BELEN"
+      },
+      {
+        "role": "SK Member",
+        "name": "REALYN AGUILAR DIAMOS"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-southcembo",
+    "barangay_name": "SOUTH CEMBO",
+    "address": "4057 Gen. G. Del Pilar St., Barangay South Cembo, Taguig City",
+    "trunkline": ["(02) 8687 4576", "(02) 7006 6528"],
+    "website": "https://www.facebook.com/profile.php?id=100063953650814",
+    "email": "southcembo24@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "EVA DIAN MANALO OMAR"
+      },
+      {
+        "role": "SB Member",
+        "name": "NOEL JOPIO ARAYON"
+      },
+      {
+        "role": "SB Member",
+        "name": "CESAR BACOLOR PRESAS"
+      },
+      {
+        "role": "SB Member",
+        "name": "FERDINAND VALDEZ SACRO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MA. FILIPINAS ESPIRITU DAGDAGAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "TIMOTHY JAMES SANTOS VILLAMOR"
+      },
+      {
+        "role": "SB Member",
+        "name": "TRINIDAD FRANCISCO ANTIPORDA"
+      },
+      {
+        "role": "SB Member",
+        "name": "JAN CHRISTIAN TORRES CUDILLA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "GWYNETH ALANO BRAVO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MAXINE DE LAO"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHEAN DENISE UBAUB BANDE"
+      },
+      {
+        "role": "SK Member",
+        "name": "PAULA JANE ATIENZA BARRAMEDA"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARRYL JOYCE DELOSO MANIPON"
+      },
+      {
+        "role": "SK Member",
+        "name": "WISHANNE GERONIMO GILLEGO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MONICA MAE JIMENEZ DE JESUS"
+      },
+      {
+        "role": "SK Member",
+        "name": "JASON DAVE REPOLLO BULOS"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-south-daang-hari",
+    "barangay_name": "SOUTH DAANG HARI",
+    "address": "6th St. Purok 11 Extension, Barangay South Daang Hari, Taguig City",
+    "trunkline": ["+63 968 255 5742"],
+    "website": "https://www.facebook.com/barangay.southdaanghari",
+    "email": "brgy.southdaanghari@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "VELERADO VEGA HERNANDEZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSEPH TANAY TUYAY"
+      },
+      {
+        "role": "SB Member",
+        "name": "OSCAR AZARES BARTOLATA JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "ERICSON MANUEL DE GUZMAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "NOEL PANTE ENGAY"
+      },
+      {
+        "role": "SB Member",
+        "name": "MYLA APITA BARROS"
+      },
+      {
+        "role": "SB Member",
+        "name": "CLAUDIO OPINIANO NOBIS"
+      },
+      {
+        "role": "SB Member",
+        "name": "MYRNA BRUCAL JIMENA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "MARY ROSE QUINAWAYAN LAO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA. APRIL TISMO PECAYO"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHNCARL FURIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "LOUIEJAY VILLARIN WAGAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "RAINNIEL ROPEROS OBINA"
+      },
+      {
+        "role": "SK Member",
+        "name": "ANNA LOU MONTIL MORON"
+      },
+      {
+        "role": "SK Member",
+        "name": "LAVEMAR CELIS"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN PAUL TOMBOC ENERLAN"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-south-signal-village",
+    "barangay_name": "SOUTH SIGNAL VILLAGE",
+    "address": "Ballecer Cor. Gen Espino St., Zone 6, Barangay South Signal, Taguig City",
+    "trunkline": ["+63 995 653 1932", "+63 998 187 9684"],
+    "website": "https://www.facebook.com/SouthSignalVillageOfficial",
+    "email": "brgy.southsignalvillage2023@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "JESUS SANGALANG LAUREL"
+      },
+      {
+        "role": "SB Member",
+        "name": "GLENN VILLAR DAIZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "KENNETH DY CANEDA"
+      },
+      {
+        "role": "SB Member",
+        "name": "NORMAN HORTILANO HORTILANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "ARIEL MACAPAGAL VIRAY"
+      },
+      {
+        "role": "SB Member",
+        "name": "CERILO BUNAGAN PASICOLAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "FRANCISCO PAITAN GALUDO"
+      },
+      {
+        "role": "SB Member",
+        "name": "GLENN ROBERT NADUA ROA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JOHN MARK BAQUIRAN GABIRAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALLIAH DULGUIME ABADINES"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOSHUA CONTRATA MANINGO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARC ERIC SITCHON PERALTA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KIM RHEA ATANOSO BELARMINO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARCTRIZIA TADTAD BARRIOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "ANGELA KRISTELL FLORES BORROMEO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CRISTEL JOY ONGKIATCO TORRES"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-sta-ana",
+    "barangay_name": "STA. ANA",
+    "address": "51 Liwayway St., Barangay Sta. Ana, Taguig City",
+    "trunkline": ["(02) 8642 2228"],
+    "website": "https://www.facebook.com/brgystaanataguig",
+    "email": "brgystaana2018@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "ROBERTO MONGON FLOGEN"
+      },
+      {
+        "role": "SB Member",
+        "name": "RONNIE DACLES PALOMA"
+      },
+      {
+        "role": "SB Member",
+        "name": "PEPITO MALANAY RODRIGUEZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "CONRADO AGUINALDO AQUINO JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "ELSA PANINGBATAN MACALINAO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MARK VINCENT FLORES ABELLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "HARDY ESTRIBOR LORENZO"
+      },
+      {
+        "role": "SB Member",
+        "name": "AGAPITO SANTIAGO HERRERA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JOANNA MAE MONSALU PAGKALINAWAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALIYAH RENEE CASTILLO LIPANA"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN ADAM ARELLANO ESPIRITU"
+      },
+      {
+        "role": "SK Member",
+        "name": "EDRIELLE LAYOSA CASTRO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ANGELICA JOYCE CAWILI CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "ERICA ROYO DELA MUJER"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN PAUL SIBANICO DE LUNA"
+      },
+      {
+        "role": "SK Member",
+        "name": "ERIN NATHALIE OCAMPO SAMONTE"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-tanyag",
+    "barangay_name": "TANYAG",
+    "address": "Purok 4, Barangay Tanyag, Taguig City",
+    "trunkline": ["(02) 8837 2469", "(02) 8371 7343"],
+    "website": "https://www.facebook.com/profile.php?id=100066356937145",
+    "email": "brgy.tanyag@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "CECILIA CORREA TEODORO"
+      },
+      {
+        "role": "SB Member",
+        "name": "DESIREE JANE ESTRADA DIZON"
+      },
+      {
+        "role": "SB Member",
+        "name": "PEDRO MEDINA GARCIA"
+      },
+      {
+        "role": "SB Member",
+        "name": "SEBASTIAN DANAO BALACANAO"
+      },
+      {
+        "role": "SB Member",
+        "name": "REMEDIOS ERISPE BICO"
+      },
+      {
+        "role": "SB Member",
+        "name": "PANFILO SALVACION ARGUTA"
+      },
+      {
+        "role": "SB Member",
+        "name": "ERHARD ACOSTA FONTANILLA"
+      },
+      {
+        "role": "SB Member",
+        "name": "EDGARDO BACLAYON LIONGCO JR."
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "KATHREEN JOY PORTEM ASEJO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CZARINA SASA PINDAO"
+      },
+      {
+        "role": "SK Member",
+        "name": "JB SESCON GOZO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALIAH MARIE SILVANO SANTIAGO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALLYSSA PEARL FEBRES MAGO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARY JOY MERCED BILLONES"
+      },
+      {
+        "role": "SK Member",
+        "name": "HANZ BARLINAN SEIDEL"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN EDRICK MALLORCA"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-tuktukan",
+    "barangay_name": "TUKTUKAN",
+    "address": "General Luna St., Barangay Tuktukan, Taguig City",
+    "trunkline": ["(02) 8275 0957", "(02) 8354 1107"],
+    "website": "https://www.facebook.com/infotuktukan",
+    "email": "info.tuktukan@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "SURANIE GUTIERREZ ULANDAY-BENAMIR"
+      },
+      {
+        "role": "SB Member",
+        "name": "NENITA ULANDAY AQUINO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN CARLO CANDAZA DE GUZMAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "MANUELA ESTEBAN FRISNEDY"
+      },
+      {
+        "role": "SB Member",
+        "name": "KIM EDRIANNE SANTOS CRUZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROMEO BAUTISTA FLORES"
+      },
+      {
+        "role": "SB Member",
+        "name": "LADYLOVE IDJAO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JUAN CARLO LUPENA ESPIRITU"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "MARC JOSEPH DE GUZMAN DELACRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "FRANCESCA CRUZ APOLO"
+      },
+      {
+        "role": "SK Member",
+        "name": "GRACE-ANN LORENZO BAISA"
+      },
+      {
+        "role": "SK Member",
+        "name": "ORLAINE MADELAR LABRA"
+      },
+      {
+        "role": "SK Member",
+        "name": "TESSA DYAN PASCUAL SANTOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "NOWEH VILLARIN PAULINO"
+      },
+      {
+        "role": "SK Member",
+        "name": "HAZEL ROSE ANN DUCO MASCULINO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MA. VICTORIA BAUTISTA BON"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-upper-bicutan",
+    "barangay_name": "UPPER BICUTAN",
+    "address": "Blk 52 Lot 27 Phase 2 A. Bonifacio Ave, Barangay Upper Bicutan, Taguig City",
+    "trunkline": ["+63 977 737 2312", "+63 962 845 1498"],
+    "website": "https://www.facebook.com/upper.bicutan.3",
+    "email": "barangay.upperbicutan23@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "FRANCIS PAMINTUAN SUNGA"
+      },
+      {
+        "role": "SB Member",
+        "name": "QUEEN DOLLY PUN-AN CARREON"
+      },
+      {
+        "role": "SB Member",
+        "name": "SHEILA LOPEZ CAMANGIAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "GERNAND CLIFF ESCAMILLAN ESPEJON"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROBERT CIPRIANO TEODOSIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MAIKO CHARMAINE BULAUAN GUZMAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "ARVIN SOLANO PENOLIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "ELMA ANDECIO MANALO"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "CRIS IVAN ARQUIZA GUZMAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHENNA MARIE ARAYA MONVILLE"
+      },
+      {
+        "role": "SK Member",
+        "name": "BERNALYN DE CASTRO DIONISIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "FAITH FRANCHAE MORALES OGBAC"
+      },
+      {
+        "role": "SK Member",
+        "name": "CARL MATTHEW SEGADOR DELOS SANTOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "GLENN GACUSAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "FRANCESS KYLA VILLAGRACIA SILAPAN"
+      },
+      {
+        "role": "SK Member",
+        "name": "KURT GENESIS LEONDIS PAZ"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-ususan",
+    "barangay_name": "USUSAN",
+    "address": "Tomasa Ave., Barangay Ususan, Taguig City",
+    "trunkline": ["(02) 8640 9066"],
+    "website": "https://www.facebook.com/profile.php?id=100077718042028&mibextid=ZbWKwL",
+    "email": "brgy.ususan@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "MARILYN FERRER MARCELINO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JIM ALBERT CARLOS FLORES"
+      },
+      {
+        "role": "SB Member",
+        "name": "RACHELLE GREGORIO SANTOS"
+      },
+      {
+        "role": "SB Member",
+        "name": "GABRIELLE ANN RAYMUNDO MARCELINO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSELITO RIVERA COSTES"
+      },
+      {
+        "role": "SB Member",
+        "name": "ROMELL REYES MARCELINO"
+      },
+      {
+        "role": "SB Member",
+        "name": "MANUEL ESTANISLAO CARLOS"
+      },
+      {
+        "role": "SB Member",
+        "name": "RAUL MAÑALAC TEODONES"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "MARY AVIGAIL VALEROS FELIPE"
+      },
+      {
+        "role": "SK Member",
+        "name": "ZARIANNE TIÑGA ADRIANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MONICA ELAINE ZALAMEDA SANTOS"
+      },
+      {
+        "role": "SK Member",
+        "name": "SEVERINO I MANALO ABADICIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ANGELINE SOPHIA TROGON MARIANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "WILLIAM OLRICH CRIADO VILLARAMA"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN EISELLE LARGADOS CANDOLESAS"
+      },
+      {
+        "role": "SK Member",
+        "name": "BRIDGET YVAN GUIBONE SANTIAGO"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-wawa",
+    "barangay_name": "WAWA",
+    "address": "Cadena De Amor St., Barangay Wawa, Taguig City",
+    "trunkline": ["+63 964 947 8238"],
+    "website": "https://www.facebook.com/profile.php?id=61558776796393",
+    "email": "barangaywawa@yahoo.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "ROSALEY AMIT BUENAFLOR"
+      },
+      {
+        "role": "SB Member",
+        "name": "JENSON REMILLO GARCIA"
+      },
+      {
+        "role": "SB Member",
+        "name": "MANUEL DIONISIO LIWANAG"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOEY CARGULLO DIONISIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "CIRILO DE JESUS SANTOS"
+      },
+      {
+        "role": "SB Member",
+        "name": "CYNDIE CRUZ BONIFACIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "VIRGILIO STA. BARBARA DIONISIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "KATRINE MANGUNAY STA. BARBARA"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "VENA PAULINE SANTOS CARTANO"
+      },
+      {
+        "role": "SK Member",
+        "name": "ALVIN CARON CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "KYLA EDORITA DIONISIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "CYRUS QUINTERO ENRIQUEZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "JAIRAH LAINE ISO VILLANUEVA"
+      },
+      {
+        "role": "SK Member",
+        "name": "KENNETH AARON SANTOS CALIWAG"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN KENNETH DEQUIÑA DIONISIO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARJUN CALLENO CASAMAYOR"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-westrembo",
+    "barangay_name": "WEST REMBO",
+    "address": "Plaza Drive A. Mabini Street (21st), Barangay West Rembo, Taguig City",
+    "trunkline": ["(02) 8836 9731", "(02) 8836 9732", "(02) 8836 9733"],
+    "website": "https://www.facebook.com/UrSerBisWR",
+    "email": "westremboofficial@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "NIÑO BINGAYAN CUNANAN"
+      },
+      {
+        "role": "SB Member",
+        "name": "LEO ESPELIMBERGO BES"
+      },
+      {
+        "role": "SB Member",
+        "name": "JAMILA ALHAMBRA AGAGON"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOEL REYES ADVINCULA"
+      },
+      {
+        "role": "SB Member",
+        "name": "TERESITA YGAT CARDINAL"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSE DANNY PERALTA JARABATA"
+      },
+      {
+        "role": "SB Member",
+        "name": "MILA DULOY DEL ROSARIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "RODRIGO ARIOLA NERI"
+      },
+      {
+        "role": "SK Chairperson",
+        "name": "JEREMIAH OLAYON BANIQUED"
+      },
+      {
+        "role": "SK Member",
+        "name": "SHANLEY RIOS AMIS"
+      },
+      {
+        "role": "SK Member",
+        "name": "MIKAELA PALMARES COL-LONG"
+      },
+      {
+        "role": "SK Member",
+        "name": "GAYLORD CASTILLO DELA CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "JOHN CLARENCE BONDOC CRUZADO"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARVIN ROSALES MOLINA"
+      },
+      {
+        "role": "SK Member",
+        "name": "WHINCEL BERNADETTE LAURIO CRUZ"
+      },
+      {
+        "role": "SK Member",
+        "name": "KAREN CHRYS JOBELLE BUMACOD LUSTERIO"
+      }
+    ]
+  },
+  {
+    "slug": "barangay-western-bicutan",
+    "barangay_name": "WESTERN BICUTAN",
+    "address": "Sampaguita St., Barangay Western Bicutan, Taguig City",
+    "trunkline": ["(02) 8260 1320", "+63 919 085 4155"],
+    "website": "https://www.facebook.com/BarangayWesternBicutanOFFICIAL",
+    "email": "actioncenter.westernbicutan@gmail.com",
+    "officials": [
+      {
+        "role": "Punong Barangay",
+        "name": "PEDRITO BASE BERMAS"
+      },
+      {
+        "role": "SB Member",
+        "name": "OSCAR VILLARBA DIO"
+      },
+      {
+        "role": "SB Member",
+        "name": "LEONORA MAGALLANES PERU"
+      },
+      {
+        "role": "SB Member",
+        "name": "NOEL AFINIDAD CADIZ"
+      },
+      {
+        "role": "SB Member",
+        "name": "ERNESTO BUENA OCCIANO"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOHN ROLAN ALCANTARA FUENTES"
+      },
+      {
+        "role": "SB Member",
+        "name": "JOSE NAVA GIRON JR."
+      },
+      {
+        "role": "SB Member",
+        "name": "RAYMUNDO GELLOR POBLACION"
+      },
+      {
+        "role": "SK Member",
+        "name": "IAN DOMINIC SAMAR ABAT"
+      },
+      {
+        "role": "SK Member",
+        "name": "MARK NIÑO DEUNA GARAY"
       }
     ]
   }

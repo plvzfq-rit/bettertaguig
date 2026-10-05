@@ -18,6 +18,15 @@
         "type": ["string", "null"],
         "format": "uri"
       },
+      "email": {
+        "type": ["string", "null"],
+        "format": "email"
+      },
+      "vacancies": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Roles currently vacant whose successor is not yet listed"
+      },
       "officials": {
         "type": "array",
         "items": {

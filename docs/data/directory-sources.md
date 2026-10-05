@@ -1,6 +1,6 @@
 # Directory data sources
 
-Provenance for `src/data/directory/{departments,executive,legislative}.json`.
+Provenance for `src/data/directory/{departments,executive,legislative,barangays}.json`.
 Re-verify quarterly (see the [BetterLGU guide](https://lgu.bettergov.ph/GUIDE)).
 
 **Last verified:** 2026-10-05
@@ -14,6 +14,8 @@ Re-verify quarterly (see the [BetterLGU guide](https://lgu.bettergov.ph/GUIDE)).
 | City Administrator | Official departments data; [Taguig news, May 2025](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/) |
 | Representatives' pages | [Cong. Ading Cruz Jr.](https://www.facebook.com/adingcruzjr/), [Jorge Bocobo](https://www.facebook.com/OfficialJorgeBocobo/) |
 | 8th Sangguniang Panlungsod members, SP Secretary, SP email | [sp.taguig.gov.ph/councilors](https://sp.taguig.gov.ph/councilors/) |
+| Barangays (38): addresses, phones, emails, Facebook pages | Data embedded in the taguig.gov.ph "Our City" page ([page](https://www.taguig.gov.ph/our-city/), bundle `/_next/static/chunks/2z3dkg6kqw77f.js`) |
+| Barangay officials (Punong Barangay, kagawad, SK) | Comelec-Taguig list of October 2023 election winners, published by [Manila Bulletin, Nov. 8, 2023](https://mb.com.ph/2023/11/7/comelec-releases-list-of-winners-in-barangay-sk-elections-in-taguig). Names were reordered from "SURNAME, GIVEN MIDDLE" to "GIVEN MIDDLE SURNAME". Terms run to November 2028 under RA 12326. |
 | Majority Floor Leader | [Wikipedia: Taguig City Council](https://en.wikipedia.org/wiki/Taguig_City_Council) |
 
 **Conflict rule:** when sources disagree, the official taguig.gov.ph / sp.taguig.gov.ph value wins. An empty official value never blanks an existing one.
@@ -65,6 +67,19 @@ Legislative:
 - SP email added
 
 ## Known gaps
+
+- **Barangay officials:** these are the 2023 election winners. They may not reflect later resignations, deaths, or successions.
+  - Vacant captain posts (`vacancies`):
+    - Fort Bonifacio: Jorge Daniel S. Bocobo became Representative for the 2nd District.
+    - Pembo: Kim M. Abbang became a councilor (1st District).
+    - North Signal: Danilo G. Castro became a councilor (2nd District).
+    - Rizal: Arnold J. Cruz became a councilor (1st District). *Probable* match to Arnold Jaramiel Cruz; verify.
+  - Under the Local Government Code, the highest-ranking kagawad succeeds as captain. Who that is hasn't been sourced yet.
+  - Western Bicutan: the SK chairperson and 5 SK members were never proclaimed (Comelec Minute Resolution No. 23-0730). Only the 2 proclaimed SK members are listed.
+- **Barangay data quirks** in the official source:
+  - North Daang Hari's email is the placeholder `secretary@gmail.com`, so I dropped it.
+  - Central Signal's second number, `(02) 8883 70495`, has an extra digit (kept as published).
+  - Post Proper Northside's address says "Barangay Cembo" (kept as published).
 
 - **Emails:** none published for departments or department heads, except the SP Secretariat.
 - **Head contact numbers:** none published.

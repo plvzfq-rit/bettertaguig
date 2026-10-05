@@ -11,7 +11,11 @@ import SearchInput from '@/components/ui/SearchInput';
 import { toTitleCase } from '@/lib/stringUtils';
 import { lguLabels } from '@/lib/lguLabels';
 
-import barangaysData from '@/data/directory/barangays.json';
+import type { Barangay } from '@/types/directoryTypes';
+
+import rawBarangays from '@/data/directory/barangays.json';
+
+const barangaysData = rawBarangays as Barangay[];
 
 export default function BarangaysIndex() {
   const [search, setSearch] = useState('');
@@ -29,7 +33,7 @@ export default function BarangaysIndex() {
         <SearchInput
           value={search}
           onChangeValue={setSearchTerm => setSearch(setSearchTerm)}
-          placeholder='Search by name (e.g. Mayondon)...'
+          placeholder='Search by name (e.g. Ususan)...'
           className='md:w-72'
         />
       </PageHero>
@@ -81,7 +85,11 @@ export default function BarangaysIndex() {
                         Punong Barangay
                       </p>
                       <p className='text-kapwa-text-support truncate text-xs leading-tight font-bold'>
-                        {punong ? toTitleCase(punong.name) : 'Awaiting Data'}
+                        {punong
+                          ? toTitleCase(punong.name)
+                          : brgy.vacancies?.includes('Punong Barangay')
+                            ? 'Vacant'
+                            : 'Awaiting Data'}
                       </p>
                     </div>
                   </div>
