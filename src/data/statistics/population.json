@@ -1,12 +1,12 @@
 {
   "meta": {
     "location": {
-      "region": "Region IV-A",
-      "province": "Laguna",
-      "municipality": "Los Baños"
+      "region": "National Capital Region",
+      "province": "Metro Manila",
+      "municipality": "Taguig"
     },
-    "source": "PSA Census",
-    "notes": "2024 data is projected/latest census.",
+    "source": "PSA Census of Population (via PhilAtlas for 1960–2020; 2024 POPCEN barangay counts)",
+    "notes": "The 2024 count includes the 10 EMBO barangays transferred from Makati; they have no earlier Taguig census figures. The 2020–2024 growth rate compares only the 28 barangays counted in both censuses (953,819 in 2024).",
     "censusDates": {
       "1960": "1960-02-15",
       "1970": "1970-05-06",
@@ -23,167 +23,675 @@
     }
   },
   "municipality": {
-    "name": "Los Baños",
+    "name": "Taguig",
     "history": [
-      { "year": 1960, "population": 21519 },
-      { "year": 1970, "population": 32167 },
-      { "year": 1975, "population": 38351 },
-      { "year": 1980, "population": 49555 },
-      { "year": 1990, "population": 66211 },
-      { "year": 1995, "population": 71683 },
-      { "year": 2000, "population": 82027 },
-      { "year": 2007, "population": 98631 },
-      { "year": 2010, "population": 101884 },
-      { "year": 2015, "population": 112008 },
-      { "year": 2020, "population": 115353 },
-      { "year": 2024, "population": 117030 }
+      {
+        "year": 1960,
+        "population": 21856
+      },
+      {
+        "year": 1970,
+        "population": 55257
+      },
+      {
+        "year": 1975,
+        "population": 73702
+      },
+      {
+        "year": 1980,
+        "population": 134137
+      },
+      {
+        "year": 1990,
+        "population": 266637
+      },
+      {
+        "year": 1995,
+        "population": 381350
+      },
+      {
+        "year": 2000,
+        "population": 467375
+      },
+      {
+        "year": 2007,
+        "population": 613343
+      },
+      {
+        "year": 2010,
+        "population": 644473
+      },
+      {
+        "year": 2015,
+        "population": 804915
+      },
+      {
+        "year": 2020,
+        "population": 886722
+      },
+      {
+        "year": 2024,
+        "population": 1308085
+      }
     ],
     "growthRates": [
-      { "period": "2010-2015", "rate": 1.82 },
-      { "period": "2015-2020", "rate": 0.62 },
-      { "period": "2015-2024", "rate": 0.49 },
-      { "period": "2020-2024", "rate": 0.35 }
+      {
+        "period": "2010-2015",
+        "rate": 4.32
+      },
+      {
+        "period": "2015-2020",
+        "rate": 2.06
+      },
+      {
+        "period": "2020-2024",
+        "rate": 1.77
+      }
     ]
   },
   "barangays": [
     {
-      "id": "anos",
-      "name": "Anos",
+      "id": "bagumbayan",
+      "name": "Bagumbayan",
       "history": [
-        { "year": 2010, "population": 7446 },
-        { "year": 2015, "population": 8039 },
-        { "year": 2020, "population": 8815 },
-        { "year": 2024, "population": 9368 }
-      ]
-    },
-    {
-      "id": "bagong-silang",
-      "name": "Bagong Silang",
-      "history": [
-        { "year": 2010, "population": 577 },
-        { "year": 2015, "population": 629 },
-        { "year": 2020, "population": 707 },
-        { "year": 2024, "population": 727 }
+        {
+          "year": 2015,
+          "population": 40685
+        },
+        {
+          "year": 2020,
+          "population": 49319
+        },
+        {
+          "year": 2024,
+          "population": 55160
+        }
       ]
     },
     {
       "id": "bambang",
       "name": "Bambang",
       "history": [
-        { "year": 2010, "population": 7021 },
-        { "year": 2015, "population": 7228 },
-        { "year": 2020, "population": 7638 },
-        { "year": 2024, "population": 7816 }
+        {
+          "year": 2015,
+          "population": 10010
+        },
+        {
+          "year": 2020,
+          "population": 13949
+        },
+        {
+          "year": 2024,
+          "population": 15749
+        }
       ]
     },
     {
-      "id": "batong-malake",
-      "name": "Batong Malake",
+      "id": "calzada-tipas",
+      "name": "Calzada-Tipas",
       "history": [
-        { "year": 2010, "population": 11884 },
-        { "year": 2015, "population": 15314 },
-        { "year": 2020, "population": 12578 },
-        { "year": 2024, "population": 12879 }
+        {
+          "year": 2015,
+          "population": 21747
+        },
+        {
+          "year": 2020,
+          "population": 28660
+        },
+        {
+          "year": 2024,
+          "population": 32160
+        }
       ]
     },
     {
-      "id": "baybayin",
-      "name": "Baybayin (Pob.)",
+      "id": "cembo",
+      "name": "Cembo",
       "history": [
-        { "year": 2010, "population": 1307 },
-        { "year": 2015, "population": 1632 },
-        { "year": 2020, "population": 1466 },
-        { "year": 2024, "population": 1538 }
+        {
+          "year": 2024,
+          "population": 25468
+        }
       ]
     },
     {
-      "id": "bayog",
-      "name": "Bayog",
+      "id": "central-bicutan",
+      "name": "Central Bicutan",
       "history": [
-        { "year": 2010, "population": 9671 },
-        { "year": 2015, "population": 10460 },
-        { "year": 2020, "population": 11613 },
-        { "year": 2024, "population": 11782 }
+        {
+          "year": 2015,
+          "population": 28705
+        },
+        {
+          "year": 2020,
+          "population": 33851
+        },
+        {
+          "year": 2024,
+          "population": 37418
+        }
       ]
     },
     {
-      "id": "lalakay",
-      "name": "Lalakay",
+      "id": "central-signal",
+      "name": "Central Signal Village",
       "history": [
-        { "year": 2010, "population": 4253 },
-        { "year": 2015, "population": 5032 },
-        { "year": 2020, "population": 4234 },
-        { "year": 2024, "population": 4350 }
+        {
+          "year": 2015,
+          "population": 39674
+        },
+        {
+          "year": 2020,
+          "population": 44126
+        },
+        {
+          "year": 2024,
+          "population": 47664
+        }
       ]
     },
     {
-      "id": "maahas",
-      "name": "Maahas",
+      "id": "comembo",
+      "name": "Comembo",
       "history": [
-        { "year": 2010, "population": 6800 },
-        { "year": 2015, "population": 7536 },
-        { "year": 2020, "population": 8785 },
-        { "year": 2024, "population": 9485 }
+        {
+          "year": 2024,
+          "population": 16299
+        }
       ]
     },
     {
-      "id": "malinta",
-      "name": "Malinta",
+      "id": "eastrembo",
+      "name": "East Rembo",
       "history": [
-        { "year": 2010, "population": 6258 },
-        { "year": 2015, "population": 7368 },
-        { "year": 2020, "population": 6531 },
-        { "year": 2024, "population": 6161 }
+        {
+          "year": 2024,
+          "population": 26884
+        }
       ]
     },
     {
-      "id": "mayondon",
-      "name": "Mayondon",
+      "id": "fort-bonifacio",
+      "name": "Fort Bonifacio",
       "history": [
-        { "year": 2010, "population": 16181 },
-        { "year": 2015, "population": 17071 },
-        { "year": 2020, "population": 17817 },
-        { "year": 2024, "population": 16520 }
+        {
+          "year": 2015,
+          "population": 11739
+        },
+        {
+          "year": 2020,
+          "population": 11912
+        },
+        {
+          "year": 2024,
+          "population": 12140
+        }
       ]
     },
     {
-      "id": "putho-tuntungin",
-      "name": "Putho Tuntungin",
+      "id": "hagonoy",
+      "name": "Hagonoy",
       "history": [
-        { "year": 2010, "population": 8692 },
-        { "year": 2015, "population": 9068 },
-        { "year": 2020, "population": 9300 },
-        { "year": 2024, "population": 9602 }
+        {
+          "year": 2015,
+          "population": 18652
+        },
+        {
+          "year": 2020,
+          "population": 21693
+        },
+        {
+          "year": 2024,
+          "population": 25455
+        }
       ]
     },
     {
-      "id": "san-antonio",
-      "name": "San Antonio",
+      "id": "ibayo-tipas",
+      "name": "Ibayo-Tipas",
       "history": [
-        { "year": 2010, "population": 13173 },
-        { "year": 2015, "population": 13537 },
-        { "year": 2020, "population": 15978 },
-        { "year": 2024, "population": 16512 }
+        {
+          "year": 2015,
+          "population": 20932
+        },
+        {
+          "year": 2020,
+          "population": 25808
+        },
+        {
+          "year": 2024,
+          "population": 28608
+        }
       ]
     },
     {
-      "id": "tadlak",
-      "name": "Tadlak",
+      "id": "katuparan",
+      "name": "Katuparan",
       "history": [
-        { "year": 2010, "population": 3342 },
-        { "year": 2015, "population": 3319 },
-        { "year": 2020, "population": 4043 },
-        { "year": 2024, "population": 4377 }
+        {
+          "year": 2015,
+          "population": 23062
+        },
+        {
+          "year": 2020,
+          "population": 27228
+        },
+        {
+          "year": 2024,
+          "population": 29321
+        }
       ]
     },
     {
-      "id": "timugan",
-      "name": "Timugan (Pob.)",
+      "id": "ligid-tipas",
+      "name": "Ligid-Tipas",
       "history": [
-        { "year": 2010, "population": 5279 },
-        { "year": 2015, "population": 5775 },
-        { "year": 2020, "population": 5848 },
-        { "year": 2024, "population": 5913 }
+        {
+          "year": 2015,
+          "population": 9700
+        },
+        {
+          "year": 2020,
+          "population": 10361
+        },
+        {
+          "year": 2024,
+          "population": 10861
+        }
+      ]
+    },
+    {
+      "id": "lower-bicutan",
+      "name": "Lower Bicutan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 56754
+        },
+        {
+          "year": 2020,
+          "population": 60376
+        },
+        {
+          "year": 2024,
+          "population": 65652
+        }
+      ]
+    },
+    {
+      "id": "maharlika",
+      "name": "Maharlika Village",
+      "history": [
+        {
+          "year": 2015,
+          "population": 22944
+        },
+        {
+          "year": 2020,
+          "population": 23470
+        },
+        {
+          "year": 2024,
+          "population": 26241
+        }
+      ]
+    },
+    {
+      "id": "napindan",
+      "name": "Napindan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 19346
+        },
+        {
+          "year": 2020,
+          "population": 24437
+        },
+        {
+          "year": 2024,
+          "population": 27635
+        }
+      ]
+    },
+    {
+      "id": "new-lower-bicutan",
+      "name": "New Lower Bicutan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 49829
+        },
+        {
+          "year": 2020,
+          "population": 55928
+        },
+        {
+          "year": 2024,
+          "population": 59120
+        }
+      ]
+    },
+    {
+      "id": "north-daang-hari",
+      "name": "North Daang Hari",
+      "history": [
+        {
+          "year": 2015,
+          "population": 11771
+        },
+        {
+          "year": 2020,
+          "population": 13673
+        },
+        {
+          "year": 2024,
+          "population": 14614
+        }
+      ]
+    },
+    {
+      "id": "north-signal",
+      "name": "North Signal Village",
+      "history": [
+        {
+          "year": 2015,
+          "population": 32112
+        },
+        {
+          "year": 2020,
+          "population": 34634
+        },
+        {
+          "year": 2024,
+          "population": 36487
+        }
+      ]
+    },
+    {
+      "id": "palingon-tipas",
+      "name": "Palingon-Tipas",
+      "history": [
+        {
+          "year": 2015,
+          "population": 13705
+        },
+        {
+          "year": 2020,
+          "population": 16119
+        },
+        {
+          "year": 2024,
+          "population": 19628
+        }
+      ]
+    },
+    {
+      "id": "pembo",
+      "name": "Pembo",
+      "history": [
+        {
+          "year": 2024,
+          "population": 47030
+        }
+      ]
+    },
+    {
+      "id": "pinagsama",
+      "name": "Pinagsama",
+      "history": [
+        {
+          "year": 2015,
+          "population": 57343
+        },
+        {
+          "year": 2020,
+          "population": 56835
+        },
+        {
+          "year": 2024,
+          "population": 59759
+        }
+      ]
+    },
+    {
+      "id": "pitogo",
+      "name": "Pitogo",
+      "history": [
+        {
+          "year": 2024,
+          "population": 16244
+        }
+      ]
+    },
+    {
+      "id": "postpropernorthside",
+      "name": "Post Proper Northside",
+      "history": [
+        {
+          "year": 2024,
+          "population": 62277
+        }
+      ]
+    },
+    {
+      "id": "postpropersouthside",
+      "name": "Post Proper Southside",
+      "history": [
+        {
+          "year": 2024,
+          "population": 68388
+        }
+      ]
+    },
+    {
+      "id": "rizal",
+      "name": "Rizal",
+      "history": [
+        {
+          "year": 2024,
+          "population": 46061
+        }
+      ]
+    },
+    {
+      "id": "san-miguel",
+      "name": "San Miguel",
+      "history": [
+        {
+          "year": 2015,
+          "population": 8590
+        },
+        {
+          "year": 2020,
+          "population": 10528
+        },
+        {
+          "year": 2024,
+          "population": 11833
+        }
+      ]
+    },
+    {
+      "id": "sta-ana",
+      "name": "Santa Ana",
+      "history": [
+        {
+          "year": 2015,
+          "population": 18057
+        },
+        {
+          "year": 2020,
+          "population": 22581
+        },
+        {
+          "year": 2024,
+          "population": 24174
+        }
+      ]
+    },
+    {
+      "id": "southcembo",
+      "name": "South Cembo",
+      "history": [
+        {
+          "year": 2024,
+          "population": 15458
+        }
+      ]
+    },
+    {
+      "id": "south-daang-hari",
+      "name": "South Daang Hari",
+      "history": [
+        {
+          "year": 2015,
+          "population": 19166
+        },
+        {
+          "year": 2020,
+          "population": 22448
+        },
+        {
+          "year": 2024,
+          "population": 25037
+        }
+      ]
+    },
+    {
+      "id": "south-signal-village",
+      "name": "South Signal Village",
+      "history": [
+        {
+          "year": 2015,
+          "population": 39214
+        },
+        {
+          "year": 2020,
+          "population": 43047
+        },
+        {
+          "year": 2024,
+          "population": 43946
+        }
+      ]
+    },
+    {
+      "id": "tanyag",
+      "name": "Tanyag",
+      "history": [
+        {
+          "year": 2015,
+          "population": 22711
+        },
+        {
+          "year": 2020,
+          "population": 23719
+        },
+        {
+          "year": 2024,
+          "population": 24705
+        }
+      ]
+    },
+    {
+      "id": "tuktukan",
+      "name": "Tuktukan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 10730
+        },
+        {
+          "year": 2020,
+          "population": 11614
+        },
+        {
+          "year": 2024,
+          "population": 12414
+        }
+      ]
+    },
+    {
+      "id": "upper-bicutan",
+      "name": "Upper Bicutan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 41216
+        },
+        {
+          "year": 2020,
+          "population": 44592
+        },
+        {
+          "year": 2024,
+          "population": 47397
+        }
+      ]
+    },
+    {
+      "id": "ususan",
+      "name": "Ususan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 54186
+        },
+        {
+          "year": 2020,
+          "population": 53956
+        },
+        {
+          "year": 2024,
+          "population": 54814
+        }
+      ]
+    },
+    {
+      "id": "wawa",
+      "name": "Wawa",
+      "history": [
+        {
+          "year": 2015,
+          "population": 11177
+        },
+        {
+          "year": 2020,
+          "population": 14350
+        },
+        {
+          "year": 2024,
+          "population": 15930
+        }
+      ]
+    },
+    {
+      "id": "westrembo",
+      "name": "West Rembo",
+      "history": [
+        {
+          "year": 2024,
+          "population": 30157
+        }
+      ]
+    },
+    {
+      "id": "western-bicutan",
+      "name": "Western Bicutan",
+      "history": [
+        {
+          "year": 2015,
+          "population": 91158
+        },
+        {
+          "year": 2020,
+          "population": 87508
+        },
+        {
+          "year": 2024,
+          "population": 89897
+        }
       ]
     }
   ]
