@@ -1,5 +1,5 @@
 {
-	"name": "betterlb",
+	"name": "bettertaguig",
 	"pages_build_output_dir": "dist",
 	"compatibility_date": "2026-01-13",
 	"kv_namespaces": [
@@ -17,6 +17,6 @@
 		}
 	],
 	"vars": {
-		"GITHUB_REPO": "BetterLosBanos/betterlb",
+		"GITHUB_REPO": "plvzfq-rit/bettertaguig",
 	}
 }

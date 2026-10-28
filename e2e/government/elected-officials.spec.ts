@@ -26,10 +26,10 @@ test.describe('Elected Officials Pages', () => {
   test('elected officials index displays legislative branch', async ({
     page,
   }) => {
-    // Sangguniang Bayan section is now rendered directly on the index page
+    // Sangguniang Panlungsod section is rendered directly on the index page
     const sangguniangSection = page
       .locator('h2, h3, [class*="text-kapwa"]')
-      .filter({ hasText: /Sangguniang Bayan/i })
+      .filter({ hasText: /Sangguniang Panlungsod/i })
       .first();
     await expect(sangguniangSection).toBeVisible();
   });

@@ -16,7 +16,7 @@ test.describe('Barangays Pages', () => {
     const cards = page.locator('a[href*="/government/barangays/"]');
     const count = await cards.count();
 
-    // Should have multiple barangays (Los Baños has 14 barangays)
+    // Should have multiple barangays (Taguig has 38)
     expect(count).toBeGreaterThan(10);
 
     // Check first card has proper structure

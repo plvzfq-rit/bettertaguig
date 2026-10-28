@@ -672,5 +672,5 @@ function inferTerm(
 export function officialPdfUrl(pdfUrl: string): string {
   if (!pdfUrl) return '';
   if (/^https?:\/\//i.test(pdfUrl)) return pdfUrl;
-  return `https://losbanos.gov.ph/${pdfUrl.replace(/^\/+/, '')}`;
+  return `https://sp.taguig.gov.ph/${pdfUrl.replace(/^\/+/, '')}`;
 }

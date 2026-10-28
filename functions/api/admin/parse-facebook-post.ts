@@ -31,7 +31,7 @@ interface ParsedSessionData {
  * Parse Facebook post content to extract session information
  *
  * Expected patterns:
- * - "100th Regular Session" or "100th Regular" or "100th Regular Session of the Sangguniang Bayan"
+ * - "100th Regular Session" or "100th Regular" or "100th Regular Session of the Sangguniang Panlungsod"
  * - "Special Session" or "5th Special Session"
  * - "Inaugural Session"
  * - Date patterns: "January 1, 2024", "Jan 1, 2024", "01/01/2024"

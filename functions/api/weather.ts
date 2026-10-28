@@ -9,19 +9,14 @@ import type {
   WeatherData,
   WeatherResponseData,
 } from '../types';
+import lguConfig from '../../config/lgu.config.json';
+import { ALLOWED_ORIGINS } from '../utils/allowed-origins';
 
 /**
  * CORS Configuration
  * Restricts API access to trusted origins only (security fix for T-059)
- * Production: betterlb.pages.dev and custom domain
- * Development: localhost for local development
+ * Origins: see functions/utils/allowed-origins.ts
  */
-const ALLOWED_ORIGINS = [
-  'https://betterlb.pages.dev',
-  'https://betterlb.gov.ph', // Custom domain if configured
-  'http://localhost:5173', // Vite dev server
-  'http://localhost:8788', // Wrangler dev server
-];
 
 /**
  * Get appropriate CORS headers based on request origin
@@ -47,11 +42,11 @@ function getCorsHeaders(origin: string | null): Record<string, string> {
   };
 }
 
-// CONFIGURATION - Easy to change for other municipalities
+// CONFIGURATION - location comes from config/lgu.config.json
 const DEFAULT_CITY: CityCoordinates = {
-  name: 'Los Baños',
-  lat: 14.1763,
-  lon: 121.2219,
+  name: lguConfig.lgu.name,
+  lat: lguConfig.location.coordinates.lat,
+  lon: lguConfig.location.coordinates.lng,
 };
 
 // Optional: Add more cities if needed

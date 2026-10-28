@@ -37,7 +37,8 @@
       "lng": 121.06987
     },
     "weather": {
-      "enabled": false
+      "enabled": false,
+      "defaultCity": "Taguig"
     }
   },
   "transparency": {
@@ -46,9 +47,7 @@
     },
     "infrastructure": {
       "searchString": "Taguig",
-      "exactMatchTargets": [
-        "taguig"
-      ]
+      "exactMatchTargets": ["taguig"]
     }
   },
   "dataPaths": {
