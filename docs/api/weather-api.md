@@ -1,5 +1,7 @@
 # Weather API
 
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
 The Weather API provides current weather conditions and 3-hour forecasts for Los Baños, Philippines using the OpenWeatherMap API.
 
 ## Overview

@@ -1,6 +1,6 @@
 # Build Scripts Documentation
 
-This directory contains automation, maintenance, and build scripts for the Better LB project.
+This directory contains automation, maintenance, and build scripts for the BetterTaguig project.
 
 ## Overview
 

@@ -38,7 +38,7 @@ token (`X-CSRF-Token` header).
 |--------|------|-----------|------|---------|
 | GET | `/health` | `workbench:read` | — | Row counts + latest capture timestamp |
 | GET | `/stats` | `workbench:read` | — | Per-tab totals (active/resolved/blocked) |
-| GET | `/terms` | `workbench:read` | — | Sangguniang Bayan terms (for term inference) |
+| GET | `/terms` | `workbench:read` | — | Sanggunian terms (for term inference) |
 | GET | `/staged-documents` | `workbench:read` | — | Paginated list; `?tab=&status=&page=&limit=&search=` |
 | GET | `/staged-documents/:id` | `workbench:read` | — | Single doc + decisions + review projection |
 | GET | `/review-decisions?source_record_id=` | `workbench:read` | — | List decisions for a record |

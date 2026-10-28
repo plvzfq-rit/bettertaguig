@@ -1,5 +1,7 @@
 # Admin API Overview
 
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
 The Admin API provides endpoints for managing the BetterLB municipal government portal. All admin endpoints require authentication and implement CSRF protection for state-changing operations.
 
 ## Overview

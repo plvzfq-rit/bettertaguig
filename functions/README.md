@@ -21,12 +21,12 @@ Weather data endpoint with caching.
 **Method:** `GET`
 
 **Query Parameters:**
-- None (uses fixed location: Los Baños)
+- None (uses the LGU location from `config/lgu.config.json`)
 
 **Response:**
 ```json
 {
-  "location": "Los Baños, Laguna",
+  "location": "Taguig, Metro Manila",
   "temperature": 28,
   "condition": "Partly Cloudy",
   "humidity": 75,

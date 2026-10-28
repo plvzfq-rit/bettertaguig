@@ -1,6 +1,6 @@
-# BetterLB Architecture
+# BetterTaguig Architecture
 
-High-level architecture overview for developers working on BetterLB.
+High-level architecture overview for developers working on BetterTaguig.
 
 ---
 
@@ -172,11 +172,11 @@ Component testing for complex UI components.
 
 ## Deployment
 
-### Production (BetterLB)
-- **Platform:** Cloudflare Pages
-- **Database:** D1 `betterlb_openlgu`
-- **Search:** Self-hosted Meilisearch
-- **Domain:** betterlb.org
+### Production (BetterTaguig)
+- **Platform:** Cloudflare Pages (project `bettertaguig`)
+- **Database:** D1 `bettertaguig-openlgu`
+- **Search:** Meilisearch (configure your own instance)
+- **Domain:** bettertaguig.org
 - **Wrangler:** 4.70.0 (pinned for compatibility)
 
 ### For Other LGUs

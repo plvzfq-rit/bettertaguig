@@ -1,6 +1,6 @@
 # API Integration Tests
 
-This directory contains integration tests for the BetterLB API endpoints (Cloudflare Pages Functions).
+This directory contains integration tests for the BetterTaguig API endpoints (Cloudflare Pages Functions).
 
 ## Overview
 

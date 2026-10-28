@@ -1,5 +1,7 @@
 # BetterLB API Documentation
 
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
 Welcome to the BetterLB API documentation. This system provides comprehensive documentation for all API endpoints available in the BetterLB municipal government portal.
 
 ## Overview

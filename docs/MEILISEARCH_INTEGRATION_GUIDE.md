@@ -1,5 +1,7 @@
 # Meilisearch Integration Guide
 
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
 This guide documents how Better LB integrates with [BetterGov's Meilisearch instance](https://search2.bettergov.ph) to display filtered transparency data for the Municipality of Los Baños. The key insight is that we leverage BetterGov.ph's existing Meilisearch infrastructure and national datasets—filtering and searching only for data relevant to our specific LGU.
 
 Other LGUs can follow this same pattern to implement their own transparency portals without setting up their own Meilisearch instances or scraping data.

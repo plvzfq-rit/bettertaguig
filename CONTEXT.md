@@ -1,6 +1,8 @@
-# BetterLB OpenLGU
+# BetterTaguig OpenLGU
 
-This context describes the civic-legislative data language used by BetterLB's OpenLGU portal. It distinguishes source intake, review, and canonical public records for municipal legislation.
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
+This context describes the civic-legislative data language used by BetterTaguig's OpenLGU portal (inherited from BetterLB). It distinguishes source intake, review, and canonical public records for municipal legislation.
 
 ## Language
 

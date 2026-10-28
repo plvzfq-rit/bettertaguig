@@ -1,5 +1,7 @@
 # OpenLGU Legislative Source Pipeline
 
+> **Note (BetterTaguig):** This document comes from the [BetterLB](https://github.com/BetterLosBanos/betterlb) template, and its examples use Los Baños (losbanos.gov.ph, Sangguniang Bayan, `betterlb` URLs). The concepts apply unchanged; substitute Taguig's values from `config/lgu.config.json`.
+
 This is the v2 pipeline lane for OpenLGU legislative records.
 
 The old numbered Python scripts remain available as legacy tooling, but this lane uses explicit artifact names so it is clear whether a file is source evidence, staging output, reconciliation evidence, or a canonical promotion artifact.
