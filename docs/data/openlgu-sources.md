@@ -22,9 +22,11 @@ To update: edit the CSVs, rerun the script, and apply the migration. Once a migr
 
 - **Enactment dates:** the site only gives the year, so `date_enacted` is empty and documents aren't tied to a term. Ordering uses the `YEAR-NUMBER` document number.
 - **Authors, resolutions, executive orders and sessions:** none are published online by the city.
-- **Ord. 42-2023:** listed on the site as "Ord.42-2003" but links to `Ord.42-2023.pdf`; the PDF's number is used (see `notes` in the CSV).
-- **Ord. 62-2006:** its link on the site is malformed (`/or/2006/codified/…`) and may not open.
-- **PDF links** couldn't be checked automatically (the site blocks scripts); spot-check them in a browser.
+- **PDF links** (click-tested by the maintainer, 2026-10-28):
+  - The links on the site work when the file name matches the listing (e.g. Ord. 14-2005).
+  - Ord. 62-2006: the site's path is malformed (`/or/2006/codified/…`); fixed to `/pdf/codified/zon/Ord.62-2006.pdf`, which opens.
+  - Ord. 42-2023: listed as "Ord.42-2003" on the site; the linked 2023 file opens and is used.
+  - Ord. 28-2025: no working PDF (neither the linked file nor the listed long filename), so it has no link.
 
 ## Database setup
 

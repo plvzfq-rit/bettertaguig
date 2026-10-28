@@ -175,31 +175,33 @@ export default function LegislationDocument() {
             </div>
           </DetailSection>
 
-          <div className='border-kapwa-border-weak bg-kapwa-bg-surface-raised flex flex-col items-center justify-between gap-6 rounded-2xl border p-6 sm:flex-row'>
-            <div className='flex items-center gap-4'>
-              <div
-                className={`bg-kapwa-bg-surface rounded-xl p-3 shadow-sm ${doc.type === 'ordinance' ? 'text-kapwa-text-brand' : doc.type === 'executive_order' ? 'text-kapwa-yellow-700' : 'text-kapwa-text-accent-orange'}`}
+          {doc.link && (
+            <div className='border-kapwa-border-weak bg-kapwa-bg-surface-raised flex flex-col items-center justify-between gap-6 rounded-2xl border p-6 sm:flex-row'>
+              <div className='flex items-center gap-4'>
+                <div
+                  className={`bg-kapwa-bg-surface rounded-xl p-3 shadow-sm ${doc.type === 'ordinance' ? 'text-kapwa-text-brand' : doc.type === 'executive_order' ? 'text-kapwa-yellow-700' : 'text-kapwa-text-accent-orange'}`}
+                >
+                  <FileText className='h-8 w-8' />
+                </div>
+                <div className='text-center sm:text-left'>
+                  <p className='text-kapwa-text-strong font-bold'>
+                    Official Document
+                  </p>
+                  <p className='text-kapwa-text-disabled mt-1 text-[10px] font-bold tracking-widest uppercase'>
+                    Portable Document Format
+                  </p>
+                </div>
+              </div>
+              <a
+                href={doc.link}
+                target='_blank'
+                rel='noreferrer'
+                className={`flex min-h-[48px] w-full items-center justify-center gap-2 rounded-xl px-8 py-3 text-sm font-bold text-white shadow-md transition-all sm:w-auto ${doc.type === 'ordinance' ? 'bg-kapwa-bg-brand-default hover:bg-kapwa-bg-brand-hover' : doc.type === 'executive_order' ? 'bg-kapwa-bg-warning-default hover:bg-kapwa-bg-warning-hover' : 'bg-kapwa-bg-accent-orange-default hover:bg-kapwa-bg-accent-orange-hover'}`}
               >
-                <FileText className='h-8 w-8' />
-              </div>
-              <div className='text-center sm:text-left'>
-                <p className='text-kapwa-text-strong font-bold'>
-                  Official Document
-                </p>
-                <p className='text-kapwa-text-disabled mt-1 text-[10px] font-bold tracking-widest uppercase'>
-                  Portable Document Format
-                </p>
-              </div>
+                <Download className='h-4 w-4' /> Download PDF
+              </a>
             </div>
-            <a
-              href={doc.link}
-              target='_blank'
-              rel='noreferrer'
-              className={`flex min-h-[48px] w-full items-center justify-center gap-2 rounded-xl px-8 py-3 text-sm font-bold text-white shadow-md transition-all sm:w-auto ${doc.type === 'ordinance' ? 'bg-kapwa-bg-brand-default hover:bg-kapwa-bg-brand-hover' : doc.type === 'executive_order' ? 'bg-kapwa-bg-warning-default hover:bg-kapwa-bg-warning-hover' : 'bg-kapwa-bg-accent-orange-default hover:bg-kapwa-bg-accent-orange-hover'}`}
-            >
-              <Download className='h-4 w-4' /> Download PDF
-            </a>
-          </div>
+          )}
         </div>
 
         <aside className='space-y-6'>
