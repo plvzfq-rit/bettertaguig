@@ -30,10 +30,7 @@ To update: edit the CSVs, rerun the script, and apply the migration. Once a migr
 
 ## Database setup
 
-`wrangler.jsonc` still points at the BetterLB database (`betterlb-openlgu`). BetterTaguig needs its own Cloudflare D1 database. Then:
+Production database: Cloudflare D1 `bettertaguig-openlgu` (`020894e9-c3fd-4fdc-8a67-103eb99bc185`), configured in `wrangler.jsonc` and `scripts/migrate.sh`. The code reaches it through the `BETTERLB_DB` binding (name kept from the template).
 
-1. `npx wrangler d1 create bettertaguig-openlgu`
-2. Put the new `database_name` and `database_id` in `wrangler.jsonc`, and update `DB_NAME` in `scripts/migrate.sh`.
-3. `npm run db:migrate:remote`
-
-Local development: `npm run db:migrate` creates and seeds a local database in `.wrangler/`.
+- Apply migrations to production: `npm run db:migrate:remote`
+- Local development: `npm run db:migrate` creates and seeds a local copy in `.wrangler/`.
