@@ -191,11 +191,6 @@ const SitemapPage: FC = () => {
           description: 'Local weather',
         },
         {
-          title: 'Foreign Exchange',
-          url: '/data/forex',
-          description: 'Exchange rates',
-        },
-        {
           title: 'Emergency Hotlines',
           url: 'https://hotlines.bettergov.ph/',
           description: 'National emergency hotlines',
