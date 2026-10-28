@@ -1,8 +1,8 @@
 /**
  * LGU News API
- * GET /api/lgu-news - Scrapes losbanos.gov.ph homepage for recent news posts
+ * GET /api/lgu-news - Recent announcements from the City of Taguig
  *
- * Extracts the 3 most recent posts from the Los Baños LGU website homepage.
+ * Reads the 3 most recent published items from the city's kiosk news API.
  * Uses KV caching with 15-minute TTL and rate limiting (30 requests/minute).
  */
 import { createKVCache, CACHE_TTL } from '../utils/kv-cache';
@@ -35,116 +35,64 @@ interface LGUNewsResponse {
   cached: boolean;
 }
 
+const NEWS_API = 'https://kiosk-info.taguig.gov.ph/api/news';
+const NEWS_UPLOADS = 'https://kiosk-info.taguig.gov.ph/uploads/news/';
+const SOURCE = 'kiosk-info.taguig.gov.ph';
+
+interface KioskNewsItem {
+  id: number;
+  title: string;
+  content: string | null;
+  published_date: string | null;
+  status: string;
+  deleted_at: string | null;
+  attachment: string | null;
+}
+
 /**
- * Fetch and parse LGU homepage HTML to extract recent news posts
+ * Fetch the City of Taguig's published announcements from its kiosk API
  */
 async function fetchAndParse(): Promise<LGUNewsResponse> {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 10000);
   try {
-    // Fetch homepage with 10-second timeout
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-    const response = await fetch('https://losbanos.gov.ph/', {
+    const response = await fetch(NEWS_API, {
       signal: controller.signal,
+      headers: { 'User-Agent': 'BetterTaguig/1.0 (+https://bettertaguig.org)' },
     });
-    clearTimeout(timeoutId);
-
     if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      throw new Error(`News API returned ${response.status}`);
     }
+    const body = (await response.json()) as { data?: KioskNewsItem[] };
 
-    const html = await response.text();
+    const posts: LGUNewsPost[] = (body.data ?? [])
+      .filter(item => item.status === 'Published' && !item.deleted_at)
+      .sort((a, b) =>
+        (b.published_date ?? '').localeCompare(a.published_date ?? '')
+      )
+      .slice(0, 3)
+      .map(item => ({
+        title: item.title,
+        url: item.attachment
+          ? NEWS_UPLOADS + encodeURIComponent(item.attachment)
+          : 'https://www.taguig.gov.ph/',
+        date: item.published_date ?? '',
+        excerpt: item.content ?? '',
+        imageUrl: '',
+      }));
 
-    // Parse HTML using regex to extract posts from .callout.secondary containers
-    const posts: LGUNewsPost[] = [];
-    const postBlocks = html.split('callout secondary');
-
-    // Process each post block (skip first as it's before the first callout)
-    for (let i = 1; i < postBlocks.length && posts.length < 3; i++) {
-      const block = postBlocks[i];
-
-      // Extract title and URL from <h5><a href="...">
-      const titleMatch = block.match(
-        /<h5><a[^>]*href="([^"]*)"[^>]*>([^<]*)<\/a><\/h5>/
-      );
-      if (!titleMatch) continue;
-
-      const title = titleMatch[2].trim();
-      let url = titleMatch[1];
-
-      // Extract date from <small> tag
-      const dateMatch = block.match(/<small[^>]*>([^<]*)<\/small>/);
-      const date = dateMatch
-        ? dateMatch[1].replace(/Published date:\s*/, '').trim()
-        : '';
-
-      // Extract image URL
-      let imageUrl = '';
-      const imgContainerMatch = block.match(
-        /<a[^>]*class="img-container"[^>]*><img[^>]*src="([^"]*)"/
-      );
-      if (imgContainerMatch) {
-        imageUrl = imgContainerMatch[1];
-      } else {
-        // Fallback: look for any img with class containing "cover"
-        const coverImgMatch = block.match(
-          /<img[^>]*class="[^"]*cover[^"]*"[^>]*src="([^"]*)"/
-        );
-        if (coverImgMatch) {
-          imageUrl = coverImgMatch[1];
-        } else {
-          // Final fallback: any img src containing "cover_images"
-          const anyImgMatch = block.match(
-            /<img[^>]*src="([^"]*cover_images[^"]*)"/
-          );
-          if (anyImgMatch) {
-            imageUrl = anyImgMatch[1];
-          }
-        }
-      }
-
-      // Extract excerpt (content between </small> and closing </div>)
-      const excerptMatch = block.match(/<\/small>([\s\S]*?)<\/div>/);
-      let excerpt = '';
-      if (excerptMatch) {
-        // Remove HTML delimiters and normalize whitespace
-        excerpt = excerptMatch[1]
-          .replace(/[<>]/g, '')
-          .replace(/\s+/g, ' ')
-          .trim();
-      }
-
-      // Prepend base URL to relative paths
-      if (url.startsWith('/')) {
-        url = 'https://losbanos.gov.ph' + url;
-      }
-      if (imageUrl.startsWith('/')) {
-        imageUrl = 'https://losbanos.gov.ph' + imageUrl;
-      }
-
-      posts.push({
-        title,
-        url,
-        date,
-        excerpt,
-        imageUrl,
-      });
-    }
-
-    return {
-      posts,
-      source: 'losbanos.gov.ph',
-      cached: false,
-    };
+    return { posts, source: SOURCE, cached: false };
   } catch (error) {
     console.error('Error fetching LGU news:', error);
     throw error;
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 
 /**
  * GET /api/lgu-news
- * Returns the 3 most recent news posts from losbanos.gov.ph
+ * Returns the 3 most recent announcements from the City of Taguig
  */
 export async function onRequestGet(context: {
   request: Request;

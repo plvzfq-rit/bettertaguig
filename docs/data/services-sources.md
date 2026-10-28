@@ -34,3 +34,4 @@ PDFs are cached in `.local/charter-pdfs/` (git-ignored). The import script:
 ## Future ideas
 
 - **Places / tourism page** (tourism is switched off in `config/lgu.config.json`): a guide to Taguig's malls (BGC, Market! Market!, SM Aura, Uptown, Venice Grand Canal) listing the restaurants and stores inside with price ranges.
+- **Homepage news feed** (`functions/api/lgu-news.ts`, section commented out in `src/pages/Home.tsx`): now reads the city's official announcements API (`kiosk-info.taguig.gov.ph/api/news`, only 1 item as of 2026-10-28) instead of scraping losbanos.gov.ph. The city's server answered 403 to requests from the Workers runtime when tested locally, so enable the section only after confirming the endpoint works in production.
