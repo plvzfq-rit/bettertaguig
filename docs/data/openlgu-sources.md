@@ -26,7 +26,7 @@ To update: edit the CSVs, rerun the script, and apply the migration. Once a migr
   - The links on the site work when the file name matches the listing (e.g. Ord. 14-2005).
   - Ord. 62-2006: the site's path is malformed (`/or/2006/codified/…`); fixed to `/pdf/codified/zon/Ord.62-2006.pdf`, which opens.
   - Ord. 42-2023: listed as "Ord.42-2003" on the site; the linked 2023 file opens and is used.
-  - Ord. 28-2025: no working PDF (neither the linked file nor the listed long filename), so it has no link.
+  - Ord. 28-2025: the linked file failed on first check but works (confirmed by the maintainer later the same day); restored via `005_fix_ord_28_2025_pdf.sql`.
 
 ## Database setup
 
