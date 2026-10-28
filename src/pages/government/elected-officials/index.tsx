@@ -64,15 +64,20 @@ interface CouncilMember {
   personId?: string;
 }
 
+// OpenLGU person pages aren't seeded with Taguig officials yet; flip this
+// once they are so official cards link to their profiles again.
+const SHOW_PERSON_PROFILES = false;
+
 // --- Sub-components ---
 
 function ElectedLeaderCard({ leader }: { leader: ExecutiveOfficial }) {
+  const personId = SHOW_PERSON_PROFILES ? leader.personId : undefined;
   const isMayor =
     leader.slug.includes('mayor') && !leader.slug.includes('vice');
   const Icon = isMayor ? Landmark : Gavel;
 
   const card = (
-    <Card hover={!!leader.personId} className='group h-full'>
+    <Card hover={!!personId} className='group h-full'>
       <CardContent className='flex h-full flex-col items-center space-y-4 py-6 text-center'>
         <div className='relative'>
           <div
@@ -121,7 +126,7 @@ function ElectedLeaderCard({ leader }: { leader: ExecutiveOfficial }) {
           </div>
         )}
 
-        {leader.personId && (
+        {personId && (
           <div className='border-kapwa-border-weak w-full border-t pt-4'>
             <span className='text-kapwa-text-brand text-sm font-bold'>
               View Full Profile →
@@ -132,11 +137,8 @@ function ElectedLeaderCard({ leader }: { leader: ExecutiveOfficial }) {
     </Card>
   );
 
-  return leader.personId ? (
-    <Link
-      to={`/openlgu/person/${leader.personId}`}
-      className='group block h-full'
-    >
+  return personId ? (
+    <Link to={`/openlgu/person/${personId}`} className='group block h-full'>
       {card}
     </Link>
   ) : (
@@ -151,11 +153,12 @@ function CouncilMemberCard({
   member: CouncilMember;
   chairedCommittees: Committee[];
 }) {
+  const personId = SHOW_PERSON_PROFILES ? member.personId : undefined;
   const card = (
     <Card
-      hover={!!member.personId}
+      hover={!!personId}
       className={`group flex h-full flex-col shadow-xs ${
-        member.personId
+        personId
           ? 'border-kapwa-border-weak cursor-pointer'
           : 'border-kapwa-border-weak'
       }`}
@@ -173,7 +176,7 @@ function CouncilMemberCard({
             <h4 className='text-kapwa-text-strong text-base font-bold leading-tight'>
               {toTitleCase(member.name)}
             </h4>
-            {member.personId && (
+            {personId && (
               <p className='text-kapwa-text-brand mt-1 text-[10px] font-medium tracking-wide uppercase'>
                 View Profile
               </p>
@@ -218,7 +221,7 @@ function CouncilMemberCard({
               href={member.website}
               target='_blank'
               rel='noreferrer'
-              onClick={e => member.personId && e.stopPropagation()}
+              onClick={e => personId && e.stopPropagation()}
               className='hover:border-kapwa-border-brand hover:text-kapwa-text-brand border-kapwa-border-weak bg-kapwa-bg-surface flex items-center gap-2 rounded-lg border px-3 py-1.5 shadow-sm transition-all'
             >
               <span className='text-[10px] font-bold tracking-wider uppercase'>
@@ -232,8 +235,8 @@ function CouncilMemberCard({
     </Card>
   );
 
-  return member.personId ? (
-    <Link to={`/openlgu/person/${member.personId}`} className='block group'>
+  return personId ? (
+    <Link to={`/openlgu/person/${personId}`} className='block group'>
       {card}
     </Link>
   ) : (
