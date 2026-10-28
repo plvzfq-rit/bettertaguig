@@ -26,7 +26,11 @@ import { toTelUri } from '@/lib/utils';
 import { lguLabels } from '@/lib/lguLabels';
 
 import departmentsData from '@/data/directory/departments.json';
-import mergedServicesData from '@/data/citizens-charter/merged-services.json';
+import type { Service } from '@/types/servicesTypes';
+
+import rawMergedServices from '@/data/citizens-charter/merged-services.json';
+
+const mergedServicesData = rawMergedServices as Service[];
 
 export default function DepartmentDetail() {
   const { department: slug } = useParams();

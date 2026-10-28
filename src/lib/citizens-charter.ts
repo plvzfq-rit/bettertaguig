@@ -93,7 +93,7 @@ export function filterServices(
 
   if (options.type_of_transaction) {
     services = services.filter(service =>
-      service.type_of_transaction.includes(options.type_of_transaction!)
+      service.type_of_transaction?.includes(options.type_of_transaction!)
     );
   }
 
@@ -170,7 +170,7 @@ export function getComplexServices(): CitizensCharterService[] {
  */
 export function getG2CServices(): CitizensCharterService[] {
   return getAllServices().filter(service =>
-    service.type_of_transaction.includes('G2C')
+    service.type_of_transaction?.includes('G2C')
   );
 }
 
@@ -180,6 +180,6 @@ export function getG2CServices(): CitizensCharterService[] {
  */
 export function getG2BServices(): CitizensCharterService[] {
   return getAllServices().filter(service =>
-    service.type_of_transaction.includes('G2B')
+    service.type_of_transaction?.includes('G2B')
   );
 }

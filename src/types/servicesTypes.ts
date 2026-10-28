@@ -130,6 +130,7 @@ export interface Service {
   turnaroundTime?: string; // Total time including waiting/approval (working days)
   personResponsible?: string[]; // DEPRECATED - use officeDivision instead
   website?: string; // Portal URL for online services
+  sourceDocument?: string; // Official Citizen's Charter PDF for this service
 
   // NEW: Plain language name (user-friendly version)
   plainLanguageName?: string; // Simplified name following UK GOV.UK plain language principles

@@ -176,13 +176,15 @@ export interface CitizensCharterService {
    * - "Issuance of Barangay Clearance" → "Get a barangay clearance"
    * - "Request for Police Clearance" → "Apply for a police clearance"
    */
-  plain_language_name: string;
+  plain_language_name?: string;
   /** Office or division responsible for the service */
   office_division: string;
   /** Service classification: "Simple" or "Complex" */
-  classification: 'Simple' | 'Complex';
+  /** ARTA classification, e.g. 'Simple', 'Complex', 'Highly Technical' or a combination ('Simple / Complex') */
+  classification: string | null;
   /** Type of transaction: "G2C" or "G2B" */
-  type_of_transaction: 'G2C' | 'G2B';
+  /** e.g. 'G2C', 'G2B', 'External', 'Government to Citizen' */
+  type_of_transaction: string | null;
   /** Description of who may avail of the service */
   who_may_avail: string;
   /** Array of requirements with sources */
@@ -206,7 +208,7 @@ export interface CitizensCharterService {
    * For simple services, this is the full service time.
    * For complex services, this excludes waiting/approval periods (see turnaround_time).
    */
-  processing_time: string;
+  processing_time: string | null;
   /**
    * Total turnaround time (optional)
    *
@@ -216,6 +218,8 @@ export interface CitizensCharterService {
    * For simple services with no waiting/approval period, this field can be empty.
    */
   turnaround_time?: string;
+  /** Official charter PDF this service was imported from */
+  source_document?: string;
 }
 
 /**
@@ -233,7 +237,7 @@ export interface ServiceFilterOptions {
   /** Filter by office/division */
   office?: string;
   /** Filter by classification (Simple/Complex) */
-  classification?: 'Simple' | 'Complex';
+  classification?: string;
   /** Filter by transaction type (G2C/G2B) */
   type_of_transaction?: string;
   /** Search query string (searches in service name and office) */

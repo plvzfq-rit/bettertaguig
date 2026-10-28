@@ -151,37 +151,13 @@ def map_office_division_to_slug(office_division: str) -> str:
     """
     # Map CC office names to slugs used in departments.json
     office_mapping = {
-        "BUSINESS PERMIT AND LICENSING OFFICE (BPLO)": "business-permit-and-licensing-office",
-        "MUNICIPAL TREASURER'S OFFICE": "municipal-treasurers-office",
-        "MUNICIPAL TREASURER'S OFFICE": "municipal-treasurers-office",
-        "MUNICIPAL ASSESSOR'S OFFICE": "municipal-assessors-office",
-        "MUNICIPAL ENGINEERING OFFICE": "municipal-engineering-office",
-        "MUNICIPAL PLANNING AND DEVELOPMENT COORDINATOR (MPDC)": "municipal-planning-and-development-office",
-        "MUNICIPAL PLANNING AND DEVELOPMENT OFFICE": "municipal-planning-and-development-office",
-        "LOCAL CIVIL REGISTRY OFFICE": "local-civil-registry-office",
-        "MUNICIPAL ECONOMIC ENTERPRISE - MARKET": "market",
-        "MUNICIPAL ECONOMIC ENTERPRISE - SLAUGHTERHOUSE": "slaughterhouse",
-        "MUNICIPAL AGRICULTURE OFFICE": "municipal-agriculture-office",
-        "BARANGAY OFFICE": "barangay-office",
-        "BIDS AND AWARDS COMMITTEE": "bids-and-awards-committee",
-        "INFORMATION AND COMMUNICATION SYSTEMS OFFICE (ICSO)": "information-and-communication-systems-office",
-        "LOCAL YOUTH AND DEVELOPMENT OFFICE": "local-youth-and-development-office",
-        "MUNICIPAL ACCOUNTING OFFICE": "municipal-accounting-office",
-        "MUNICIPAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICE": "municipal-mdrrmo-office",
-        "MUNICIPAL HEALTH OFFICE (MHO)": "municipal-health-office",
-        "MUNICIPAL HUMAN RESOURCE MANAGEMENT OFFICE": "municipal-human-resource-management-office",
-        "MUNICIPAL NUTRITION ACTION OFFICE": "municipal-nutrition-office",
-        "MUNICIPAL RECORDS OFFICE": "municipal-general-services-office",
-        "MUNICIPAL SOCIAL WELFARE AND DEVELOPMENT OFFICE": "municipal-social-welfare-development-office",
-        "MUNICIPAL TOURISM OFFICE": "municipal-tourism-office",
-        "MUNICIPAL URBAN DEVELOPMENT AND HOUSING OFFICE": "municipal-urban-development-and-housing-office",
-        "PERSON WITH DISABILITY AFFAIRS OFFICE": "persons-with-disability-affairs-office",
-        "PHILIPPINE NATIONAL POLICE (PNP) - LOS BAÑOS MPS": "municipal-police-station",
-        "PUBLIC EMPLOYMENT SERVICE OFFICE": "public-employment-service-office",
-        "SANGGUNIANG BAYAN": "12th-sangguniang-bayan",  # Legislative
-        "MUNICIPAL MAYOR'S OFFICE": "office-of-the-mayor",  # Executive
-        "MUNICIPAL VICE MAYOR'S OFFICE": "office-of-the-vice-mayor",  # Executive
-        "PUBLIC ORDER AND SAFETY OFFICE/TRANSPORTATION AND REGULATION UNIT": "public-order-and-safety-office",
+        "BUSINESS PERMITS AND LICENSING OFFICE": "business-permits-and-licensing-office",
+        "OFFICE OF THE CITY ASSESSOR": "office-of-the-city-assessor",
+        "CITY ENVIRONMENT AND NATURAL RESOURCES OFFICE": "city-environment-and-natural-resources",
+        "CITY HEALTH OFFICE": "city-health-office",
+        "CITY TREASURER'S OFFICE": "city-treasurers-office",
+        "LOCAL BUILDING OFFICE": "local-building-office",
+        "TAGUIG ANTI-DRUG ABUSE OFFICE": "taguig-anti-drug-abuse-office",
     }
     return office_mapping.get(office_division, "")
 
@@ -228,6 +204,9 @@ def convert_cc_service_to_service(cc_service: dict, category: dict, slug: str, m
 
     if "website" in cc_service and cc_service["website"]:
         service["website"] = cc_service["website"]
+
+    if cc_service.get("source_document"):
+        service["sourceDocument"] = cc_service["source_document"]
 
     if "fees" in cc_service and cc_service["fees"]:
         service["fees"] = cc_service["fees"]
