@@ -13,6 +13,7 @@ import {
 import { useTranslation } from 'react-i18next';
 
 import { Badge } from '@/components/ui/Badge';
+import { lguLabels } from '@/lib/lguLabels';
 import SearchInput from '@/components/ui/SearchInput';
 
 import servicesData from '@/data/services/services.json';
@@ -87,7 +88,7 @@ const Hero: FC = () => {
     },
     {
       title: 'Infrastructure',
-      description: 'Track municipal projects',
+      description: `Track ${lguLabels.adjective.toLowerCase()} projects`,
       to: '/transparency/infrastructure',
       icon: <BuildingIcon className='w-6 h-6' />,
     },

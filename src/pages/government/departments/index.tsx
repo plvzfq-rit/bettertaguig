@@ -11,6 +11,7 @@ import SearchInput from '@/components/ui/SearchInput';
 import { officeIcons } from '@/lib/officeIcons';
 import { formatGovName, toTitleCase } from '@/lib/stringUtils';
 import { toTelUri } from '@/lib/utils';
+import { lguLabels } from '@/lib/lguLabels';
 
 import departmentsData from '@/data/directory/departments.json';
 
@@ -28,7 +29,7 @@ export default function DepartmentsIndex() {
   return (
     <>
       <PageHero
-        title='Municipal Departments'
+        title={`${lguLabels.adjective} Departments`}
         description={`${filtered.length} active offices.`}
       >
         <SearchInput

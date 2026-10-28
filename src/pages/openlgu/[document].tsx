@@ -34,6 +34,7 @@ import { PageLoadingState } from '@/components/ui';
 import { Badge } from '@/components/ui/Badge';
 
 import { getDocTypeBadgeVariant, getPersonName } from '@/lib/openlgu';
+import { lguLabels } from '@/lib/lguLabels';
 
 import type { LegislationContext, Person } from '@/types/legislationTypes';
 
@@ -215,7 +216,7 @@ export default function LegislationDocument() {
                     className='group hover:border-kapwa-border-brand border-kapwa-border-weak bg-kapwa-bg-surface-raised/50 hover:bg-kapwa-bg-surface block min-h-[44px] rounded-xl border p-3 transition-all'
                   >
                     <span className='group-hover:text-kapwa-text-brand text-kapwa-text-support block text-sm leading-tight font-bold'>
-                      {term?.name || '12th Sangguniang Bayan'}
+                      {term?.name || lguLabels.body}
                     </span>
                     <span className='text-kapwa-text-disabled mt-1 block font-mono text-[10px]'>
                       {term?.year_range || '2022-2025'}

@@ -15,6 +15,7 @@ import {
 
 import { SEO } from '@/components/layout/SEO';
 import { config } from '@/lib/lguConfig';
+import { lguLabels } from '@/lib/lguLabels';
 
 interface SitemapSection {
   title: string;
@@ -147,9 +148,9 @@ const SitemapPage: FC = () => {
           description: 'Senate and House of Representatives',
         },
         {
-          title: 'Municipal Council Committees',
-          url: '/government/legislative/municipal-committees',
-          description: 'Committees in the Municipal Council',
+          title: `${lguLabels.body} Committees`,
+          url: '/government/elected-officials/committees',
+          description: `Committees of the ${lguLabels.body}`,
         },
         {
           title: 'House Members',

@@ -14,6 +14,7 @@ import {
 
 import { DetailSection } from '@/components/layout';
 import { config } from '@/lib/lguConfig';
+import { lguLabels } from '@/lib/lguLabels';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent, CardGrid } from '@/components/ui/Card';
 
@@ -21,8 +22,7 @@ export default function TransparencyIndex() {
   const sections = [
     {
       title: 'Public Funds',
-      description:
-        'Independent visualization of municipal income and where your taxes are being allocated.',
+      description: `Independent visualization of ${lguLabels.adjective.toLowerCase()} income and where your taxes are being allocated.`,
       icon: Landmark,
       href: '/transparency/financial',
       color: 'blue',
@@ -39,8 +39,7 @@ export default function TransparencyIndex() {
     },
     {
       title: 'Procurement',
-      description:
-        'Audit of municipal bidding and awarded contracts to ensure fair and open competition.',
+      description: `Audit of ${lguLabels.adjective.toLowerCase()} bidding and awarded contracts to ensure fair and open competition.`,
       icon: ShoppingBag,
       href: '/transparency/procurement',
       color: 'blue',
@@ -61,10 +60,10 @@ export default function TransparencyIndex() {
               Independent Grassroots Initiative
             </h3>
             <p className='text-sm leading-relaxed text-kapwa-orange-600'>
-              Better LB is <strong>not an official government portal</strong>.
-              We are a volunteer movement mirroring public records to empower
-              citizens with the information they need to engage in local
-              governance.
+              {config.portal.name} is{' '}
+              <strong>not an official government portal</strong>. We are a
+              volunteer movement mirroring public records to empower citizens
+              with the information they need to engage in local governance.
             </p>
           </div>
         </div>

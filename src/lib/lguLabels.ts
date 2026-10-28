@@ -32,11 +32,11 @@ const type = config.lgu.type;
 const labels = LGU_LABELS[type] ?? LGU_LABELS.municipality;
 
 export const lguLabels = {
-  /** "Municipality of Los Baños" / "City of ..." / "Province of ..." */
+  /** "Municipality of ..." / "City of Taguig" / "Province of ..." */
   fullName: config.lgu.fullName,
-  /** "Los Baños" */
+  /** "Taguig" */
   name: config.lgu.name,
-  /** "Laguna" */
+  /** "Metro Manila" */
   province: config.lgu.province,
   /** "Mayor" / "Governor" */
   head: labels.head,
@@ -46,6 +46,6 @@ export const lguLabels = {
   subdivisions: labels.subdivisions,
   /** "Municipal" / "City" / "Provincial" */
   adjective: labels.adjective,
-  /** "{name}, {province}" e.g. "Los Baños, Laguna" */
+  /** "{name}, {province}" e.g. "Taguig, Metro Manila" */
   location: `${config.lgu.name}, ${config.lgu.province}`,
 };

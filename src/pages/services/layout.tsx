@@ -9,6 +9,7 @@ import { SidebarLayout } from '@/components/layout/SidebarLayout';
 import SearchInput from '@/components/ui/SearchInput';
 
 import ServicesSidebar from './components/ServicesSidebar';
+import { lguLabels } from '@/lib/lguLabels';
 
 // Additional filter types
 export type ServiceSource = 'citizens-charter' | 'community' | 'all';
@@ -68,7 +69,7 @@ export default function ServicesLayout() {
           <PageHeader
             variant='hero'
             title='Local Government Services'
-            description='Explore official municipal services from the Citizens Charter and community contributions. Choose a category to filter or search below.'
+            description={`Explore official ${lguLabels.adjective.toLowerCase()} services from the Citizens Charter and community contributions. Choose a category to filter or search below.`}
             actions={
               <SearchInput
                 placeholder='Search for services (e.g., Business Permit)...'

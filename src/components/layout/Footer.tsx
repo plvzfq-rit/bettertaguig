@@ -12,6 +12,7 @@ import {
 import { useTranslation } from 'react-i18next';
 
 import { config } from '@/lib/lguConfig';
+import { lguLabels } from '@/lib/lguLabels';
 
 import { footerNavigation } from '../../data/navigation';
 
@@ -58,8 +59,8 @@ export const Footer: FC = () => {
             </div>
             <p className='max-w-sm text-sm leading-relaxed text-kapwa-text-disabled'>
               An open-source initiative providing transparent access to
-              municipal services, local legislation, and public data for the
-              people of {config.lgu.name}.
+              {lguLabels.adjective.toLowerCase()} services, local legislation,
+              and public data for the people of {config.lgu.name}.
             </p>
             <div className='flex space-x-4'>
               {footerNavigation.socialLinks.map(link => (

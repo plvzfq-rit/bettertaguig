@@ -9,6 +9,7 @@ import {
 
 import { officeIcons } from '@/lib/officeIcons';
 import { formatGovName } from '@/lib/stringUtils';
+import { lguLabels } from '@/lib/lguLabels';
 
 import departmentsData from '@/data/directory/departments.json';
 
@@ -29,7 +30,7 @@ export default function DepartmentsSidebar() {
   });
 
   return (
-    <SidebarContainer title='Municipal Departments'>
+    <SidebarContainer title={`${lguLabels.adjective} Departments`}>
       {sortedDepartments.map(dept => {
         // 2. Get the specific icon or fallback to a default building icon
         const IconComponent = officeIcons[dept.slug] || Building2Icon;

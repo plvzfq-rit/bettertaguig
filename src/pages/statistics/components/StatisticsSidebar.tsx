@@ -4,6 +4,7 @@ import {
   SidebarContainer,
   SidebarItem,
 } from '@/components/navigation/SidebarNavigation';
+import { lguLabels } from '@/lib/lguLabels';
 
 export default function StatisticsSidebar() {
   const sections = [
@@ -21,7 +22,7 @@ export default function StatisticsSidebar() {
     },
     {
       path: '/statistics/municipal-income',
-      label: 'Municipal Income',
+      label: `${lguLabels.adjective} Income`,
       icon: Wallet,
       description: 'Revenue sources',
     },
