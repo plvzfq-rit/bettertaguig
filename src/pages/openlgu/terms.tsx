@@ -12,6 +12,7 @@ import { Card, CardGrid } from '@/components/ui/Card';
 
 import type { DocumentItem, Person, Session, Term } from '@/lib/openlgu';
 import { lguLabels } from '@/lib/lguLabels';
+import { isExecutiveRole, isLegislativeRole } from '@/lib/roleHelpers';
 
 interface LegislationContext {
   terms: Term[];
@@ -37,13 +38,13 @@ export default function TermsIndex() {
 
         const executiveMembers = persons.filter(p =>
           p.memberships.some(
-            m => m.term_id === term.id && m.chamber === 'executive'
+            m => m.term_id === term.id && isExecutiveRole(m.chamber)
           )
         );
 
         const legislativeMembers = persons.filter(p =>
           p.memberships.some(
-            m => m.term_id === term.id && m.chamber === 'sangguniang-bayan'
+            m => m.term_id === term.id && isLegislativeRole(m.chamber)
           )
         );
 

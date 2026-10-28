@@ -5,12 +5,14 @@
  * @param value - The query parameter value (string or null)
  * @param defaultValue - Default value if parsing fails
  * @param max - Maximum allowed value (inclusive)
+ * @param min - Minimum allowed value (inclusive); use 0 for offsets
  * @returns Parsed and clamped number
  */
 export function parsePaginationParam(
   value: string | null,
   defaultValue: number,
-  max: number
+  max: number,
+  min = 1
 ): number {
   if (value === null || value === '') {
     return defaultValue;
@@ -22,7 +24,7 @@ export function parsePaginationParam(
     return defaultValue;
   }
 
-  return Math.min(max, Math.max(1, parsed));
+  return Math.min(max, Math.max(min, parsed));
 }
 
 /**

@@ -59,7 +59,8 @@ async function getDocumentsList(context: { request: Request; env: Env }) {
   const offset = parsePaginationParam(
     url.searchParams.get('offset'),
     PAGINATION_LIMITS.DEFAULT_OFFSET,
-    Number.MAX_SAFE_INTEGER
+    Number.MAX_SAFE_INTEGER,
+    0
   );
 
   if (query && query.length > 100) {
@@ -124,7 +125,7 @@ async function getDocumentsList(context: { request: Request; env: Env }) {
           params.push(termId);
         }
 
-        sql += ` ORDER BY d.date_enacted DESC LIMIT ?${paramIndex++} OFFSET ?${paramIndex++}`;
+        sql += ` ORDER BY d.date_enacted DESC, d.number DESC LIMIT ?${paramIndex++} OFFSET ?${paramIndex++}`;
         params.push(limit.toString(), offset.toString());
 
         const result = await env.BETTERLB_DB.prepare(sql)

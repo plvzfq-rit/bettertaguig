@@ -88,7 +88,8 @@ async function handleGetReviewQueue(context: {
   const offset = parsePaginationParam(
     url.searchParams.get('offset'),
     PAGINATION_LIMITS.DEFAULT_OFFSET,
-    Number.MAX_SAFE_INTEGER
+    Number.MAX_SAFE_INTEGER,
+    0
   );
 
   // Build query

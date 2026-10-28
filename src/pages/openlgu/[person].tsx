@@ -41,16 +41,8 @@ import type {
   Term,
 } from '@/lib/openlgu';
 import { getDocTypeBadgeVariant, getPersonName } from '@/lib/openlgu';
+import { isExecutiveRole, isLegislativeRole } from '@/lib/roleHelpers';
 import { toTitleCase } from '@/lib/stringUtils';
-
-// Helper functions to identify role types
-function isExecutiveRole(chamber?: string): boolean {
-  return chamber === 'executive';
-}
-
-function isLegislativeRole(chamber?: string): boolean {
-  return chamber === 'sangguniang-bayan';
-}
 
 // Define the exact shape of the context provided by the Legislation Layout
 interface LegislationContext {

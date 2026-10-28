@@ -4,6 +4,8 @@
  * so the columns can be dropped without changing API response shape.
  */
 
+import lguConfig from '../../config/lgu.config.json';
+
 /** 9 -> "9th", 21 -> "21st", 112 -> "112th" */
 export function formatOrdinal(n: number): string {
   const s = ['th', 'st', 'nd', 'rd'];
@@ -11,9 +13,18 @@ export function formatOrdinal(n: number): string {
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
-/** 12 -> "12th Sangguniang Bayan" */
+const SANGGUNIAN_BY_LGU_TYPE: Record<string, string> = {
+  municipality: 'Sangguniang Bayan',
+  city: 'Sangguniang Panlungsod',
+  province: 'Sangguniang Panlalawigan',
+};
+
+const SANGGUNIAN =
+  SANGGUNIAN_BY_LGU_TYPE[lguConfig.lgu.type] ?? 'Sangguniang Bayan';
+
+/** 8 -> "8th Sangguniang Panlungsod" (body name follows config lgu.type) */
 export function formatTermName(termNumber: number): string {
-  return `${formatOrdinal(termNumber)} Sangguniang Bayan`;
+  return `${formatOrdinal(termNumber)} ${SANGGUNIAN}`;
 }
 
 /** "2016-07-01", "2019-06-30" -> "2016-2019" */

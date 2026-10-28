@@ -96,7 +96,8 @@ async function getPersonsList(context: { request: Request; env: Env }) {
   const offset = parsePaginationParam(
     url.searchParams.get('offset'),
     PAGINATION_LIMITS.DEFAULT_OFFSET,
-    Number.MAX_SAFE_INTEGER
+    Number.MAX_SAFE_INTEGER,
+    0
   );
 
   const kvCache = createKVCache(env);

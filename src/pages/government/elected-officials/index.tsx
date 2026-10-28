@@ -66,7 +66,7 @@ interface CouncilMember {
 
 // OpenLGU person pages aren't seeded with Taguig officials yet; flip this
 // once they are so official cards link to their profiles again.
-const SHOW_PERSON_PROFILES = false;
+const SHOW_PERSON_PROFILES = true;
 
 // --- Sub-components ---
 

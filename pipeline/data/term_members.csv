@@ -1,37 +1,29 @@
-term_id,person_id,role,full_name,rank
-sb_10,kalaw-antonio-l,Vice Mayor,Antonio L. Kalaw,0
-sb_10,sumangil-evangelista-josephine,Councilor,Josephine Sumangil-Evangelista,1
-sb_10,pelegrina-miko-c,Councilor,Miko C. Pelegrina,2
-sb_10,lapiz-janos-s,Councilor,Janos S. Lapiz,3
-sb_10,ciceron-jerico,Councilor,Geronimo A. Ciceron,4
-sb_10,alipon-marlo-pj-a,Councilor,Marlo PJ A. Alipon,5
-sb_10,concio-dexter-a,Councilor,Dexter A. Concio,6
-sb_10,dizon-mark-lester-b,Councilor,Mark Lester B. Dizon,7
-sb_10,bagnes-cris-dayril-b,Councilor,Cris Dayril B. Bagnes,8
-sb_10,manansala-jozlyn-n,SK Federation President,Jozlyn N. Manansala,99
-sb_10,delos-santos-arlene-p,Liga President,Arlene P. delos Santos,99
-sb_10,alborida-dona-t,Secretary,Dona T. Alborida,99
-sb_11,sumangil-evangelista-josephine,Vice Mayor,Josephine Sumangil-Evangelista,0
-sb_11,bautista-leren-mae-m,Councilor,Leren Mae M. Bautista,1
-sb_11,alipon-marlo-pj-a,Councilor,Marlo PJ A. Alipon,2
-sb_11,siytiap-jonathan-bryan-s,Councilor,Jonathan Bryan S. Siytiap,3
-sb_11,pelegrina-miko-c,Councilor,Miko C. Pelegrina,4
-sb_11,dizon-mark-lester-b,Councilor,Mark Lester B. Dizon,5
-sb_11,molinawe-julius-a,Councilor,Julius A. Moliñawe,6
-sb_11,alborida-benedicto-s,Councilor,Benedicto S. Alborida,7
-sb_11,concio-dexter-a,Councilor,Dexter A. Concio,8
-sb_11,manansala-jozlyn-n,SK Federation President,Jozlyn N. Manansala,99
-sb_11,delos-santos-arlene-p,Liga President,Arlene P. delos Santos,99
-sb_11,alborida-dizon-dona-t,Secretary,Dona T. Alborida-Dizon,99
-sb_12,alipon-marlo-pj-a,Vice Mayor,Marlo PJ A. Alipon,0
-sb_12,pelegrina-miko-c,Councilor,Miko C. Pelegrina,1
-sb_12,perez-aldous-amiel-b,Councilor,Aldous Amiel B. Perez,2
-sb_12,dizon-muriel-laisa-b,Councilor,Muriel Laisa B. Dizon,3
-sb_12,bautista-leren-mae-m,Councilor,Leren Mae M. Bautista,4
-sb_12,alborida-benedicto-s,Councilor,Benedicto S. Alborida,5
-sb_12,de-jesus-rand-edouard-r,Councilor,Rand Edouard R. De Jesus,6
-sb_12,alinsunurin-myla-e,Councilor,Myla E. Alinsunurin,7
-sb_12,rolusta-jay-g,Councilor,Jay G. Rolusta,8
-sb_12,macatangay-gaudencio-p,Liga President,Gaudencio P. Macatangay,99
-sb_12,banasihan-ortega-samantha-nicole-a,SK Federation President,Samantha Nicole A. Banasihan-Ortega,99
-sb_12,alborida-dizon-dona-t,Secretary,Dona T. Alborida-Dizon,99
+term_id,person_id,role,chamber,first_name,middle_name,last_name,rank
+sp_8,cayetano-maria-laarni-l,Mayor,executive,Maria Laarni,L.,Cayetano,
+sp_8,alit-arvin-ian-v,Vice Mayor,sangguniang-panlungsod,Arvin Ian,V.,Alit,0
+sp_8,balina-eron-marisse,Councilor,sangguniang-panlungsod,Marisse,,Balina-Eron,1
+sp_8,abbang-kim-m,Councilor,sangguniang-panlungsod,Kim,M.,Abbang,2
+sp_8,aquino-raul-t,Councilor,sangguniang-panlungsod,Raul,T.,Aquino,3
+sp_8,cruz-allan-paul-c,Councilor,sangguniang-panlungsod,Allan Paul,C.,Cruz,4
+sp_8,cruz-arnold-j,Councilor,sangguniang-panlungsod,Arnold,J.,Cruz,5
+sp_8,icay-darwin-b,Councilor,sangguniang-panlungsod,Darwin,B.,Icay,6
+sp_8,labampa-jaime-r,Councilor,sangguniang-panlungsod,Jaime,R.,Labampa,7
+sp_8,manosca-lamberto-m,Councilor,sangguniang-panlungsod,Lamberto,M.,Mañosca,8
+sp_8,marcelino-rodil-c,Councilor,sangguniang-panlungsod,Rodil,C.,Marcelino,9
+sp_8,ogalinola-carlito-m,Councilor,sangguniang-panlungsod,Carlito,M.,Ogalinola,10
+sp_8,panga-cruz-fanella-joy-b,Councilor,sangguniang-panlungsod,Fanella Joy,B.,Panga-Cruz,11
+sp_8,san-pedro-gamaliel-n,Councilor,sangguniang-panlungsod,Gamaliel,N.,San Pedro,12
+sp_8,santos-ferdinand-b,Councilor,sangguniang-panlungsod,Ferdinand,B.,Santos,13
+sp_8,baptista-edgar-victor-s,Councilor,sangguniang-panlungsod,Edgar Victor,S.,Baptista,14
+sp_8,bermas-villasis-marjorie,Councilor,sangguniang-panlungsod,Marjorie,,Bermas-Villasis,15
+sp_8,castro-danilo-g,Councilor,sangguniang-panlungsod,Danilo,G.,Castro,16
+sp_8,de-lara-bes-grazielle-iony,Councilor,sangguniang-panlungsod,Grazielle Iony,,De Lara-Bes,17
+sp_8,dizon-alvinleen-p,Councilor,sangguniang-panlungsod,Alvinleen,P.,Dizon,18
+sp_8,pau-tin-hannah-genele-p,Councilor,sangguniang-panlungsod,Hannah Genele,P.,Pau-Tin,19
+sp_8,penolio-alex-s,Councilor,sangguniang-panlungsod,Alex,S.,Penolio,20
+sp_8,prado-eduardo-b,Councilor,sangguniang-panlungsod,Eduardo,B.,Prado,21
+sp_8,serna-jomil-bryan-c,Councilor,sangguniang-panlungsod,Jomil Bryan,C.,Serna,22
+sp_8,supan-nicky-c,Councilor,sangguniang-panlungsod,Nicky,C.,Supan,23
+sp_8,villamor-evelyn-delfina-e,Councilor,sangguniang-panlungsod,Evelyn Delfina,E.,Villamor,24
+sp_8,marcelino-marilyn-f,Liga President,sangguniang-panlungsod,Marilyn,F.,Marcelino,25
+sp_8,pagkalinawan-joanna-mae-m,SK Federation President,sangguniang-panlungsod,Joanna Mae,M.,Pagkalinawan,26
