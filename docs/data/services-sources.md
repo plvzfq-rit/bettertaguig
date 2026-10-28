@@ -30,3 +30,7 @@ PDFs are cached in `.local/charter-pdfs/` (git-ignored). The import script:
 - Names keep the document's wording, including typos such as "Animal Bite Treament".
 - Other offices (Civil Registry, CSWDO, etc.) aren't in the city's published charter yet.
 - The Los Baños community-contributed services were removed. `src/data/services/categories/*.json` is empty, ready for Taguig community contributions.
+
+## Future ideas
+
+- **Places / tourism page** (tourism is switched off in `config/lgu.config.json`): a guide to Taguig's malls (BGC, Market! Market!, SM Aura, Uptown, Venice Grand Canal) listing the restaurants and stores inside with price ranges.
