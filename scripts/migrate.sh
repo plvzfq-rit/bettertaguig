@@ -1,6 +1,6 @@
 #!/bin/bash
 # D1 Database Migration Automation Script
-# BetterLB - Cloudflare D1 Migration Management
+# BetterTaguig - Cloudflare D1 Migration Management
 #
 # Usage:
 #   ./scripts/migrate.sh local              # Run migrations on local database
@@ -96,19 +96,26 @@ create_schema_table() {
     log_success "Schema migrations table created"
 }
 
-# Get applied migrations
+# Get applied migrations (one name per line)
+# Wrangler 4 prints JSON, so request --json and extract the names with node.
 get_applied_migrations() {
     local local_flag=$1
+    local sql="SELECT name FROM schema_migrations ORDER BY name;"
+    local target
 
-    if check_schema_table "$local_flag"; then
-        if [ "$local_flag" = "--local" ]; then
-            ${WRANGLER_CMD} ${DB_BINDING} --local --command="SELECT name FROM schema_migrations ORDER BY name;" 2>/dev/null | grep -v "^─" | tail -n +3 | sed 's/^| //' | sed 's/ |$//' || echo ""
-        else
-            ${WRANGLER_CMD} ${DB_NAME} --remote --command="SELECT name FROM schema_migrations ORDER BY name;" 2>/dev/null | grep -v "^─" | tail -n +3 | sed 's/^| //' | sed 's/ |$//' || echo ""
-        fi
-    else
+    if ! check_schema_table "$local_flag"; then
         echo ""
+        return
     fi
+
+    if [ "$local_flag" = "--local" ]; then
+        target="${DB_BINDING} --local"
+    else
+        target="${DB_NAME} --remote"
+    fi
+
+    ${WRANGLER_CMD} ${target} --json --command="$sql" 2>/dev/null \
+        | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const r=JSON.parse(s);for(const b of r)for(const row of b.results||[])console.log(row.name)})'
 }
 
 # Run a single migration file
