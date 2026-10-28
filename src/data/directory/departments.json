@@ -78,7 +78,7 @@
     "trunkline": "(02) 7795 9932 / +63 919 070 3112",
     "website": "https://www.facebook.com/TaguigCityDRRMO",
     "email": null,
-    "department_head": { "name": "Dr. Luis Sy Jr.", "contact": null, "email": null }
+    "department_head": { "name": "Dr. Luis M. Sy Jr.", "contact": null, "email": null }
   },
   {
     "slug": "city-engineering-office",
@@ -105,7 +105,7 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Dr. Luis M. Sy, Jr.", "contact": null, "email": null }
+    "department_head": { "name": null, "contact": null, "email": null }
   },
   {
     "slug": "city-executive-legal-office",

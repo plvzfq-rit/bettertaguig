@@ -373,7 +373,7 @@
     "slug": "barangay-central-signal",
     "barangay_name": "CENTRAL SIGNAL",
     "address": "2 Col Miranda St., Zone 2 Barangay Central Signal, Taguig City",
-    "trunkline": ["(02) 8814 3930", "(02) 8883 70495"],
+    "trunkline": ["(02) 8814 3930", "(02) 8883 7049"],
     "website": "https://www.facebook.com/bgycentralsignalofficial",
     "email": "brgycsv2018@gmail.com",
     "officials": [
@@ -598,10 +598,9 @@
     "trunkline": ["(02) 8477 2106"],
     "website": "https://www.facebook.com/barangayfortbonifacioofficial",
     "email": "fortbonifaciosecretariat@gmail.com",
-    "vacancies": ["Punong Barangay"],
     "officials": [
       {
-        "role": "SB Member",
+        "role": "Punong Barangay",
         "name": "LYSANDRE TUANG VERTULFO"
       },
       {
@@ -1264,7 +1263,7 @@
     "officials": [
       {
         "role": "Punong Barangay",
-        "name": "LHORELYN LANDAGAN FORTUNO"
+        "name": "LHORELYN FORTUNO AGTARAP"
       },
       {
         "role": "SB Member",
@@ -1335,10 +1334,9 @@
     "trunkline": ["(02) 8983 9298"],
     "website": "https://www.facebook.com/profile.php?id=61553108162456",
     "email": "northsignalvillage.taguig@gmail.com",
-    "vacancies": ["Punong Barangay"],
     "officials": [
       {
-        "role": "SB Member",
+        "role": "Punong Barangay",
         "name": "RICARDO TEJERO JORDAN JR."
       },
       {
@@ -1480,10 +1478,9 @@
     "trunkline": ["(02) 8856 5672"],
     "website": "https://www.facebook.com/pembo.kapkim2023",
     "email": "pembo.dilg@gmail.com",
-    "vacancies": ["Punong Barangay"],
     "officials": [
       {
-        "role": "SB Member",
+        "role": "Punong Barangay",
         "name": "MICHAEL ROBLES ARCILLA"
       },
       {
@@ -1847,10 +1844,9 @@
     "trunkline": ["(02) 7117 1995", "(02) 7729 1995"],
     "website": "https://www.facebook.com/profile.php?id=100057153322641&sk=about",
     "email": "official.barangayrizal@gmail.com",
-    "vacancies": ["Punong Barangay"],
     "officials": [
       {
-        "role": "SB Member",
+        "role": "Punong Barangay",
         "name": "ALLAN JAY JARAMIEL CRUZ"
       },
       {
@@ -1875,7 +1871,7 @@
       },
       {
         "role": "SB Member",
-        "name": "MELCHCR BOLANTE BENGANAL"
+        "name": "MELCHOR BOLANTE BENGANAL"
       },
       {
         "role": "SK Chairperson",

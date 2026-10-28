@@ -66,26 +66,47 @@ Legislative:
 - Majority Floor Leader role added to Fanella Joy B. Panga-Cruz
 - SP email added
 
-## Known gaps
+## Verification log (2026-10-05)
 
-- **Barangay officials:** these are the 2023 election winners. They may not reflect later resignations, deaths, or successions.
-  - Vacant captain posts (`vacancies`):
-    - Fort Bonifacio: Jorge Daniel S. Bocobo became Representative for the 2nd District.
-    - Pembo: Kim M. Abbang became a councilor (1st District).
-    - North Signal: Danilo G. Castro became a councilor (2nd District).
-    - Rizal: Arnold J. "Sammy" Cruz became a councilor (1st District). Confirmed: news reports Rizal captain "Sammy Cruz" joining the council, and the councilor's linked profile is `facebook.com/sammy.cruz.9026`. A search snippet names kagawad Allan Jay J. Cruz as the current captain, but this is unverified, so the post is still listed as vacant.
-  - Under the Local Government Code, the highest-ranking kagawad succeeds as captain. Who that is hasn't been sourced yet.
-  - Western Bicutan: the SK chairperson and 5 SK members were never proclaimed (Comelec Minute Resolution No. 23-0730). Only the 2 proclaimed SK members are listed.
-- **Barangay data quirks** in the official source:
-  - North Daang Hari's email is the placeholder `secretary@gmail.com`, so I dropped it.
-  - Central Signal's second number, `(02) 8883 70495`, has an extra digit (kept as published).
-  - Post Proper Northside's address says "Barangay Cembo". This is correct: the hall is in the Macda Compound in Cembo, outside the barangay ([Wikipedia](https://en.wikipedia.org/wiki/Post_Proper_Northside)).
-- **Barangay name spellings checked (2026-10-05):**
+### Department heads
+
+The old values came from an outdated copy of the city site ([Google Sites](https://sites.google.com/view/taguigcity/our-departments), which still lists Jose Luis Montales, who left in May 2025). The live taguig.gov.ph data is newer.
+
+| Office | Now listed | Evidence |
+|---|---|---|
+| City Administrator | Cecilia R. Montales, M.D. | Confirmed: [appointed May 2025](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/) |
+| CDRRMO | Dr. Luis M. Sy Jr. | Confirmed: [PAGASA, June 4, 2026](https://pagasa.dost.gov.ph/news-and-events/photo-gallery/92) |
+| Taguig City University | Dr. Raymundo Arcega | Confirmed: [tcu.edu.ph 2026 news](https://tcu.edu.ph/posts/news/dr-arcega-leads-alcu-ncr-trisemester-regional-meeting-2026). Guiraldo was acting president as of Dec 2024. |
+| Taguig-Pateros District Hospital | Dr. Timoteo Niel T. Trinidad | Supported: named Chief of Hospital around Oct 2025 ([taguig.com](https://www.taguig.com/news/taguig-pateros-district-hospitals-center-for/)) |
+| Urban Poor Affairs | Atty. Christian G. Eco | Supported: Agapito M. Cruz was head as of Sept 2024 |
+| City Health | Dr. Susana Amiscua | Supported: search results show her as City Health Officer as of Jan 2026 |
+| City Budget | Atty. Maricar Loinaz-Sarmiento | Plausible: a known city official (former legal counsel and deputy chief of staff), but no source names her budget officer |
+| City Treasurer | Atty. Alvin Esmenda | Confirmed by the maintainer. He succeeded Atty. Jonathan Voltaire L. Enriquez, named in 2024 cases |
+| Local School Board | Aljenneth Vivar | Confirmed by the maintainer |
+| City Epidemiology & Disease Surveillance Unit | *(cleared)* | Dr. Luis M. Sy Jr. moved to CDRRMO, the unit isn't on the current official site, and its current head is unknown |
+
+### Barangays
+
+- **Officials:** the 2023 election winners, plus the updates below. Later resignations or deaths may not be reflected.
+- **Captain changes after the 2025 elections** (checked by the maintainer, 2026-10-05):
+  - Fort Bonifacio: Lysandre T. "Sonny" Vertulfo, the former kagawad, succeeded Jorge Daniel S. Bocobo (now a representative). Assumes "Sonny" is Lysandre Tuang Vertulfo, the only Vertulfo on the 2023 list.
+  - North Signal: Ricardo T. Jordan Jr., the former kagawad, succeeded Danilo G. Castro (now a councilor).
+  - Pembo: Michael R. Arcilla, the former kagawad, succeeded Kim M. Abbang (now a councilor).
+  - Rizal: Allan Jay J. Cruz, the former kagawad, succeeded Arnold J. "Sammy" Cruz (now a councilor; his council profile is `facebook.com/sammy.cruz.9026`).
+- **Western Bicutan:** the SK chairperson and 5 SK members were never proclaimed (Comelec Minute Resolution No. 23-0730). Only the 2 proclaimed SK members are listed.
+- **Corrections to the source data:**
+  - North Daang Hari captain: "Lhorelyn Landagan Fortuno" (2023 election list) → "Lhorelyn Fortuno Agtarap" (current name, per [barangaydirectory.com](https://www.barangaydirectory.com/barangay/city-of-taguig/north-daang-hari)).
+  - Rizal kagawad: "MELCHCR" → "MELCHOR" (confirmed by the maintainer).
+  - Central Signal phone: `(02) 8883 70495` → `(02) 8883 7049` (confirmed by the maintainer).
+  - North Daang Hari email: the placeholder `secretary@gmail.com` was dropped; no real address was found.
+- **Checked and correct as published:**
+  - Post Proper Northside's address is in "Barangay Cembo": the hall is in the Macda Compound in Cembo ([Wikipedia](https://en.wikipedia.org/wiki/Post_Proper_Northside)).
   - "BRAIAN BERIA BARNEDO" (North Daang Hari) is a genuine spelling; he was also kagawad in 2013–2016.
-  - "MELCHCR BOLANTE BENGANAL" (Rizal) is probably "Melchor", but no source confirms it, so it's kept as published.
 - **Cross-checks against city officials:**
   - Liga president Marilyn F. Marcelino is Ususan's captain, and SK Federation president Joanna Mae M. Pagkalinawan is Sta. Ana's SK chairperson. Both hold their council seats ex officio, as expected.
   - Not the same people as similarly named city officials: Lower Bicutan kagawad Ricardo R. Cruz IV (not Rep. Ricardo S. Cruz Jr.) and Rizal kagawad Allan Jay J. Cruz (not councilor Allan Paul C. Cruz).
+
+## Known gaps
 
 - **Emails:** none published for departments or department heads, except the SP Secretariat.
 - **Head contact numbers:** none published.
