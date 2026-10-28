@@ -16,6 +16,18 @@ Re-verify quarterly.
 
 BLGF files are listed on the [BetterGov open data portal (dataset 9)](https://data.bettergov.ph/datasets/9) and hosted at blgf.gov.ph. BLGF blocks scripted downloads, so the files were downloaded in a browser.
 
+## Updating budget data
+
+Download the BLGF `.xlsx` in a browser (BLGF blocks scripts), then:
+
+```bash
+python3 scripts/blgf/import_blgf.py sre <file.xlsx>                          # lists the sheets
+python3 scripts/blgf/import_blgf.py sre <file.xlsx> --sheet Q32025 --period Q3-2025
+python3 scripts/blgf/import_blgf.py ari <file.xlsx> --sheet "ARI 2025" --period FY-2025
+```
+
+The script checks the column layout and BLGF's own totals, and replaces or adds the period. A full-year SRE report goes in as `Q4-<year>`.
+
 ## Known gaps and caveats
 
 - **SRE coverage:** only Q4-2024 (full year), Q1-2025 and Q2-2025. Earlier 2024 quarters and Q3-2025 onward need BLGF's other quarterly files.
