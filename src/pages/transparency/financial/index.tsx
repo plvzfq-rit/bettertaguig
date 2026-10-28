@@ -27,6 +27,7 @@ import SummaryCards from '@/pages/transparency/components/SummaryCards';
 import { useFinancialData } from '@/hooks/useFinancialData';
 
 import { formatLabel } from '@/lib/budgetUtils';
+import { lguLabels } from '@/lib/lguLabels';
 
 export default function FinancialPage() {
   const {
@@ -238,8 +239,8 @@ export default function FinancialPage() {
             Financial Performance
           </h1>
           <p className='text-kapwa-text-disabled max-w-xl text-sm leading-relaxed font-medium'>
-            Independent visualization of the municipal budget, including current
-            operating income and expenditures.
+            Independent visualization of the {lguLabels.adjective.toLowerCase()}{' '}
+            budget, including current operating income and expenditures.
           </p>
         </div>
 

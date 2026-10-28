@@ -10,6 +10,7 @@ import { PageHero } from '@/components/layout/PageLayouts';
 import FinancialPieChart from '@/pages/transparency/components/FinancialPieChart';
 
 import { formatPesoAdaptive } from '@/lib/format';
+import { lguLabels } from '@/lib/lguLabels';
 
 import ariData from '@/data/statistics/ari.json';
 
@@ -66,7 +67,7 @@ export default function MunicipalIncomePage() {
     <>
       {/* PageHero - documented pattern for layout headers */}
       <PageHero
-        title='Municipal Income'
+        title={`${lguLabels.adjective} Income`}
         description='Detailed analysis of revenue sources, fiscal autonomy, and national tax dependency.'
       >
         <div className='flex flex-wrap justify-center gap-2'>
