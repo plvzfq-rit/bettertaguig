@@ -62,6 +62,9 @@ export default function PopulationPage() {
   const growth = municipality.growthRates.find(
     r => r.period === '2020-2024'
   )?.rate;
+  const [showAllBarangays, setShowAllBarangays] = useState(false);
+  const TOP_BARANGAYS = 10;
+
   const sortedBarangaysForLine = useMemo(() => {
     return [...populationData.barangays].sort((a, b) => {
       const latestA = a.history[a.history.length - 1].population;
@@ -72,7 +75,9 @@ export default function PopulationPage() {
 
   // 1. PIVOT DATA: Combine all barangay histories into one array for the Multi-line chart
   const comparativeData = useMemo<BarangayPopulationPoint[]>(() => {
-    const years = [2010, 2015, 2020, 2024];
+    const years = Array.from(
+      new Set(barangays.flatMap(b => b.history.map(h => h.year)))
+    ).sort((a, b) => a - b);
     return years.map(year => {
       // Initialize with year, then type-safely add barangay counts
       const point: BarangayPopulationPoint = { year };
@@ -158,6 +163,25 @@ export default function PopulationPage() {
         }
         icon={TrendingUp}
       >
+        {activeTab === 'barangays' &&
+          sortedBarangaysForLine.length > TOP_BARANGAYS && (
+            <div className='mb-4 flex flex-wrap items-center justify-between gap-2'>
+              <p className='text-kapwa-text-disabled text-xs'>
+                {showAllBarangays
+                  ? `Showing all ${sortedBarangaysForLine.length} barangays (colors repeat).`
+                  : `Showing the ${TOP_BARANGAYS} most populous barangays.`}
+              </p>
+              <button
+                type='button'
+                onClick={() => setShowAllBarangays(v => !v)}
+                className='border-kapwa-border-weak text-kapwa-text-brand hover:border-kapwa-border-brand rounded-lg border px-3 py-1.5 text-xs font-bold'
+              >
+                {showAllBarangays
+                  ? `Show top ${TOP_BARANGAYS}`
+                  : `Show all ${sortedBarangaysForLine.length}`}
+              </button>
+            </div>
+          )}
         <ResponsiveChart height={activeTab === 'barangays' ? 550 : 400}>
           {activeTab === 'municipality' ? (
             <LineChart
@@ -218,8 +242,13 @@ export default function PopulationPage() {
                   letterSpacing: '1px',
                 }}
               />
-              {sortedBarangaysForLine.map((b, i) => {
+              {(showAllBarangays
+                ? sortedBarangaysForLine
+                : sortedBarangaysForLine.slice(0, TOP_BARANGAYS)
+              ).map((b, i) => {
                 const isTop3 = i < 3;
+                // A barangay with a single census point draws no line, so it needs a dot
+                const showDot = isTop3 || b.history.length === 1;
 
                 return (
                   <Line
@@ -230,9 +259,9 @@ export default function PopulationPage() {
                     stroke={BRGY_COLORS[i % BRGY_COLORS.length]}
                     // Make the top 3 lines bolder (Accessibility: emphasis)
                     strokeWidth={isTop3 ? 4 : 2}
-                    // Only show dots on top 3 to reduce visual clutter on 14 lines
+                    // Dots only on the top 3 (and single-point series) to reduce clutter
                     dot={
-                      isTop3 ? { r: 4, strokeWidth: 2, stroke: '#555' } : false
+                      showDot ? { r: 4, strokeWidth: 2, stroke: '#555' } : false
                     }
                     activeDot={{ r: 8, strokeWidth: 4, stroke: '#fff' }}
                   />
