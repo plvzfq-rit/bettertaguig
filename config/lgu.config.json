@@ -4,10 +4,11 @@
     "fullName": "City of Taguig",
     "shortName": "TAG",
     "province": "Metro Manila",
-    "region": "NCR",
+    "region": "National Capital Region",
+    "districtEngineeringOffice": "Metro Manila 1st DEO",
     "regionCode": "1300000000",
     "type": "city",
-    "officialWebsite": "https://bettertaguig.org",
+    "officialWebsite": "https://www.taguig.gov.ph",
     "provinceWebsite": ""
   },
   "portal": {
