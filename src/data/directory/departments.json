@@ -6,7 +6,11 @@
     "trunkline": "(02) 8628 2435",
     "website": "https://www.facebook.com/taguigcityagricultureoffice",
     "email": null,
-    "department_head": { "name": "Emelita P. Solis", "contact": null, "email": null }
+    "department_head": {
+      "name": "Emelita P. Solis",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "barangay-affairs-office",
@@ -15,7 +19,11 @@
     "trunkline": "(02) 8628 2813",
     "website": "https://www.facebook.com/BAOTaguig",
     "email": null,
-    "department_head": { "name": "Evelyn T. Arago", "contact": null, "email": null }
+    "department_head": {
+      "name": "Evelyn T. Arago",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "bids-and-awards-committee",
@@ -24,7 +32,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Elmer Pagsisihan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Elmer Pagsisihan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "business-permits-and-licensing-office",
@@ -33,7 +45,11 @@
     "trunkline": "(02) 8555 7868",
     "website": "https://www.facebook.com/taguig.bplo",
     "email": null,
-    "department_head": { "name": "Atty. Maria Theresa S. Veloso", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Maria Theresa S. Veloso",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-accounting-office",
@@ -42,7 +58,11 @@
     "trunkline": "(02) 8365 4818 / (02) 8990 2086",
     "website": null,
     "email": null,
-    "department_head": { "name": "Gary L. Lising", "contact": null, "email": null }
+    "department_head": {
+      "name": "Gary L. Lising",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-administrators-office",
@@ -51,7 +71,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Cecilia R. Montales, M.D.", "contact": null, "email": null }
+    "department_head": {
+      "name": "Cecilia R. Montales, M.D.",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-budget-office",
@@ -60,7 +84,11 @@
     "trunkline": "(02) 7795 8863 / (02) 8628 1653",
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Maricar Loinaz-Sarmiento", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Maricar Loinaz-Sarmiento",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-civil-registry",
@@ -69,7 +97,11 @@
     "trunkline": "(02) 8628 2808",
     "website": "https://www.facebook.com/ccrtaguig",
     "email": null,
-    "department_head": { "name": "Cynthia T. Ignacio", "contact": null, "email": null }
+    "department_head": {
+      "name": "Cynthia T. Ignacio",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-disaster-risk-reduction-and-management-office",
@@ -78,7 +110,11 @@
     "trunkline": "(02) 7795 9932 / +63 919 070 3112",
     "website": "https://www.facebook.com/TaguigCityDRRMO",
     "email": null,
-    "department_head": { "name": "Dr. Luis M. Sy Jr.", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dr. Luis M. Sy Jr.",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-engineering-office",
@@ -87,7 +123,11 @@
     "trunkline": "(02) 7795 8840",
     "website": "https://www.facebook.com/taguigcityengineeringoffice",
     "email": null,
-    "department_head": { "name": "Engr. Marcelo M. Serpa Juan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Engr. Marcelo M. Serpa Juan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-environment-and-natural-resources",
@@ -96,7 +136,11 @@
     "trunkline": "(02) 8713 8121",
     "website": "https://www.facebook.com/CenroTaguig",
     "email": null,
-    "department_head": { "name": "Felix D. Catigay", "contact": null, "email": null }
+    "department_head": {
+      "name": "Felix D. Catigay",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-epidemiology-and-disease-surveillance-unit",
@@ -114,7 +158,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/celo.taguig",
     "email": null,
-    "department_head": { "name": "Atty. Paciano F. Fallar Jr.", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Paciano F. Fallar Jr.",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-gender-and-development-office",
@@ -123,7 +171,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/gadtaguig",
     "email": null,
-    "department_head": { "name": "Jingle M. Nechaldas", "contact": null, "email": null }
+    "department_head": {
+      "name": "Jingle M. Nechaldas",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-health-office",
@@ -132,7 +184,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/taguigcityhealthoffice",
     "email": null,
-    "department_head": { "name": "Dr. Susana Amiscua", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dr. Susana Amiscua",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-human-resource-management-office",
@@ -141,7 +197,11 @@
     "trunkline": "(02) 8628 3449",
     "website": "https://www.facebook.com/hrtaguiggov",
     "email": null,
-    "department_head": { "name": "Jeanette C. Clemente", "contact": null, "email": null }
+    "department_head": {
+      "name": "Jeanette C. Clemente",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-legal-office",
@@ -150,7 +210,11 @@
     "trunkline": "(02) 7795 8895",
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Fatima A. Relente", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Fatima A. Relente",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-library",
@@ -159,7 +223,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/TaguigCityLibrary",
     "email": null,
-    "department_head": { "name": "Joselito P. Carpena Jr.", "contact": null, "email": null }
+    "department_head": {
+      "name": "Joselito P. Carpena Jr.",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-local-economic-development-and-investment-promotion-office",
@@ -168,7 +236,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Maria Theresa S. Veloso", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Maria Theresa S. Veloso",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-mayors-office",
@@ -177,7 +249,11 @@
     "trunkline": "+63 961 883 4620",
     "website": null,
     "email": null,
-    "department_head": { "name": "Atty. Emibel Ubongen", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Emibel Ubongen",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-nutrition-office",
@@ -186,7 +262,11 @@
     "trunkline": "(02) 7795 9931",
     "website": "https://www.facebook.com/TaguigNutrition",
     "email": null,
-    "department_head": { "name": "Julita S. Bernabe", "contact": null, "email": null }
+    "department_head": {
+      "name": "Julita S. Bernabe",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-parks-and-recreation-office",
@@ -195,7 +275,11 @@
     "trunkline": "+63 955 671 7487",
     "website": "https://www.facebook.com/profile.php?id=61558925472130",
     "email": null,
-    "department_head": { "name": "Maria Annabell B. Santos", "contact": null, "email": null }
+    "department_head": {
+      "name": "Maria Annabell B. Santos",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-planning-and-development-office",
@@ -204,7 +288,11 @@
     "trunkline": "(02) 7795 9999 loc. 111 / 124",
     "website": "https://www.facebook.com/profile.php?id=100067135269166",
     "email": null,
-    "department_head": { "name": "Arch. Ronnie Pagkalinawan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Arch. Ronnie Pagkalinawan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-social-welfare-and-development-office",
@@ -213,7 +301,11 @@
     "trunkline": "(02) 8555 7919",
     "website": "https://www.facebook.com/CSWDOTAGUIG",
     "email": null,
-    "department_head": { "name": "Nikki Rose H. Operario", "contact": null, "email": null }
+    "department_head": {
+      "name": "Nikki Rose H. Operario",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "city-treasurers-office",
@@ -222,7 +314,11 @@
     "trunkline": "(02) 7795 8844",
     "website": "https://www.facebook.com/cto.taguigcity",
     "email": null,
-    "department_head": { "name": "Atty. Alvin Esmenda", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Alvin Esmenda",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "facilities-management-office",
@@ -231,7 +327,11 @@
     "trunkline": "(02) 8642 7557",
     "website": "https://www.facebook.com/fmotaguig",
     "email": null,
-    "department_head": { "name": "Eugene Bilaw", "contact": null, "email": null }
+    "department_head": {
+      "name": "Eugene Bilaw",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "general-services-office",
@@ -240,7 +340,11 @@
     "trunkline": "(02) 8642 3589",
     "website": "https://www.facebook.com/gso.cityoftaguig",
     "email": null,
-    "department_head": { "name": "Elmer A. Pagsisihan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Elmer A. Pagsisihan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "information-and-technology-office",
@@ -249,7 +353,11 @@
     "trunkline": "(02) 8555 7920",
     "website": "https://www.facebook.com/taguigito",
     "email": null,
-    "department_head": { "name": "Allen T. Noromor", "contact": null, "email": null }
+    "department_head": {
+      "name": "Allen T. Noromor",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "lake-and-river-management-office",
@@ -258,7 +366,11 @@
     "trunkline": "(02) 8628 1377",
     "website": "https://www.facebook.com/taguigcity.lrmo",
     "email": null,
-    "department_head": { "name": "Homer D. Cipriano", "contact": null, "email": null }
+    "department_head": {
+      "name": "Homer D. Cipriano",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-building-office",
@@ -267,7 +379,11 @@
     "trunkline": "(02) 7795 9999 loc. 124 / (02) 8642 6347",
     "website": "https://www.facebook.com/profile.php?id=100068870873826",
     "email": null,
-    "department_head": { "name": "Engr. Marcelo M. Serpa Juan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Engr. Marcelo M. Serpa Juan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-housing-office",
@@ -276,7 +392,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/localhousingofficetaguig",
     "email": null,
-    "department_head": { "name": "Engr. Generoso G. Ignacio", "contact": null, "email": null }
+    "department_head": {
+      "name": "Engr. Generoso G. Ignacio",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-land-titling-management-office",
@@ -285,7 +405,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Engr. Generoso G. Ignacio", "contact": null, "email": null }
+    "department_head": {
+      "name": "Engr. Generoso G. Ignacio",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-school-board",
@@ -294,7 +418,11 @@
     "trunkline": "(02) 8642 3567",
     "website": "https://www.facebook.com/taguiglocalschoolboard",
     "email": null,
-    "department_head": { "name": "Aljenneth Vivar", "contact": null, "email": null }
+    "department_head": {
+      "name": "Aljenneth Vivar",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-utility-office",
@@ -303,7 +431,11 @@
     "trunkline": "(02) 8642 1599",
     "website": "https://www.facebook.com/people/Local-Na-Utilidad/100077046991184",
     "email": null,
-    "department_head": { "name": "Eduardo U. Ronquillo", "contact": null, "email": null }
+    "department_head": {
+      "name": "Eduardo U. Ronquillo",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "market-management-office",
@@ -312,7 +444,11 @@
     "trunkline": "(02) 8254 1638",
     "website": "https://www.facebook.com/profile.php?id=100090983198832",
     "email": null,
-    "department_head": { "name": "Asuncion C. Escoto", "contact": null, "email": null }
+    "department_head": {
+      "name": "Asuncion C. Escoto",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "medical-assistance-office",
@@ -321,7 +457,11 @@
     "trunkline": "(02) 7795 9939",
     "website": "https://www.facebook.com/TaguigCityMedicalAssistanceOffice",
     "email": null,
-    "department_head": { "name": "Elisa M. Bunyi", "contact": null, "email": null }
+    "department_head": {
+      "name": "Elisa M. Bunyi",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "mobility-office",
@@ -330,7 +470,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "William Francis S. Mariano", "contact": null, "email": null }
+    "department_head": {
+      "name": "William Francis S. Mariano",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "office-of-the-city-assessor",
@@ -339,7 +483,11 @@
     "trunkline": "(02) 7795 9938",
     "website": null,
     "email": null,
-    "department_head": { "name": "Engr. Roberto Villaluz", "contact": null, "email": null }
+    "department_head": {
+      "name": "Engr. Roberto Villaluz",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "office-for-senior-citizens-affairs",
@@ -348,7 +496,11 @@
     "trunkline": "+63 969 212 9400 / +63 917 966 7747 / +63 962 240 3430",
     "website": "https://www.facebook.com/OSCATAGUIGOFFICIAL",
     "email": null,
-    "department_head": { "name": "Ramonita T. Jordan", "contact": null, "email": null }
+    "department_head": {
+      "name": "Ramonita T. Jordan",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "office-of-the-city-veterinarian",
@@ -357,7 +509,11 @@
     "trunkline": "+63 961 704 4743",
     "website": "https://www.facebook.com/ocv013",
     "email": null,
-    "department_head": { "name": "Dr. Alexis B. Siblag", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dr. Alexis B. Siblag",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "persons-with-disabilities-affairs-office",
@@ -366,7 +522,11 @@
     "trunkline": "(02) 7795 9947 / (02) 8642 3590",
     "website": "https://www.facebook.com/taguigpdao",
     "email": null,
-    "department_head": { "name": "Helario B. Supaz", "contact": null, "email": null }
+    "department_head": {
+      "name": "Helario B. Supaz",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "procurement-office",
@@ -384,7 +544,11 @@
     "trunkline": "(02) 8398 5411",
     "website": "https://www.facebook.com/profile.php?id=100090679385789",
     "email": null,
-    "department_head": { "name": "Norman B. Mirabel", "contact": null, "email": null }
+    "department_head": {
+      "name": "Norman B. Mirabel",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "public-information-office",
@@ -393,7 +557,11 @@
     "trunkline": "(02) 8642 2514",
     "website": "https://www.facebook.com/taguigPIO",
     "email": null,
-    "department_head": { "name": "Maricar B. Brizuela", "contact": null, "email": null }
+    "department_head": {
+      "name": "Maricar B. Brizuela",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "public-order-and-safety-office",
@@ -402,7 +570,11 @@
     "trunkline": "(02) 8642 1261",
     "website": null,
     "email": null,
-    "department_head": { "name": "Kiram M. Pautin", "contact": null, "email": null }
+    "department_head": {
+      "name": "Kiram M. Pautin",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "public-transport-office",
@@ -411,7 +583,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/taguigpublictransportoffice",
     "email": null,
-    "department_head": { "name": "Cesar D. Osorio", "contact": null, "email": null }
+    "department_head": {
+      "name": "Cesar D. Osorio",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "sangguniang-panlungsod",
@@ -420,7 +596,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/secretariatSPtaguig",
     "email": "spsecretariat@taguig.gov.ph",
-    "department_head": { "name": "Dickson R. Roño", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dickson R. Roño",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "sport-development-office",
@@ -429,7 +609,11 @@
     "trunkline": "+63 933 040 7138",
     "website": "https://www.facebook.com/SportsDevelopmentOfficialPage",
     "email": null,
-    "department_head": { "name": "Benito C. Victoria", "contact": null, "email": null }
+    "department_head": {
+      "name": "Benito C. Victoria",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-anti-drug-abuse-office",
@@ -438,7 +622,11 @@
     "trunkline": "(02) 8643 9126 / +63 929 340 4689 / +63 909 990 8571",
     "website": "https://www.facebook.com/taguig.antidrug.abuse.office",
     "email": null,
-    "department_head": { "name": "Hilario S. Cruz", "contact": null, "email": null }
+    "department_head": {
+      "name": "Hilario S. Cruz",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-city-integrated-survey-system",
@@ -447,7 +635,11 @@
     "trunkline": null,
     "website": null,
     "email": null,
-    "department_head": { "name": "Gabriel V. Buluran", "contact": null, "email": null }
+    "department_head": {
+      "name": "Gabriel V. Buluran",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-city-university",
@@ -456,7 +648,11 @@
     "trunkline": "(02) 8635 8300",
     "website": "https://www.facebook.com/TaguigCityUniversity",
     "email": null,
-    "department_head": { "name": "Dr. Raymundo Arcega", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dr. Raymundo Arcega",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-cooperative-development-office",
@@ -465,7 +661,11 @@
     "trunkline": "(02) 8640 2577",
     "website": "https://www.facebook.com/profile.php?id=100082783092478",
     "email": null,
-    "department_head": { "name": "Lecira V. Juarez", "contact": null, "email": null }
+    "department_head": {
+      "name": "Lecira V. Juarez",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-manpower-training-and-assessment-center",
@@ -474,7 +674,11 @@
     "trunkline": "+63 929 701 5428",
     "website": "https://www.facebook.com/taguigmanpowertrainingandassessmentcenter",
     "email": null,
-    "department_head": { "name": "Cecilia M. Amaro", "contact": null, "email": null }
+    "department_head": {
+      "name": "Cecilia M. Amaro",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-ofw-affairs-office",
@@ -483,7 +687,11 @@
     "trunkline": null,
     "website": "https://www.facebook.com/profile.php?id=100086236404091",
     "email": null,
-    "department_head": { "name": "Corazon Victoria L. Ybañez", "contact": null, "email": null }
+    "department_head": {
+      "name": "Corazon Victoria L. Ybañez",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-open-weather-and-environmental-reporting-system",
@@ -501,7 +709,11 @@
     "trunkline": "(02) 8288 8560",
     "website": "https://www.facebook.com/profile.php?id=100064842814591",
     "email": null,
-    "department_head": { "name": "Rene M. Lopos", "contact": null, "email": null }
+    "department_head": {
+      "name": "Rene M. Lopos",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "taguig-pateros-district-hospital",
@@ -510,7 +722,11 @@
     "trunkline": "(02) 8837 3022",
     "website": "https://www.facebook.com/TPDHospital",
     "email": null,
-    "department_head": { "name": "Dr. Timoteo Niel T. Trinidad", "contact": null, "email": null }
+    "department_head": {
+      "name": "Dr. Timoteo Niel T. Trinidad",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "tourism-and-trade-development",
@@ -519,7 +735,11 @@
     "trunkline": "(02) 7795 9930",
     "website": "https://www.facebook.com/taguigtourismandtradedepartment",
     "email": null,
-    "department_head": { "name": "Zaida A. Ignacio", "contact": null, "email": null }
+    "department_head": {
+      "name": "Zaida A. Ignacio",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "traffic-management-office",
@@ -528,7 +748,11 @@
     "trunkline": "(02) 8640 7006",
     "website": "https://www.facebook.com/tmo.taguig",
     "email": null,
-    "department_head": { "name": "Danny C. Cañaveral", "contact": null, "email": null }
+    "department_head": {
+      "name": "Danny C. Cañaveral",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "urban-poor-affairs-office",
@@ -537,7 +761,11 @@
     "trunkline": "(02) 7795 8820",
     "website": "https://www.facebook.com/profile.php?id=100087159833580",
     "email": null,
-    "department_head": { "name": "Atty. Christian G. Eco", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Christian G. Eco",
+      "contact": null,
+      "email": null
+    }
   },
   {
     "slug": "local-youth-development-office",
@@ -546,6 +774,10 @@
     "trunkline": null,
     "website": "https://www.facebook.com/profile.php?id=61572500181263",
     "email": null,
-    "department_head": { "name": "Atty. Aldrin Nexel S. Sinues", "contact": null, "email": null }
+    "department_head": {
+      "name": "Atty. Aldrin Nexel S. Sinues",
+      "contact": null,
+      "email": null
+    }
   }
 ]
