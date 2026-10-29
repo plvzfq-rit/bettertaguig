@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -18,6 +18,7 @@ import { footerNavigation } from '../../data/navigation';
 
 export const Footer: FC = () => {
   const { t } = useTranslation('common');
+  const [showLogo, setShowLogo] = useState(true);
 
   const getSocialIcon = (label: string) => {
     switch (label) {
@@ -43,11 +44,15 @@ export const Footer: FC = () => {
           {/* Brand Column */}
           <div className='col-span-2 space-y-6 md:col-span-3 lg:col-span-2'>
             <div className='flex items-center'>
-              <img
-                src={config.portal.logoWhitePath}
-                alt={config.portal.name}
-                className='mr-4 w-12 h-12'
-              />
+              {/* Hidden until a logo file exists at logoWhitePath */}
+              {showLogo && (
+                <img
+                  src={config.portal.logoWhitePath}
+                  alt={config.portal.name}
+                  onError={() => setShowLogo(false)}
+                  className='mr-4 w-12 h-12'
+                />
+              )}
               <div>
                 <div className='text-xl font-black tracking-tighter'>
                   {config.portal.footerBrandName}
@@ -58,7 +63,7 @@ export const Footer: FC = () => {
               </div>
             </div>
             <p className='max-w-sm text-sm leading-relaxed text-kapwa-text-disabled'>
-              An open-source initiative providing transparent access to
+              An open-source initiative providing transparent access to{' '}
               {lguLabels.adjective.toLowerCase()} services, local legislation,
               and public data for the people of {config.lgu.name}.
             </p>

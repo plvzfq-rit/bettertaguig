@@ -161,11 +161,16 @@ export const footerNavigation = {
           href: 'https://www.foi.gov.ph',
           target: '_blank',
         },
-        {
-          label: `Province of ${config.lgu.province}`,
-          href: config.lgu.provinceWebsite,
-          target: '_blank',
-        },
+        // Only shown when the LGU has a province website configured
+        ...(config.lgu.provinceWebsite
+          ? [
+              {
+                label: `Province of ${config.lgu.province}`,
+                href: config.lgu.provinceWebsite,
+                target: '_blank',
+              },
+            ]
+          : []),
         // { label: 'Privacy Policy', href: '/privacy' },
         // { label: 'Accessibility', href: '/accessibility' },
       ],
@@ -187,5 +192,5 @@ export const footerNavigation = {
       href: config.portal.githubUrl,
       target: '_blank',
     },
-  ],
+  ].filter(link => link.href), // hide accounts the portal doesn't have
 };

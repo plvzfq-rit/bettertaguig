@@ -15,6 +15,7 @@ import { LANGUAGES } from '../../i18n/languages';
 import { LanguageType } from '../../types';
 
 export const Navbar: FC = () => {
+  const [showLogo, setShowLogo] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const [activeMobileSubmenu, setActiveMobileSubmenu] = useState<string | null>(
     null
@@ -107,11 +108,15 @@ export const Navbar: FC = () => {
             className='group flex max-w-[60%] min-w-0 items-center md:max-w-md'
             onClick={closeMenu}
           >
-            <img
-              src={config.portal.navbarLogoPath}
-              alt={`${config.portal.name} Logo`}
-              className='mr-3 w-10 h-10 transition-transform shrink-0 group-hover:scale-105 md:h-12 md:w-12'
-            />
+            {/* Hidden until a logo file exists at navbarLogoPath */}
+            {showLogo && (
+              <img
+                src={config.portal.navbarLogoPath}
+                alt={`${config.portal.name} Logo`}
+                onError={() => setShowLogo(false)}
+                className='mr-3 w-10 h-10 transition-transform shrink-0 group-hover:scale-105 md:h-12 md:w-12'
+              />
+            )}
             <div className='flex flex-col justify-center min-w-0'>
               <div className='text-lg font-black tracking-tighter leading-none text-kapwa-text-strong md:text-xl'>
                 {config.portal.name}
