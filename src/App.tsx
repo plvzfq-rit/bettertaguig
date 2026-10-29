@@ -173,7 +173,9 @@ function AppContent() {
 
           {/* Data Utilities */}
           <Route path='/data/weather' element={<WeatherPage />} />
-          <Route path='/data/forex' element={<ForexPage />} />
+          {config.features.forex && (
+            <Route path='/data/forex' element={<ForexPage />} />
+          )}
 
           {/* Services Module */}
           <Route path='/services' element={<ServicesLayout />}>

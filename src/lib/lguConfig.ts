@@ -50,6 +50,8 @@ export interface LGUConfig {
     openLGU: boolean;
     transparency: boolean;
     tourism: boolean;
+    /** Forex rates from api.bettergov.ph (ticker + /data/forex) */
+    forex: boolean;
     statistics: boolean;
   };
 }

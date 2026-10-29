@@ -62,6 +62,7 @@
     "openLGU": true,
     "transparency": true,
     "tourism": false,
+    "forex": false,
     "statistics": true
   }
 }
