@@ -46,7 +46,7 @@ function getCorsHeaders(origin: string | null): Record<string, string> {
 const DEFAULT_CITY: CityCoordinates = {
   name: lguConfig.lgu.name,
   lat: lguConfig.location.coordinates.lat,
-  lon: lguConfig.location.coordinates.lng,
+  lon: lguConfig.location.coordinates.lon,
 };
 
 // Optional: Add more cities if needed

@@ -34,7 +34,7 @@
   "location": {
     "coordinates": {
       "lat": 14.52897,
-      "lng": 121.06987
+      "lon": 121.06987
     },
     "weather": {
       "enabled": false,
