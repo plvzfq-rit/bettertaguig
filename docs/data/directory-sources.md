@@ -3,7 +3,7 @@
 Provenance for `src/data/directory/{departments,executive,legislative,barangays}.json`.
 Re-verify quarterly (see the [BetterLGU guide](https://lgu.bettergov.ph/GUIDE)).
 
-**Last verified:** 2026-10-05
+**Last verified:** 2026-11-03 (departments, executive, council; barangay officials last checked 2026-10-05)
 
 ## Sources
 
@@ -11,7 +11,7 @@ Re-verify quarterly (see the [BetterLGU guide](https://lgu.bettergov.ph/GUIDE)).
 |------|--------|
 | Departments: names, heads, addresses, phones, Facebook pages | Data embedded in the taguig.gov.ph "Our Departments" page ([page](https://www.taguig.gov.ph/our-departments/), bundle `/_next/static/chunks/3ptskpexbwnq1.js`). The bundle filename changes on every site deploy, so get it from the page's `<script>` tags. |
 | Mayor, Vice Mayor, Congressional Representatives | [taguig.gov.ph/our-leaders](https://www.taguig.gov.ph/our-leaders/) |
-| City Administrator | Official departments data; [Taguig news, May 2025](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/) |
+| City Administrator | Official departments data; [Taguig news](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/); [Manila Bulletin, May 20, 2026](https://mb.com.ph/2026/05/20/wife-of-senate-secretary-montales-named-new-taguig-city-administrator). Overrides the official data, which still lists Jose Luis G. Montales as of 2026-11-03. |
 | Representatives' pages | [Cong. Ading Cruz Jr.](https://www.facebook.com/adingcruzjr/), [Jorge Bocobo](https://www.facebook.com/OfficialJorgeBocobo/) |
 | 8th Sangguniang Panlungsod members, SP Secretary, SP email | [sp.taguig.gov.ph/councilors](https://sp.taguig.gov.ph/councilors/) |
 | Barangays (38): addresses, phones, emails, Facebook pages | Data embedded in the taguig.gov.ph "Our City" page ([page](https://www.taguig.gov.ph/our-city/), bundle `/_next/static/chunks/2z3dkg6kqw77f.js`) |
@@ -70,11 +70,11 @@ Legislative:
 
 ### Department heads
 
-The old values came from an outdated copy of the city site ([Google Sites](https://sites.google.com/view/taguigcity/our-departments), which still lists Jose Luis Montales, who left in May 2025). The live taguig.gov.ph data is newer.
+The old values came from an outdated copy of the city site ([Google Sites](https://sites.google.com/view/taguigcity/our-departments), which still lists Jose Luis Montales, who left in May 2026). The live taguig.gov.ph data is newer.
 
 | Office | Now listed | Evidence |
 |---|---|---|
-| City Administrator | Cecilia R. Montales, M.D. | Confirmed: [appointed May 2025](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/) |
+| City Administrator | Cecilia R. Montales, M.D. | Confirmed: appointed May 2026 ([Manila Bulletin, May 20, 2026](https://mb.com.ph/2026/05/20/wife-of-senate-secretary-montales-named-new-taguig-city-administrator); [taguig.com](https://www.taguig.com/news/dr-cecilia-montales-appointed-as-new-city/)) |
 | CDRRMO | Dr. Luis M. Sy Jr. | Confirmed: [PAGASA, June 4, 2026](https://pagasa.dost.gov.ph/news-and-events/photo-gallery/92) |
 | Taguig City University | Dr. Raymundo Arcega | Confirmed: [tcu.edu.ph 2026 news](https://tcu.edu.ph/posts/news/dr-arcega-leads-alcu-ncr-trisemester-regional-meeting-2026). Guiraldo was acting president as of Dec 2024. |
 | Taguig-Pateros District Hospital | Dr. Timoteo Niel T. Trinidad | Supported: named Chief of Hospital around Oct 2025 ([taguig.com](https://www.taguig.com/news/taguig-pateros-district-hospitals-center-for/)) |
