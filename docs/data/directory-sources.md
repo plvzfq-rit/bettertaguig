@@ -106,6 +106,10 @@ The old values came from an outdated copy of the city site ([Google Sites](https
   - Liga president Marilyn F. Marcelino is Ususan's captain, and SK Federation president Joanna Mae M. Pagkalinawan is Sta. Ana's SK chairperson. Both hold their council seats ex officio, as expected.
   - Not the same people as similarly named city officials: Lower Bicutan kagawad Ricardo R. Cruz IV (not Rep. Ricardo S. Cruz Jr.) and Rizal kagawad Allan Jay J. Cruz (not councilor Allan Paul C. Cruz).
 
+## Verification log (2026-11-19)
+
+- **Persons With Disabilities Affairs Office (PDAO) address:** the "Our Departments" data lists the Ricardo Papa Bldg., City Hall. The city's own [Persons With Disabilities page](https://www.taguig.gov.ph/persons-with-disabilities/) says to register at the Ground Floor, Taguig Disability Resource and Development Center (TDRDC), Ipil-ipil St. corner 9th St., Barangay North Signal, where PWD IDs are processed. The directory now uses the TDRDC address. The second phone number, (02) 8642 3590, is kept from the "Our Departments" data; the PWD page lists only (02) 7795 9947.
+
 ## Known gaps
 
 - **Emails:** none published for departments or department heads, except the SP Secretariat.

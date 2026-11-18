@@ -1,1 +1,103 @@
-[]
+[
+  {
+    "service": "Free Late Birth Registration (Mobile Birth Registration)",
+    "slug": "free-late-birth-registration",
+    "type": "transaction",
+    "description": "The City Civil Registry visits every barangay to offer free late birth registration to Taguig-born residents whose birth was never registered.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Taguig-born residents whose birth has not yet been registered",
+    "detailedRequirements": [
+      {
+        "requirement": "Registration form for Certificate of Live Birth (COLB)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized Affidavit for Delayed Registration of Birth",
+        "where_to_secure": "Back of the COLB form"
+      },
+      {
+        "requirement": "Certified true copy of the parents' Marriage Certificate (if parents are married)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized Affidavit of Acknowledgment/Admission of Paternity and Affidavit to Use the Surname of the Father (if parents are not married)",
+        "where_to_secure": "Back of the COLB form"
+      },
+      {
+        "requirement": "Notarized Affidavit of Two Disinterested Persons who witnessed the birth",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certification from the Barangay Chairman of where the mother lived on the day of birth",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Any 2 of: original Baptismal Certificate; Medical Certification or Immunization Card from the Health Center; certified true copy of Form 137 (ages 7–17); certified true copy of Voter's Registration (18 and above)",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Check the City Civil Registry – City of Taguig Facebook page for the free late birth registration schedule in your barangay.",
+      "Bring the complete requirements to the registration site on the scheduled day."
+    ],
+    "quickInfo": {
+      "fee": "Free"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Free Mass Wedding (Kasalang Bayan) and Renewal of Vows",
+    "slug": "kasalang-bayan-free-mass-wedding",
+    "type": "transaction",
+    "description": "A free mass wedding officiated by the Mayor, held 4 times a year for couples who want to formalize their union. The City prepares the wine, cake, flowers and coins.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Marriage License (if available)",
+        "where_to_secure": ""
+      },
+      { "requirement": "Birth Certificate", "where_to_secure": "" },
+      {
+        "requirement": "Birth Certificate of child/children",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of No Marriage (CENOMAR)",
+        "where_to_secure": ""
+      },
+      { "requirement": "Affidavit of Cohabitation", "where_to_secure": "" },
+      {
+        "requirement": "Valid ID (PhilHealth ID not accepted)",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Submit the requirements at the City Civil Registry Office, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "Follow the City Civil Registry – City of Taguig Facebook page for the Kasalang Bayan schedule."
+    ],
+    "quickInfo": {
+      "fee": "Free"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  }
+]
