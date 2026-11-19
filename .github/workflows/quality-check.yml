@@ -33,6 +33,9 @@ jobs:
       - name: Merge service data
         run: python3 scripts/merge_services.py
 
+      - name: Trusted sources
+        run: npm run check:sources
+
       - name: Type check
         run: npx tsc --noEmit
 
