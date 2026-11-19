@@ -128,6 +128,7 @@ test.describe('Home Page - Accessibility', () => {
   test('Home page passes accessibility checks @a11y', async ({ page }) => {
     await page.goto('/');
 
+    await expect(page.locator('h1').first()).toBeVisible();
     const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });

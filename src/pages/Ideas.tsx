@@ -214,7 +214,7 @@ const Ideas: FC = () => {
         </div>
 
         {/* Project Ideas List */}
-        <main>
+        <main id='main-content'>
           <h2 className='text-kapwa-text-strong mb-6 text-2xl font-bold'>
             All Project Ideas
           </h2>

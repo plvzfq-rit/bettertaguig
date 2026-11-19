@@ -14,7 +14,7 @@ import { ErrorBoundary } from '@/components/ui/ErrorBoundary';
 
 const Home: FC = () => {
   return (
-    <main className='grow'>
+    <main id='main-content' className='grow'>
       {/* Documented animation pattern: animate-in fade-in */}
       <div className='animate-in fade-in duration-700'>
         <ErrorBoundary name='Hero'>

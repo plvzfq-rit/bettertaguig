@@ -527,6 +527,7 @@ export function StaggeredGrid({
         ? children.map((child, index) => (
             <div
               key={(child as { key?: ReactNode }).key || index}
+              role='listitem'
               className='duration-500 animate-in fade-in slide-in-from-bottom-4'
               style={{ animationDelay: `${baseDelay + index * delayStep}ms` }}
             >

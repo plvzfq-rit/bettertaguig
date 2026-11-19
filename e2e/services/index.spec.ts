@@ -20,6 +20,7 @@ test.describe('Services Index Page', () => {
   test('services index displays service cards', async ({ page }) => {
     // Check that service cards are displayed
     const cards = page.locator('[data-testid="service-card"]');
+    await expect(cards.first()).toBeVisible();
     const count = await cards.count();
 
     // Should have multiple services
@@ -37,6 +38,7 @@ test.describe('Services Index Page', () => {
   test('services search functionality works', async ({ page }) => {
     // Get initial count of all cards
     const allCards = page.locator('[data-testid="service-card"]');
+    await expect(allCards.first()).toBeVisible();
     const initialCount = await allCards.count();
 
     // Search for a specific service
@@ -221,6 +223,7 @@ test.describe('Services Index Page', () => {
   test('services page has accessibility features', async ({ page }) => {
     // Check that service cards have proper ARIA labels
     const cards = page.locator('[aria-label*="View details for"]');
+    await expect(cards.first()).toBeVisible();
     expect(await cards.count()).toBeGreaterThan(0);
 
     // Check that filter toggle is a button

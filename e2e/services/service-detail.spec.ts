@@ -103,14 +103,7 @@ test.describe('Service Detail Page', () => {
     // Navigate to non-existent service
     await page.goto('/services/nonexistent-service-12345');
 
-    // Should show not found message
-    const bodyHTML = await page.locator('body').innerHTML();
-    const hasNotFoundMessage =
-      bodyHTML.includes('Service not found') ||
-      bodyHTML.includes('not found') ||
-      bodyHTML.includes('404');
-
-    expect(hasNotFoundMessage).toBeTruthy();
+    await expect(page.getByText('Service not found')).toBeVisible();
   });
 
   test('service detail page is accessible', async ({ page }) => {

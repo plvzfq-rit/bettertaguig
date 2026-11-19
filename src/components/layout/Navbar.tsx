@@ -49,7 +49,16 @@ export const Navbar: FC = () => {
     <nav
       className='sticky top-0 z-50 border-b border-kapwa-border-weak bg-kapwa-bg-surface shadow-xs'
       role='navigation'
+      aria-label='Main'
     >
+      {/* Skip link must come first on the page; targets the page's <main id='main-content'> */}
+      {/* Skip Link for Accessibility */}
+      <a
+        href='#main-content'
+        className='focus:bg-kapwa-bg-surface focus:text-kapwa-text-strong focus:ring-kapwa-border-focus sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:ring-2'
+      >
+        Skip to main content
+      </a>
       {/* 1. TOP BAR: Responsive & Aligned Right */}
       <div className='border-b border-kapwa-border-weak bg-kapwa-bg-surface-raised'>
         <div className='container px-4 mx-auto'>
@@ -105,7 +114,7 @@ export const Navbar: FC = () => {
           {/* Brand/Logo Section (Constrained) */}
           <Link
             to='/'
-            className='group flex max-w-[60%] min-w-0 items-center md:max-w-md'
+            className='group flex min-h-11 max-w-[60%] min-w-0 items-center md:max-w-md'
             onClick={closeMenu}
           >
             {/* Hidden until a logo file exists at navbarLogoPath */}

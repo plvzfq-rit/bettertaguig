@@ -57,14 +57,6 @@ export function SidebarLayout({
 
   return (
     <div className={`bg-kapwa-bg-surface min-h-screen ${className}`}>
-      {/* Skip Link for Accessibility */}
-      <a
-        href='#main-content'
-        className='focus:bg-kapwa-bg-surface focus:text-kapwa-text-strong focus:ring-kapwa-border-focus sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:ring-2'
-      >
-        Skip to main content
-      </a>
-
       <div className='container mx-auto py-6 sm:px-4 md:py-8'>
         {/* HEADER LOGIC: Custom Node OR Default ModuleHeader */}
         {headerNode ? (
@@ -129,7 +121,7 @@ export function SidebarLayout({
                 <div className='mb-2 hidden justify-end md:flex'>
                   <button
                     onClick={() => setIsCollapsed(true)}
-                    className='hover:text-kapwa-text-brand text-kapwa-text-disabled flex items-center gap-1 text-[10px] font-bold tracking-widest uppercase transition-colors'
+                    className='hover:text-kapwa-text-brand text-kapwa-text-support flex items-center gap-1 text-[10px] font-bold tracking-widest uppercase transition-colors'
                   >
                     Hide Menu <PanelLeftClose className='h-3.5 w-3.5' />
                   </button>
