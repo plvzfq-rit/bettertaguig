@@ -453,6 +453,87 @@
     }
   },
   {
+    "service": "Assistance to Individuals in Crisis Situation (AICS)",
+    "slug": "aics-crisis-assistance",
+    "type": "information",
+    "description": "In partnership with the Department of Social Welfare and Development (DSWD), the AICS program helps people in crisis situations. For more information, visit the City Social Welfare and Development Office's official Facebook page.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Medical assistance",
+      "Balik Probinsya Program",
+      "Educational benefits",
+      "Food assistance",
+      "Cash assistance for other support services",
+      "Burial assistance"
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Indigents",
+        "url": "https://www.taguig.gov.ph/indigents/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Birthday Cash Gift for Senior Citizens",
+    "slug": "senior-citizen-birthday-cash-gift",
+    "type": "information",
+    "description": "Under City Ordinance No. 25, series of 2017, registered senior citizens receive a birthday cash gift of Php 3,000 to Php 10,000 based on their age. Centenarians receive a separate Php 100,000 cash gift from the City.",
+    "officeSlug": "office-for-senior-citizens-affairs",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "60–69 years old: Php 3,000",
+      "70–79 years old: Php 4,000",
+      "80–89 years old: Php 5,000",
+      "90–99 years old: Php 10,000",
+      "Centenarians (100 and above): Php 100,000 every year"
+    ],
+    "relatedServices": ["register-senior-citizen-osca"],
+    "sources": [
+      {
+        "name": "City of Taguig – Senior Citizens and Veterans",
+        "url": "https://www.taguig.gov.ph/senior-citizens-and-veterans/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Burial Assistance",
+    "slug": "burial-assistance",
+    "type": "transaction",
+    "description": "A Php 20,000 cash grant to the family of the deceased to help with burial expenses.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "whoMayAvail": "Family of the deceased",
+    "steps": [
+      "Contact or visit the City Social Welfare and Development Office (CSWDO), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "CSWDO number: (02) 8555 7919."
+    ],
+    "quickInfo": {
+      "fee": "Free"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Cancellation of Assessment (Demolished Property/Retirement of Machinery Operation)",
     "slug": "cancellation-of-assessment-demolished-propertyretirement-of-machinery-operation",
     "serviceNumber": "2.8",
@@ -836,6 +917,85 @@
     }
   },
   {
+    "service": "Correction of Birth Certificate (Spelling, First Name, Birth Date or Sex)",
+    "slug": "birth-certificate-correction",
+    "type": "transaction",
+    "description": "File a petition at the City Civil Registry to correct a misspelling, change a first name, or fix a wrong day or month of birth or a wrong sex on a birth certificate. Once approved, an annotation is added to the birth certificate to show the change.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Parents; the child (18 or older); the owner of the document (18 or older); or a representative with a Special Power of Attorney, such as a spouse, grandparent, sibling or legal guardian.",
+    "detailedRequirements": [
+      {
+        "requirement": "Wrong spelling: PSA Birth Certificate with the misspelling",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Wrong spelling: 2 or more of: Baptismal Certificate; school record or diploma; Voter's Affidavit or Certification; GSIS/SSS record; PhilHealth/Pag-IBIG Member's Data; land titles; government-issued IDs",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong spelling: civil registry records of ascendants (parents, grandparents) or descendants (children, grandchildren); Birth Certificate and Marriage Certificate of the parents; Birth Certificates of siblings or children",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Change of first name: PSA Birth Certificate with the wrong name",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Change of first name: 2 or more of: school records or diploma; Voter's Affidavit or Certification; GSIS/SSS record; PhilHealth/Pag-IBIG Member's Data; land titles",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Change of first name: Baptismal Certificate; Marriage Contract (if married); Police Clearance; NBI Clearance with the A.K.A. name; Certificate of Employment or Employer's Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong day or month of birth: PSA Birth Certificate with the wrong birthday; Baptismal Certificate; earliest medical records; elementary school records; Certificate of Employment or Affidavit of Non-Employment; NBI Clearance; Police Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong day or month of birth: newspaper publication of the petition once a week for 2 weeks, with Affidavit of Publication",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: PSA Birth Certificate with the wrong sex; earliest medical records; original Baptismal Certificate; elementary school records; Certificate of Employment or Affidavit of Non-Employment; NBI Clearance; Police Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: newspaper publication of the petition once a week for 2 weeks, with Affidavit of Publication",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: medical certificate stating the petitioner has not undergone a sex change",
+        "where_to_secure": "Taguig City Health Office doctor"
+      },
+      {
+        "requirement": "Indigent petitioners (no filing fee): Certificate of Indigency",
+        "where_to_secure": "City Social Welfare and Development Office (CSWDO)"
+      }
+    ],
+    "steps": [
+      "Prepare the requirements for your type of correction.",
+      "File the petition at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan. If you have moved, file a migrant petition with the civil registrar of the city or town where you now live.",
+      "Wait for approval (4 to 6 months). The approved change is shown as an annotation on the birth certificate."
+    ],
+    "quickInfo": {
+      "processingTime": "4 to 6 months",
+      "fee": "Born in Taguig: ₱1,000 (spelling) or ₱3,000 (first name, sex or birth date). Migrant petitioners or those not born in Taguig pay an extra ₱500 (spelling) or ₱1,000 (first name, sex or birth date). Free for indigent petitioners with a CSWDO Certificate of Indigency."
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Birth certificate correction",
+        "url": "https://www.facebook.com/share/p/1A5ZrLsqYv/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Correction/Updating of Entry/Annotation (Adverse Claims and Other Annotations)",
     "slug": "correctionupdating-of-entryannotation-adverse-claims-and-other-annotations",
     "serviceNumber": "2.7",
@@ -1133,6 +1293,91 @@
       "amount": "None",
       "description": "No fees listed"
     }
+  },
+  {
+    "service": "Delayed Registration of Certificate of Marriage",
+    "slug": "delayed-registration-of-marriage",
+    "type": "transaction",
+    "description": "Register a marriage that was not registered within the deadline (15 days for marriages with a license, 30 days for PD 1083 and Art. 34 cohabitation marriages). Marriages more than 1 year late need extra documents.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application form for Certificate of Marriage (4 copies, typewritten, no erasures)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Muslim attachment for Marriage (Muslims only, 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Duly accomplished Affidavit for Delayed Registration",
+        "where_to_secure": "Back of the application form for Certificate of Marriage"
+      },
+      {
+        "requirement": "Original Marriage License",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Affidavit of Cohabitation (couples living together for at least 5 years, Art. 34 of the Family Code; 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized request for the celebration of marriage in a place other than authorized by law (if the wedding was held outside a church or mosque; dated and notarized before the wedding)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of Registration of Authority to Solemnize Marriage (CRASM) of the solemnizing officer",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "For Muslim couples, the affidavit must state: the couple's details, the dates and place of marriage and the name of the imam/ustadz; that the marriage was solemnized under Presidential Decree No. 1083; and that the marriage was among Muslims or members of ethnic cultural communities and solemnized according to their customs",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If more than 1 year late: latest PSA CENOMAR of the groom and bride (valid for 6 months)",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "If more than 1 year late: latest original PSA No Record/Negative Result for the Certificate of Marriage (valid for 1 year)",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "If more than 1 year late: certification with a certified true copy of the book record",
+        "where_to_secure": "Church or Hall of Justice where the wedding was held"
+      },
+      {
+        "requirement": "If more than 1 year late: picture of the couple at the wedding ceremony",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If more than 1 year late: notarized Affidavit of Delayed Registration, signed by the groom, bride, solemnizing officer and two witnesses",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Prepare all original requirements and a valid ID, with 2 photocopies of each.",
+      "Submit them in person at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, Monday to Friday, 7:00 AM to 4:00 PM. The husband, wife, pastor, ustadz/imam or church clerk must appear personally, with a Special Power of Attorney (SPA) letter from the couple.",
+      "The Certificate of Marriage is released 10 days after posting."
+    ],
+    "quickInfo": {
+      "processingTime": "Released 10 days after posting"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Marriage certificate requirements",
+        "url": "https://www.facebook.com/share/p/1GwEHgGnzk/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
   },
   {
     "service": "Dental Consultation, Tooth Extraction, Restorative Procedures, Oral Prophylaxis, Pit and Fissure Sealant Application, Fluoride Varnish Application and Issuance of Dental Certificate for students",
@@ -1976,6 +2221,137 @@
       "amount": "None",
       "description": "No fees listed"
     }
+  },
+  {
+    "service": "Free Late Birth Registration (Mobile Birth Registration)",
+    "slug": "free-late-birth-registration",
+    "type": "transaction",
+    "description": "The City Civil Registry visits every barangay to offer free late birth registration to Taguig-born residents whose birth was never registered.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Taguig residents whose birth was not registered within 30 days. If you were born outside Taguig, the City Civil Registry coordinates with the city or town where you were born (out-of-town registration). If the parents are married, either parent may file. If they are not married, both parents must appear, unless one has died, is abroad, or left and abandoned the family. In that case the mother may register alone (the child uses the mother's surname), or the father may; the mother's mother may also register with an Affidavit of Guardianship. Applicants 18 and older may file for themselves; children aged 7–17 must come along.",
+    "detailedRequirements": [
+      {
+        "requirement": "Registration form for Certificate of Live Birth (COLB), typewritten or computerized, signed and notarized",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "Notarized Affidavit for Delayed Registration of Birth",
+        "where_to_secure": "Back of the COLB form"
+      },
+      {
+        "requirement": "Negative certification proving the applicant has no birth certificate yet",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Certified true copy of the parents' Marriage Certificate (if parents are married)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized Affidavit of Acknowledgment/Admission of Paternity and Affidavit to Use the Surname of the Father (if parents are not married)",
+        "where_to_secure": "Back of the COLB form"
+      },
+      {
+        "requirement": "Notarized Affidavit of Two Disinterested Persons who witnessed the birth",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certification from the Barangay Chairman of where the mother lived on the day of birth",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Parent's National ID and another valid ID",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Any 2 of: original Baptismal Certificate; Medical Certification or Immunization Card from the Health Center; certified true copy of Form 137 (ages 7–17); certified true copy of Voter's Registration (18 and above)",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Go to a Mobile Birth Registration site (check the City Civil Registry – City of Taguig Facebook page for the schedule) or to the City Civil Registry office, and get a Certificate of Live Birth (COLB) form.",
+      "Fill out the COLB (typewritten or computerized) and sign it. Fill out and sign the Affidavit for Delayed Registration of Birth at the back, then have the COLB notarized.",
+      "Bring the complete requirements to the registration site or the office. Mobile Birth Registration has only 300 slots, so come early; it may be postponed in bad weather.",
+      "Right after registering, you can get a certified photocopy of the birth certificate at the Records Section of the City Civil Registry. It costs ₱50 per copy."
+    ],
+    "quickInfo": {
+      "fee": "Free registration (you pay for notarization, barangay clearance and the PSA negative certification)"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Mobile Birth Registration and late birth requirements",
+        "url": "https://www.facebook.com/share/p/1DYDsQB9XB/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Late birth registration steps",
+        "url": "https://www.facebook.com/share/p/19nDDvCBQH/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Certified copy after registration",
+        "url": "https://www.facebook.com/share/p/1Be5Fk4wcx/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Free Mass Wedding (Kasalang Bayan) and Renewal of Vows",
+    "slug": "kasalang-bayan-free-mass-wedding",
+    "type": "transaction",
+    "description": "A free mass wedding officiated by the Mayor, held 4 times a year for couples who want to formalize their union. The City prepares the wine, cake, flowers and coins.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Marriage License (if available)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Birth Certificate of child/children",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of No Marriage (CENOMAR)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Affidavit of Cohabitation",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Valid ID (PhilHealth ID not accepted)",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Submit the requirements at the City Civil Registry Office, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "Follow the City Civil Registry – City of Taguig Facebook page for the Kasalang Bayan schedule."
+    ],
+    "quickInfo": {
+      "fee": "Free"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
   },
   {
     "service": "Hemodialysis Treatment",
@@ -4610,6 +4986,67 @@
     }
   },
   {
+    "service": "On-time Birth Registration",
+    "slug": "on-time-birth-registration",
+    "type": "transaction",
+    "description": "Register a baby born in Taguig within 30 days of birth at the City Civil Registry.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Parents of babies born in Taguig within the last 30 days. If the parents are married, either parent may file. If they are not married, both parents must appear, unless one has died, is abroad, or left and abandoned the family. In that case the mother may register alone (the child uses the mother's surname), or the father may; the mother's mother may also register with an Affidavit of Guardianship.",
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Live Birth form (4 copies)",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "If the parents are married: Marriage Contract",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If the parents are not married: notarized Affidavit of Admission of Paternity",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "If the parents are not married: notarized Affidavit to Use the Surname of the Father",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "Parent's National ID and another valid government-issued ID",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Bring the requirements to the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, or to a Mobile Birth Registration site.",
+      "Right after registering, you can get a certified photocopy of the birth certificate at the Records Section of the City Civil Registry. It costs ₱50 per copy."
+    ],
+    "quickInfo": {
+      "processingTime": "Certified photocopy available right after registration"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Where to register a newborn",
+        "url": "https://www.facebook.com/share/p/1FEjUjmNze/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): On-time birth registration requirements",
+        "url": "https://www.facebook.com/share/p/1Cz9G7YLsW/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Mobile Birth Registration and on-time birth requirements",
+        "url": "https://www.facebook.com/share/p/1DYDsQB9XB/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Certified copy after registration",
+        "url": "https://www.facebook.com/share/p/1Be5Fk4wcx/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Online Amending a Business Permit",
     "slug": "online-amending-a-business-permit",
     "serviceNumber": "1.7",
@@ -5844,6 +6281,140 @@
     }
   },
   {
+    "service": "Register as a Person With Disability (PWD ID)",
+    "slug": "register-pwd-id",
+    "type": "transaction",
+    "description": "The Persons With Disabilities Affairs Office (PDAO) handles PWD registration and PWD ID application, processing and issuance. Registered PWDs receive a Php 1,000 birthday cash gift (City Ordinance No. 18, series of 2017), and those aged 0–59 receive Special Needs Assistance of Php 1,000 every July and every December (Ordinance No. 194).",
+    "officeSlug": "persons-with-disabilities-affairs-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "whoMayAvail": "Taguig residents with a disability",
+    "steps": [
+      "Visit PDAO at the Ground Floor, Taguig Disability Resource and Development Center (TDRDC), Ipil-ipil St. corner 9th St., Barangay North Signal, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "PDAO number: (02) 7795 9947."
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Persons With Disabilities",
+        "url": "https://www.taguig.gov.ph/persons-with-disabilities/"
+      },
+      {
+        "name": "PWD ID Verification",
+        "url": "https://pdao.taguig.gov.ph/id-verification"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Register as a Senior Citizen (OSCA)",
+    "slug": "register-senior-citizen-osca",
+    "type": "transaction",
+    "description": "Registered senior citizens can receive the City's birthday cash gift and other programs for the elderly.",
+    "officeSlug": "office-for-senior-citizens-affairs",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Contact or visit the Office for Senior Citizens Affairs (OSCA), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "OSCA numbers: +63 969 212 9400 / +63 917 966 7747 / +63 962 240 3430."
+    ],
+    "relatedServices": ["senior-citizen-birthday-cash-gift"],
+    "sources": [
+      {
+        "name": "City of Taguig – Senior Citizens and Veterans",
+        "url": "https://www.taguig.gov.ph/senior-citizens-and-veterans/"
+      },
+      {
+        "name": "OSCA ID Verification",
+        "url": "https://osca.taguig.gov.ph/verify"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Register as a Solo Parent",
+    "slug": "register-solo-parent",
+    "type": "transaction",
+    "description": "Registered solo parents can get medical assistance, educational benefits, livelihood support, free counseling, flexible work schedules, skills training, career coaching and mentoring, and basic life support training.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Contact or visit the City Social Welfare and Development Office (CSWDO), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "CSWDO number: (02) 8555 7919."
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Solo Parents",
+        "url": "https://www.taguig.gov.ph/solo-parents/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
+    "service": "Registration of Death Certificate",
+    "slug": "death-certificate-registration",
+    "type": "transaction",
+    "description": "A death certificate states the time, place and cause of a person's death. This is how to register one with the City Civil Registry, whether the person died at home or in a hospital. Forms and other requirements are available at the City Civil Registry office.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Only the spouse, child, parent or a relative of the deceased may get the death certificate. Bring a valid ID or another document proving you are a relative.",
+    "detailedRequirements": [
+      {
+        "requirement": "Death in a hospital: typewritten death certificate form, with the cause of death and a completed embalmer's box",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Death at home: 4 original copies of Municipal Form 103, filled out by the funeral parlor",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "Death at home: all medical records of the deceased and the deceased retrieval form signed by the health center",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Transfer Permit (if needed)",
+        "where_to_secure": "Sanitation Office, City Health Office (CHO) Room 5"
+      },
+      {
+        "requirement": "For Muslims: an additional Municipal Form 103, signed by the imam",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Medico-legal cases: as required by the health center or the City Health Office doctor",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Valid ID or document proving you are a relative of the deceased",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Death in a hospital: (1) The hospital gives the typewritten death certificate form. (2) Bring the form to City Health Office (CHO) Room 5 for final review. (3) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (4) Register the death certificate at the City Civil Registry.",
+      "Death at home: (1) Get 4 original copies of Municipal Form 103 and have the funeral parlor fill them out. (2) Bring the form, all medical records and the deceased retrieval form signed by the health center to the barangay health center for an interview. (3) Bring the form, the cause of death and other documents to the City Health Office (CHO) for final review. (4) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (5) Register the death certificate at the City Civil Registry.",
+      "The City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan is open Monday to Friday, 7:00 AM to 4:00 PM, and Saturday and Sunday, 8:00 AM to 4:00 PM for death certificates."
+    ],
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): How to get a death certificate in Taguig",
+        "url": "https://www.facebook.com/share/p/1JQWVR5mrs/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Renewal Business Permit",
     "slug": "renewal-business-permit",
     "serviceNumber": "1.4",
@@ -6522,6 +7093,63 @@
       "description": "See each step for the fee charged"
     },
     "processingTime": "35 mins"
+  },
+  {
+    "service": "Timely Registration of Certificate of Marriage",
+    "slug": "timely-registration-of-marriage",
+    "type": "transaction",
+    "description": "Register a marriage with the City Civil Registry. File within 15 days of the wedding for marriages with a marriage license, and within 30 days for marriages under PD 1083 (Muslim marriages) or Art. 34 of the Family Code (cohabitation).",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application form for Certificate of Marriage (4 copies, typewritten, no erasures)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Muslim attachment for Marriage (Muslims only, 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Marriage License",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Affidavit of Cohabitation (couples living together for at least 5 years, Art. 34 of the Family Code; 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized request for the celebration of marriage in a place other than authorized by law (if the wedding was held outside a church or mosque; dated and notarized before the wedding)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of Registration of Authority to Solemnize Marriage (CRASM) of the solemnizing officer",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Prepare all original requirements and a valid ID, with 2 photocopies of each.",
+      "Submit them in person at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, Monday to Friday, 7:00 AM to 4:00 PM. The husband, wife, pastor, ustadz/imam or church clerk must appear personally, with a Special Power of Attorney (SPA) letter from the couple.",
+      "The Certificate of Marriage is released 10 days after posting."
+    ],
+    "quickInfo": {
+      "processingTime": "Released 10 days after posting"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Marriage certificate requirements",
+        "url": "https://www.facebook.com/share/p/1GwEHgGnzk/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
   },
   {
     "service": "Transfer of Ownership of Real Property",

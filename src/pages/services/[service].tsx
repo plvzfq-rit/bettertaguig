@@ -315,9 +315,8 @@ export default function ServiceDetail() {
             </div>
           )}
 
-          {/* Requirements (Citizens Charter) */}
-          {isOfficialSource &&
-            service.detailedRequirements &&
+          {/* Requirements (Citizens Charter and community services) */}
+          {service.detailedRequirements &&
             service.detailedRequirements.length > 0 && (
               <RequirementGrid requirements={service.detailedRequirements} />
             )}

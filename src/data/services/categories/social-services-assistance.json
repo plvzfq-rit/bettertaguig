@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "service": "Register as a Senior Citizen (OSCA)",
+    "slug": "register-senior-citizen-osca",
+    "type": "transaction",
+    "description": "Registered senior citizens can receive the City's birthday cash gift and other programs for the elderly.",
+    "officeSlug": "office-for-senior-citizens-affairs",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Contact or visit the Office for Senior Citizens Affairs (OSCA), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "OSCA numbers: +63 969 212 9400 / +63 917 966 7747 / +63 962 240 3430."
+    ],
+    "relatedServices": ["senior-citizen-birthday-cash-gift"],
+    "sources": [
+      {
+        "name": "City of Taguig – Senior Citizens and Veterans",
+        "url": "https://www.taguig.gov.ph/senior-citizens-and-veterans/"
+      },
+      {
+        "name": "OSCA ID Verification",
+        "url": "https://osca.taguig.gov.ph/verify"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Birthday Cash Gift for Senior Citizens",
+    "slug": "senior-citizen-birthday-cash-gift",
+    "type": "information",
+    "description": "Under City Ordinance No. 25, series of 2017, registered senior citizens receive a birthday cash gift of Php 3,000 to Php 10,000 based on their age. Centenarians receive a separate Php 100,000 cash gift from the City.",
+    "officeSlug": "office-for-senior-citizens-affairs",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "60–69 years old: Php 3,000",
+      "70–79 years old: Php 4,000",
+      "80–89 years old: Php 5,000",
+      "90–99 years old: Php 10,000",
+      "Centenarians (100 and above): Php 100,000 every year"
+    ],
+    "relatedServices": ["register-senior-citizen-osca"],
+    "sources": [
+      {
+        "name": "City of Taguig – Senior Citizens and Veterans",
+        "url": "https://www.taguig.gov.ph/senior-citizens-and-veterans/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Register as a Person With Disability (PWD ID)",
+    "slug": "register-pwd-id",
+    "type": "transaction",
+    "description": "The Persons With Disabilities Affairs Office (PDAO) handles PWD registration and PWD ID application, processing and issuance. Registered PWDs receive a Php 1,000 birthday cash gift (City Ordinance No. 18, series of 2017), and those aged 0–59 receive Special Needs Assistance of Php 1,000 every July and every December (Ordinance No. 194).",
+    "officeSlug": "persons-with-disabilities-affairs-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "whoMayAvail": "Taguig residents with a disability",
+    "steps": [
+      "Visit PDAO at the Ground Floor, Taguig Disability Resource and Development Center (TDRDC), Ipil-ipil St. corner 9th St., Barangay North Signal, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "PDAO number: (02) 7795 9947."
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Persons With Disabilities",
+        "url": "https://www.taguig.gov.ph/persons-with-disabilities/"
+      },
+      {
+        "name": "PWD ID Verification",
+        "url": "https://pdao.taguig.gov.ph/id-verification"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Register as a Solo Parent",
+    "slug": "register-solo-parent",
+    "type": "transaction",
+    "description": "Registered solo parents can get medical assistance, educational benefits, livelihood support, free counseling, flexible work schedules, skills training, career coaching and mentoring, and basic life support training.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Contact or visit the City Social Welfare and Development Office (CSWDO), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "CSWDO number: (02) 8555 7919."
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Solo Parents",
+        "url": "https://www.taguig.gov.ph/solo-parents/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Burial Assistance",
+    "slug": "burial-assistance",
+    "type": "transaction",
+    "description": "A Php 20,000 cash grant to the family of the deceased to help with burial expenses.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "whoMayAvail": "Family of the deceased",
+    "steps": [
+      "Contact or visit the City Social Welfare and Development Office (CSWDO), Ground floor, Ricardo Papa Bldg., Taguig City Hall, Monday to Friday, 7:00 AM to 4:00 PM.",
+      "CSWDO number: (02) 8555 7919."
+    ],
+    "quickInfo": {
+      "fee": "Free"
+    },
+    "sources": [
+      {
+        "name": "City of Taguig – Other Services",
+        "url": "https://www.taguig.gov.ph/other-services/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  },
+  {
+    "service": "Assistance to Individuals in Crisis Situation (AICS)",
+    "slug": "aics-crisis-assistance",
+    "type": "information",
+    "description": "In partnership with the Department of Social Welfare and Development (DSWD), the AICS program helps people in crisis situations. For more information, visit the City Social Welfare and Development Office's official Facebook page.",
+    "officeSlug": "city-social-welfare-and-development-office",
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "steps": [
+      "Medical assistance",
+      "Balik Probinsya Program",
+      "Educational benefits",
+      "Food assistance",
+      "Cash assistance for other support services",
+      "Burial assistance"
+    ],
+    "sources": [
+      {
+        "name": "City of Taguig – Indigents",
+        "url": "https://www.taguig.gov.ph/indigents/"
+      }
+    ],
+    "updatedAt": "2026-11-19"
+  }
+]
