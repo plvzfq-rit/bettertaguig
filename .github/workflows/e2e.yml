@@ -13,12 +13,12 @@ permissions:
 jobs:
   e2e:
     name: E2E Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # shortcut: Playwright 1.58 cannot install on 26.04; upgrade Playwright, then return to ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
@@ -35,15 +35,16 @@ jobs:
         run: python3 scripts/merge_services.py
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chromium
 
+      # Chromium only, visual tests have their own job; list reporter so failures show in the log
       - name: Run E2E tests
-        run: npm run test:e2e
+        run: npx playwright test --project=chromium --grep-invert @visual --reporter=list
         env:
           CI: true
 
       - name: Upload Playwright Report
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
           name: playwright-report
@@ -51,7 +52,7 @@ jobs:
           retention-days: 7
 
       - name: Upload Playwright Blob Report
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
           name: playwright-blob-report
@@ -60,13 +61,13 @@ jobs:
 
   e2e-visual:
     name: E2E Visual Regression Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # shortcut: Playwright 1.58 cannot install on 26.04; upgrade Playwright, then return to ubuntu-latest
     timeout-minutes: 30
     if: github.event_name == 'pull_request'
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
           fetch-depth: 0 # Fetch all history for visual regression comparison
@@ -93,7 +94,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload visual regression results
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
           name: visual-regression-report
@@ -102,12 +103,12 @@ jobs:
 
   e2e-accessibility:
     name: E2E Accessibility Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # shortcut: Playwright 1.58 cannot install on 26.04; upgrade Playwright, then return to ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
@@ -133,7 +134,7 @@ jobs:
         continue-on-error: true
 
       - name: Upload accessibility report
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
           name: accessibility-report
