@@ -305,6 +305,12 @@ def main():
     # Merge services - CC services first, then community services
     merged_services = cc_services + existing_services
 
+    # Unverified services stay out of the site until checked (maintainer decision, 2026-11-19).
+    hidden = [s["slug"] for s in merged_services if s.get("needsVerification")]
+    merged_services = [s for s in merged_services if not s.get("needsVerification")]
+    if hidden:
+        print(f"Hiding {len(hidden)} services flagged needsVerification: {', '.join(hidden)}")
+
     # Sort by service name for better UX
     merged_services.sort(key=lambda s: s["service"].lower())
 
