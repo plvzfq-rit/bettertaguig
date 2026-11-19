@@ -7,11 +7,12 @@ Most of what BetterTaguig shows comes from the JSON files in this folder. To fix
 1. **Every fact needs an official source.** Add the link under `sources` (a list of `{ "name", "url" }`). Accepted sources:
    - `taguig.gov.ph` and its subdomains, such as the Citizen's Charter kiosk (`kiosk-info.taguig.gov.ph`);
    - other government sites (`*.gov.ph`), such as COA, DBM, PSA and DILG;
-   - a Taguig city office's **own** Facebook page. Link the post itself, and name the office in `name`.
+   - a Taguig city office's **own** Facebook page. Link the post itself, and name the office in `name`;
+   - a news outlet that [Wikipedia's Philippine sources list](https://en.wikipedia.org/wiki/Wikipedia:Tambayan_Philippines/Sources) rates "Generally reliable" (the `NEWS` list in `scripts/check-sources.mjs`). When a fact rests on news reports, cite at least two outlets where you can.
 
-   Wikipedia, directories, aggregators (for example PhilAtlas), blogs and resident tips are not sources. `npm run check:sources` and CI reject a source link to any other site. To allow a new site, change `scripts/check-sources.mjs` in a reviewed pull request.
+   Wikipedia itself, directories, aggregators (for example PhilAtlas), blogs and resident tips are not sources. `npm run check:sources` and CI reject a source link to any other site. To allow a new site, change `scripts/check-sources.mjs` in a reviewed pull request.
 2. **Never guess.** If a fee, requirement, phone number or date isn't in the source, leave it out.
-3. **Flag what isn't confirmed.** Set `"needsVerification": true` when a detail comes from an older or unclear source, or conflicts with another source. The site shows a "needs verification" notice on that service. Remove the flag only after you've checked it against an official source.
+3. **Flag what isn't confirmed.** Set `"needsVerification": true` when a detail comes from an older or unclear source, or conflicts with another source. Flagged services are left out of the site (the merge script drops them from `merged-services.json`) until someone checks them against an official source and removes the flag.
 4. **Keep `slug` values stable.** Slugs are part of page URLs. Change the title, not the slug.
 5. **Date your edits.** Set `updatedAt` (YYYY-MM-DD) on a service when you change it.
 6. **Someone else reviews facts.** A pull request that changes a name, figure, fee or requirement is reviewed by a maintainer who didn't write it.

@@ -1,12 +1,42 @@
 // Fails when a source link in src/data cites a site that is not an official channel.
-// Rule (src/data/README.md): every fact cites taguig.gov.ph, another government site, or a city office's own
-// Facebook page. To allow a new site, add it to OFFICIAL in a reviewed pull request.
+// Rule (src/data/README.md): every fact cites taguig.gov.ph, another government site, a city office's own
+// Facebook page, or a reliable news outlet. To allow a new site, add it to OFFICIAL or NEWS in a reviewed pull request.
 import assert from 'node:assert/strict';
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 /** Official channels that are not on a government domain. A Facebook page must be the office's own (checked in review). */
 const OFFICIAL = ['facebook.com'];
+
+/**
+ * News outlets rated "Generally reliable" on Wikipedia's Philippine sources list
+ * (https://en.wikipedia.org/wiki/Wikipedia:Tambayan_Philippines/Sources, checked 2026-11-19).
+ * Marginally reliable and no-consensus outlets are left out.
+ */
+const NEWS = [
+  'abante.com.ph',
+  'abs-cbnnews.com',
+  'news.abs-cbn.com',
+  'balita.net.ph',
+  'bnc.ph',
+  'bomboradyo.com',
+  'gmanetwork.com',
+  'inquirer.net',
+  'interaksyon.com',
+  'malaya.com.ph',
+  'manilastandard.net',
+  'manilatimes.net',
+  'mb.com.ph',
+  'newsko.com.ph',
+  'pcij.org',
+  'philstar.com',
+  'radar.ph',
+  'rappler.com',
+  'sunstar.com.ph',
+  'tempo.com.ph',
+  'thestandard.com.ph',
+  'tribune.net.ph',
+];
 
 export function isTrustedSource(url) {
   let host;
@@ -16,7 +46,7 @@ export function isTrustedSource(url) {
     return false;
   }
   if (/\.gov(\.[a-z]{2})?$/.test(host)) return true;
-  return OFFICIAL.some(
+  return [...OFFICIAL, ...NEWS].some(
     domain => host === domain || host.endsWith(`.${domain}`)
   );
 }
@@ -54,6 +84,9 @@ assert.equal(
   true
 );
 assert.equal(isTrustedSource('https://www.dbm.gov.ph/'), true);
+assert.equal(isTrustedSource('https://newsinfo.inquirer.net/123/x'), true);
+assert.equal(isTrustedSource('https://news.abs-cbn.com/news/x'), true);
+assert.equal(isTrustedSource('https://ent.abs-cbn.com/x'), false);
 assert.equal(isTrustedSource('https://en.wikipedia.org/wiki/Taguig'), false);
 assert.equal(isTrustedSource('https://notfacebook.com/x'), false);
 assert.equal(isTrustedSource('https://taguig.gov.ph.evil.com/'), false);
