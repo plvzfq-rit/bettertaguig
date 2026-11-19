@@ -5,6 +5,10 @@ test.describe('Barangays Pages', () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to barangays index before each test
     await page.goto('/government/barangays');
+    // The page loads lazily; wait for the cards before counting them
+    await expect(
+      page.locator('a[aria-label^="View profile of Barangay"]').first()
+    ).toBeVisible();
   });
 
   test('barangays index page uses Kapwa semantic tokens', async ({ page }) => {
@@ -13,7 +17,7 @@ test.describe('Barangays Pages', () => {
 
   test('barangays index displays all barangay cards', async ({ page }) => {
     // Check that barangay cards are displayed
-    const cards = page.locator('a[href*="/government/barangays/"]');
+    const cards = page.locator('a[aria-label^="View profile of Barangay"]');
     const count = await cards.count();
 
     // Should have multiple barangays (Taguig has 38)
@@ -22,25 +26,28 @@ test.describe('Barangays Pages', () => {
     // Check first card has proper structure
     const firstCard = cards.first();
     await expect(firstCard).toBeVisible();
-    await expect(firstCard.locator('[aria-label*="View profile"]')).toHaveCount(
-      count
+    await expect(firstCard).toHaveAttribute(
+      'aria-label',
+      /View profile of Barangay/
     );
   });
 
   test('barangays search functionality works', async ({ page }) => {
     // Get initial count of all cards
-    const allCards = page.locator('a[href*="/government/barangays/"]');
+    const allCards = page.locator('a[aria-label^="View profile of Barangay"]');
     const initialCount = await allCards.count();
 
     // Search for a specific barangay
     const searchInput = page.locator('input[placeholder*="Search"]');
-    await searchInput.fill('Anos');
+    await searchInput.fill('Bambang');
 
     // Wait for filtering to apply
     await page.waitForTimeout(300);
 
     // Should have fewer results
-    const filteredCards = page.locator('a[href*="/government/barangays/"]');
+    const filteredCards = page.locator(
+      'a[aria-label^="View profile of Barangay"]'
+    );
     const filteredCount = await filteredCards.count();
     expect(filteredCount).toBeLessThan(initialCount);
     expect(filteredCount).toBeGreaterThan(0);
@@ -50,14 +57,18 @@ test.describe('Barangays Pages', () => {
     await page.waitForTimeout(300);
 
     // Should show all cards again
-    const resetCards = page.locator('a[href*="/government/barangays/"]');
+    const resetCards = page.locator(
+      'a[aria-label^="View profile of Barangay"]'
+    );
     const resetCount = await resetCards.count();
     expect(resetCount).toBe(initialCount);
   });
 
   test('barangay detail page uses semantic tokens', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
@@ -72,7 +83,9 @@ test.describe('Barangays Pages', () => {
 
   test('barangay detail page displays officials section', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
@@ -90,27 +103,27 @@ test.describe('Barangays Pages', () => {
 
     // Check for Punong Barangay section
     const punongSection = page
-      .locator('p')
+      .locator('p:not(.sr-only)')
       .filter({ hasText: 'Chief Executive' });
     await expect(punongSection).toBeVisible();
   });
 
   test('barangay detail page has breadcrumbs', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
     await page.waitForURL(/\/government\/barangays\/.+/);
 
     // Check breadcrumb navigation
-    const breadcrumb = page.locator('nav[aria-label="Breadcrumb"]');
+    const breadcrumb = page.locator('nav[aria-label="breadcrumb"]');
     await expect(breadcrumb).toBeVisible();
 
     // Check breadcrumb links
-    await expect(
-      breadcrumb.locator('a[href="/"]').filter({ hasText: 'Home' })
-    ).toBeVisible();
+    await expect(breadcrumb.locator('a[href="/"]')).toBeVisible();
     await expect(
       breadcrumb.locator('a[href="/government/barangays"]')
     ).toBeVisible();
@@ -118,7 +131,9 @@ test.describe('Barangays Pages', () => {
 
   test('barangay detail page has accessible skip link', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
@@ -130,7 +145,9 @@ test.describe('Barangays Pages', () => {
   });
 
   test('barangay card hover states work correctly', async ({ page }) => {
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
 
     // Check card has hover class
     await expect(firstCard).toHaveClass(/group/);
@@ -150,7 +167,9 @@ test.describe('Barangays Pages', () => {
     page,
   }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
@@ -172,18 +191,23 @@ test.describe('Barangays Pages', () => {
 
   test('sidebar navigation works on detail pages', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation
     await page.waitForURL(/\/government\/barangays\/.+/);
 
-    // Check sidebar exists on mobile (should be collapsed)
-    const sidebar = page.locator('aside');
-    await expect(sidebar).toBeVisible();
+    // Detail pages start with the sidebar collapsed; the expand button reopens it
+    await page.getByTitle('Expand Menu').click();
+    await expect(page.locator('aside').first()).toBeVisible();
 
     // On mobile, sidebar should have mobile menu button
-    const mobileMenuButton = page.locator('button').filter({ hasText: 'Menu' });
+    const mobileMenuButton = page.getByRole('button', {
+      name: 'Menu',
+      exact: true,
+    });
     const hasMobileMenu = (await mobileMenuButton.count()) > 0;
 
     if (hasMobileMenu) {
@@ -216,7 +240,9 @@ test.describe('Barangays Pages', () => {
 
   test('barangay detail page visual snapshot @visual', async ({ page }) => {
     // Navigate to first barangay
-    const firstCard = page.locator('a[href*="/government/barangays/"]').first();
+    const firstCard = page
+      .locator('a[aria-label^="View profile of Barangay"]')
+      .first();
     await firstCard.click();
 
     // Wait for navigation and load

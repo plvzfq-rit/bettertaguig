@@ -7,8 +7,8 @@ import { expect, type Page } from '@playwright/test';
  * Note: Checks main content area only, excluding Navbar/Footer and code examples (<pre> tags).
  */
 export async function assertKapwaTokens(page: Page): Promise<void> {
-  // Check main content area instead of entire body to avoid Navbar/Footer legacy classes
-  let mainHTML = await page.locator('main').innerHTML();
+  // Outer <main> (detail pages nest a second one). Check main content area instead of entire body to avoid Navbar/Footer legacy classes
+  let mainHTML = await page.locator('main').first().innerHTML();
 
   // Remove <pre> tag contents (code examples that may show "wrong" usage as examples)
   mainHTML = mainHTML.replace(/<pre[^>]*>[\s\S]*?<\/pre>/gi, '');

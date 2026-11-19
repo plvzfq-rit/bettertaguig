@@ -3,7 +3,6 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 import { SiFacebook } from '@icons-pack/react-simple-icons';
-import { Button } from '@bettergov/kapwa/button';
 import {
   ArrowRight,
   BookOpenIcon,
@@ -30,6 +29,10 @@ import { toTitleCase } from '@/lib/stringUtils';
 
 import executiveData from '@/data/directory/executive.json';
 import legislativeData from '@/data/directory/legislative.json';
+
+// Plain link styled like an outline button (the kapwa Button uses raw gray classes, and a button inside a link is invalid).
+const outlineLinkClass =
+  'border-kapwa-border-weak text-kapwa-text-support hover:bg-kapwa-bg-surface hover:text-kapwa-text-brand inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-[10px] font-bold tracking-widest uppercase transition-colors';
 
 // --- Types ---
 interface ExecutiveOfficial {
@@ -402,15 +405,11 @@ export default function ElectedOfficialsPage() {
                 </p>
               </div>
             </div>
-            <Link to='/government/elected-officials/committees'>
-              <Button
-                variant='outline'
-                size='sm'
-                className='text-[10px] font-bold tracking-widest uppercase'
-                rightIcon={<ArrowRight className='h-3 w-3' />}
-              >
-                View Committees
-              </Button>
+            <Link
+              to='/government/elected-officials/committees'
+              className={outlineLinkClass}
+            >
+              View Committees <ArrowRight className='h-3 w-3' />
             </Link>
           </div>
         </DetailSection>
@@ -430,15 +429,8 @@ export default function ElectedOfficialsPage() {
             </p>
           </div>
         </div>
-        <Link to='/government/departments'>
-          <Button
-            variant='outline'
-            size='sm'
-            className='text-[10px] font-bold tracking-widest uppercase'
-            rightIcon={<ArrowRight className='h-3 w-3' />}
-          >
-            Go to Departments
-          </Button>
+        <Link to='/government/departments' className={outlineLinkClass}>
+          Go to Departments <ArrowRight className='h-3 w-3' />
         </Link>
       </div>
     </div>
