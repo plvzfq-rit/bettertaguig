@@ -917,6 +917,85 @@
     }
   },
   {
+    "service": "Correction of Birth Certificate (Spelling, First Name, Birth Date or Sex)",
+    "slug": "birth-certificate-correction",
+    "type": "transaction",
+    "description": "File a petition at the City Civil Registry to correct a misspelling, change a first name, or fix a wrong day or month of birth or a wrong sex on a birth certificate. Once approved, an annotation is added to the birth certificate to show the change.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Parents; the child (18 or older); the owner of the document (18 or older); or a representative with a Special Power of Attorney, such as a spouse, grandparent, sibling or legal guardian.",
+    "detailedRequirements": [
+      {
+        "requirement": "Wrong spelling: PSA Birth Certificate with the misspelling",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Wrong spelling: 2 or more of: Baptismal Certificate; school record or diploma; Voter's Affidavit or Certification; GSIS/SSS record; PhilHealth/Pag-IBIG Member's Data; land titles; government-issued IDs",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong spelling: civil registry records of ascendants (parents, grandparents) or descendants (children, grandchildren); Birth Certificate and Marriage Certificate of the parents; Birth Certificates of siblings or children",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Change of first name: PSA Birth Certificate with the wrong name",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Change of first name: 2 or more of: school records or diploma; Voter's Affidavit or Certification; GSIS/SSS record; PhilHealth/Pag-IBIG Member's Data; land titles",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Change of first name: Baptismal Certificate; Marriage Contract (if married); Police Clearance; NBI Clearance with the A.K.A. name; Certificate of Employment or Employer's Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong day or month of birth: PSA Birth Certificate with the wrong birthday; Baptismal Certificate; earliest medical records; elementary school records; Certificate of Employment or Affidavit of Non-Employment; NBI Clearance; Police Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong day or month of birth: newspaper publication of the petition once a week for 2 weeks, with Affidavit of Publication",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: PSA Birth Certificate with the wrong sex; earliest medical records; original Baptismal Certificate; elementary school records; Certificate of Employment or Affidavit of Non-Employment; NBI Clearance; Police Clearance",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: newspaper publication of the petition once a week for 2 weeks, with Affidavit of Publication",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Wrong sex: medical certificate stating the petitioner has not undergone a sex change",
+        "where_to_secure": "Taguig City Health Office doctor"
+      },
+      {
+        "requirement": "Indigent petitioners (no filing fee): Certificate of Indigency",
+        "where_to_secure": "City Social Welfare and Development Office (CSWDO)"
+      }
+    ],
+    "steps": [
+      "Prepare the requirements for your type of correction.",
+      "File the petition at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan. If you have moved, file a migrant petition with the civil registrar of the city or town where you now live.",
+      "Wait for approval (4 to 6 months). The approved change is shown as an annotation on the birth certificate."
+    ],
+    "quickInfo": {
+      "processingTime": "4 to 6 months",
+      "fee": "Born in Taguig: ₱1,000 (spelling) or ₱3,000 (first name, sex or birth date). Migrant petitioners or those not born in Taguig pay an extra ₱500 (spelling) or ₱1,000 (first name, sex or birth date). Free for indigent petitioners with a CSWDO Certificate of Indigency."
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Birth certificate correction",
+        "url": "https://www.facebook.com/share/p/1A5ZrLsqYv/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Correction/Updating of Entry/Annotation (Adverse Claims and Other Annotations)",
     "slug": "correctionupdating-of-entryannotation-adverse-claims-and-other-annotations",
     "serviceNumber": "2.7",
