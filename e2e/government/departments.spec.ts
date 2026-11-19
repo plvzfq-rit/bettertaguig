@@ -5,6 +5,10 @@ test.describe('Departments Pages', () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to departments index before each test
     await page.goto('/government/departments');
+    // The page loads lazily; wait for the cards before counting them
+    await expect(
+      page.locator('a[aria-label^="View details for"]').first()
+    ).toBeVisible();
   });
 
   test('departments index page uses Kapwa semantic tokens', async ({
@@ -15,7 +19,7 @@ test.describe('Departments Pages', () => {
 
   test('departments index displays all department cards', async ({ page }) => {
     // Check that department cards are displayed
-    const cards = page.locator('a[href*="/government/departments/"]');
+    const cards = page.locator('a[aria-label^="View details for"]');
     const count = await cards.count();
 
     // Should have multiple departments
@@ -29,7 +33,7 @@ test.describe('Departments Pages', () => {
 
   test('departments search functionality works', async ({ page }) => {
     // Get initial count of all cards
-    const allCards = page.locator('a[href*="/government/departments/"]');
+    const allCards = page.locator('a[aria-label^="View details for"]');
     const initialCount = await allCards.count();
 
     // Search for a specific department
@@ -40,7 +44,7 @@ test.describe('Departments Pages', () => {
     await page.waitForTimeout(300);
 
     // Should have fewer results
-    const filteredCards = page.locator('a[href*="/government/departments/"]');
+    const filteredCards = page.locator('a[aria-label^="View details for"]');
     const filteredCount = await filteredCards.count();
     expect(filteredCount).toBeLessThan(initialCount);
 
@@ -49,16 +53,14 @@ test.describe('Departments Pages', () => {
     await page.waitForTimeout(300);
 
     // Should show all cards again
-    const resetCards = page.locator('a[href*="/government/departments/"]');
+    const resetCards = page.locator('a[aria-label^="View details for"]');
     const resetCount = await resetCards.count();
     expect(resetCount).toBe(initialCount);
   });
 
   test('department detail page uses semantic tokens', async ({ page }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation
@@ -73,22 +75,18 @@ test.describe('Departments Pages', () => {
 
   test('department detail page has breadcrumbs', async ({ page }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation
     await page.waitForURL(/\/government\/departments\/.+/);
 
     // Check breadcrumb navigation
-    const breadcrumb = page.locator('nav[aria-label="Breadcrumb"]');
+    const breadcrumb = page.locator('nav[aria-label="breadcrumb"]');
     await expect(breadcrumb).toBeVisible();
 
     // Check breadcrumb links
-    await expect(
-      breadcrumb.locator('a[href="/"]').filter({ hasText: 'Home' })
-    ).toBeVisible();
+    await expect(breadcrumb.locator('a[href="/"]')).toBeVisible();
     await expect(
       breadcrumb.locator('a[href="/government/departments"]')
     ).toBeVisible();
@@ -98,16 +96,18 @@ test.describe('Departments Pages', () => {
     page,
   }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation
     await page.waitForURL(/\/government\/departments\/.+/);
 
     // Check for contact section
-    const contactSection = page.locator('text=Contact').first();
+    // Contact links sit in the header card
+    const contactSection = page.locator(
+      '[aria-label="Department information header"]'
+    );
+    await expect(contactSection).toBeVisible();
     const hasContact = (await contactSection.count()) > 0;
 
     if (hasContact) {
@@ -135,9 +135,7 @@ test.describe('Departments Pages', () => {
 
   test('department detail page has accessible skip link', async ({ page }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation
@@ -152,7 +150,7 @@ test.describe('Departments Pages', () => {
     page,
   }) => {
     // Get all department cards
-    const cards = page.locator('a[href*="/government/departments/"]');
+    const cards = page.locator('a[aria-label^="View details for"]');
 
     // Check if any card has department head info
     for (let i = 0; i < Math.min(3, await cards.count()); i++) {
@@ -176,9 +174,7 @@ test.describe('Departments Pages', () => {
     await searchInput.fill('BPLO');
     await page.waitForTimeout(300);
 
-    const bploCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const bploCard = page.locator('a[aria-label^="View details for"]').first();
     const hasCard = (await bploCard.count()) > 0;
 
     if (hasCard) {
@@ -196,15 +192,13 @@ test.describe('Departments Pages', () => {
   });
 
   test('department card hover states work correctly', async ({ page }) => {
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
 
     // Check card has hover class
     await expect(firstCard).toHaveClass(/group/);
 
     // Check for arrow icon
-    const arrowIcon = firstCard.locator('svg[data-lucide="arrow-right"]');
+    const arrowIcon = firstCard.locator('svg.lucide-arrow-right');
     await expect(arrowIcon).toBeVisible();
 
     // Verify card has proper aria-label
@@ -215,9 +209,7 @@ test.describe('Departments Pages', () => {
     page,
   }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation
@@ -259,9 +251,7 @@ test.describe('Departments Pages', () => {
 
   test('department detail page visual snapshot @visual', async ({ page }) => {
     // Navigate to first department
-    const firstCard = page
-      .locator('a[href*="/government/departments/"]')
-      .first();
+    const firstCard = page.locator('a[aria-label^="View details for"]').first();
     await firstCard.click();
 
     // Wait for navigation and load

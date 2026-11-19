@@ -6,7 +6,12 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './e2e',
   /* Ignore perf and a11y tests for now */
-  testIgnore: ['**/performance.spec.ts', '**/accessibility.spec.ts'],
+  /* Admin pages need a login and the back end, which CI doesn't run */
+  testIgnore: [
+    '**/performance.spec.ts',
+    '**/accessibility.spec.ts',
+    ...(process.env.CI ? ['**/admin/**'] : []),
+  ],
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
