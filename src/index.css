@@ -13,6 +13,15 @@
     'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
+/* Kapwa defaults fail WCAG AA contrast (4.5:1): blue-500 link is 3.84 on
+   white, orange-700 accent is 4.15 on orange-weak. Kapwa uses @theme inline,
+   so these must be overridden the same way, not in :root. */
+@theme inline {
+  --color-kapwa-text-link: var(--color-kapwa-blue-600);
+  --color-kapwa-text-link-hover: var(--color-kapwa-blue-700);
+  --color-kapwa-text-accent-orange: var(--color-kapwa-orange-800);
+}
+
 @layer base {
   *,
   ::after,

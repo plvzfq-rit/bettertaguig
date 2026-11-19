@@ -1,4 +1,5 @@
 import {
+  Children,
   HTMLAttributes,
   ImgHTMLAttributes,
   ReactNode,
@@ -478,10 +479,18 @@ export const CardGrid = ({
       )}
       role='list'
     >
-      {children}
+      {asListItems(children)}
     </div>
   );
 };
+
+// role='list' requires listitem children; `contents` keeps the grid/stack layout unchanged.
+const asListItems = (children: ReactNode) =>
+  Children.map(children, child => (
+    <div role='listitem' className='contents'>
+      {child}
+    </div>
+  ));
 
 /**
  * CardList - Vertical List Layout
@@ -499,7 +508,7 @@ export const CardList = ({
   className?: string;
 }) => (
   <div className={cn('space-y-4', className)} role='list'>
-    {children}
+    {asListItems(children)}
   </div>
 );
 

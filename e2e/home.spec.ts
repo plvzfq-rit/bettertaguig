@@ -1,3 +1,4 @@
+import AxeBuilder from '@axe-core/playwright';
 import { test, expect } from './test-config';
 import { assertKapwaTokens } from './utils/kapwa';
 
@@ -14,12 +15,16 @@ test.describe('Home Page', () => {
     const searchInput = page.locator('input[placeholder*="Search"]');
     await searchInput.fill('health');
     await page.waitForTimeout(300);
-    await expect(page.locator('a[href*="/services/"]')).toHaveCount(1);
+    // Up to 5 matches show under the search box
+    await expect(page.locator('a[href*="/services/"]').first()).toBeVisible();
 
     // Clear search and verify quick access cards
     await searchInput.fill('');
+    const quickAccess = page
+      .getByRole('heading', { name: 'Quick Access' })
+      .locator('xpath=..');
     await expect(
-      page.locator(
+      quickAccess.locator(
         'a[href="/transparency/financial"], a[href="/transparency/infrastructure"], a[href="/openlgu"], a[href="/statistics"]'
       )
     ).toHaveCount(4);
@@ -28,22 +33,28 @@ test.describe('Home Page', () => {
   test('All main sections are displayed', async ({ page }) => {
     // Consolidated section check - verify each section exists
     const sections = [
+      /Quick Access/i,
       /Government Services/i,
-      /Recent Updates|Latest/i,
+      /History of/i,
       /Weather/i,
-      /News|Updates|Announcements/i,
-      /Government|Officials|Departments/i,
+      /Local Government/i,
     ];
 
     for (const text of sections) {
       await expect(
-        page.locator('section').filter({ hasText: text })
+        page.getByRole('heading', { level: 2, name: text })
       ).toBeVisible();
     }
   });
 
   test('Services section displays 8 category cards', async ({ page }) => {
-    const cards = page.locator('a[href*="/services?category="]');
+    // Scope to the services section; the navbar and footer also link to categories
+    const cards = page
+      .locator('section')
+      .filter({
+        has: page.getByRole('heading', { name: 'Government Services' }),
+      })
+      .locator('a[href*="/services?category="]:not([href$="=all"])');
     await expect(cards).toHaveCount(8);
     await expect(cards.first()).toBeVisible();
   });
@@ -117,8 +128,8 @@ test.describe('Home Page - Accessibility', () => {
   test('Home page passes accessibility checks @a11y', async ({ page }) => {
     await page.goto('/');
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const accessibilityScanResults = await (page as any).accessibility.scan();
+    await expect(page.locator('h1').first()).toBeVisible();
+    const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });
 });
