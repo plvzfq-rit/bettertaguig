@@ -185,6 +185,7 @@ export default function PopulationPage() {
         <ResponsiveChart height={activeTab === 'barangays' ? 550 : 400}>
           {activeTab === 'municipality' ? (
             <LineChart
+              accessibilityLayer
               data={municipality.history}
               margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
             >
@@ -218,6 +219,7 @@ export default function PopulationPage() {
             </LineChart>
           ) : (
             <LineChart
+              accessibilityLayer
               data={comparativeData}
               margin={{ top: 10, right: 10, left: 0, bottom: 20 }}
             >
