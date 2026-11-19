@@ -1216,6 +1216,91 @@
     }
   },
   {
+    "service": "Delayed Registration of Certificate of Marriage",
+    "slug": "delayed-registration-of-marriage",
+    "type": "transaction",
+    "description": "Register a marriage that was not registered within the deadline (15 days for marriages with a license, 30 days for cohabitation and PD 1083 marriages). Marriages more than 1 year late need extra documents.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application form for Certificate of Marriage (4 copies, typewritten, no erasures)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Muslim attachment for Marriage (Muslims only, 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Duly accomplished Affidavit for Delayed Registration",
+        "where_to_secure": "Back of the application form for Certificate of Marriage"
+      },
+      {
+        "requirement": "Original Marriage License",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Affidavit of Cohabitation (couples living together for at least 5 years, Art. 34 of the Family Code; 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized request for the celebration of marriage in a place other than authorized by law (if the wedding was held outside a church or mosque; dated and notarized before the wedding)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of Registration of Authority to Solemnize Marriage (CRASM) of the solemnizing officer",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "For Muslim couples, the affidavit must state: the couple's details, the dates and place of marriage and the name of the imam/ustadz; that the marriage was solemnized under Presidential Decree No. 1083; and that the marriage was among Muslims or members of ethnic cultural communities and solemnized according to their customs",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If more than 1 year late: latest PSA CENOMAR of the groom and bride (valid for 6 months)",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "If more than 1 year late: latest original PSA No Record/Negative Result for the Certificate of Marriage (valid for 1 year)",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "If more than 1 year late: certification with a certified true copy of the book record",
+        "where_to_secure": "Church or Hall of Justice where the wedding was held"
+      },
+      {
+        "requirement": "If more than 1 year late: picture of the couple at the wedding ceremony",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If more than 1 year late: notarized Affidavit of Delayed Registration, signed by the groom, bride, solemnizing officer and two witnesses",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Prepare all original requirements and a valid ID, with 2 photocopies of each.",
+      "Submit them in person at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, Monday to Friday, 7:00 AM to 4:00 PM. The husband, wife, pastor, ustadz/imam or church clerk must appear personally, with a Special Power of Attorney (SPA) letter from the couple.",
+      "The Certificate of Marriage is released 10 days after posting."
+    ],
+    "quickInfo": {
+      "processingTime": "Released 10 days after posting"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook)",
+        "url": "https://www.facebook.com/ccrtaguig"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Dental Consultation, Tooth Extraction, Restorative Procedures, Oral Prophylaxis, Pit and Fissure Sealant Application, Fluoride Varnish Application and Issuance of Dental Certificate for students",
     "slug": "dental-consultation-tooth-extraction-restorative-procedures-oral-prophylaxis-pit-and-fissure-sealant-application-fluoride-varnish-application-and-issuance-of-dental-certificate-for-students",
     "serviceNumber": "4.2",
@@ -2071,8 +2156,8 @@
     "whoMayAvail": "Taguig-born residents whose birth has not yet been registered",
     "detailedRequirements": [
       {
-        "requirement": "Registration form for Certificate of Live Birth (COLB)",
-        "where_to_secure": ""
+        "requirement": "Registration form for Certificate of Live Birth (COLB), typewritten or computerized, signed and notarized",
+        "where_to_secure": "City Civil Registry office"
       },
       {
         "requirement": "Notarized Affidavit for Delayed Registration of Birth",
@@ -2110,6 +2195,10 @@
       {
         "name": "City of Taguig – Other Services",
         "url": "https://www.taguig.gov.ph/other-services/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook)",
+        "url": "https://www.facebook.com/ccrtaguig"
       }
     ],
     "updatedAt": "2026-11-19",
@@ -6113,6 +6202,53 @@
     "source": "community"
   },
   {
+    "service": "Registration of Death Certificate",
+    "slug": "death-certificate-registration",
+    "type": "transaction",
+    "description": "How to register a death with the City Civil Registry, whether the person died in a hospital or at home. Forms and other requirements are available at the City Civil Registry office.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Only the spouse, child, parent or a relative of the deceased may get the death certificate. Bring a valid ID or another document proving you are a relative.",
+    "detailedRequirements": [
+      {
+        "requirement": "Death in a hospital: typewritten death certificate form, with the cause of death and a completed embalmer's box",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Death at home: 4 original copies of Municipal Form 103, filled out by the funeral parlor",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "Death at home: all medical records of the deceased and a signed deceased retrieval form",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Transfer Permit (if needed)",
+        "where_to_secure": "Sanitation Office, City Health Office (CHO) Room 5"
+      },
+      {
+        "requirement": "Valid ID or document proving you are a relative of the deceased",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Death in a hospital: (1) The hospital gives the typewritten death certificate form. (2) Bring the form to City Health Office (CHO) Room 5 for final review. (3) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (4) Register the death certificate at the City Civil Registry.",
+      "Death at home: (1) Get 4 original copies of Municipal Form 103 and have the funeral parlor fill them out. (2) Bring the form, all medical records and the signed deceased retrieval form to the barangay health center for an interview. (3) Bring the form, the cause of death and other documents to the City Health Office (CHO) for final review. (4) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (5) Register the death certificate at the City Civil Registry.",
+      "The City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan is open Monday to Friday, 7:00 AM to 4:00 PM."
+    ],
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook)",
+        "url": "https://www.facebook.com/ccrtaguig"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Renewal Business Permit",
     "slug": "renewal-business-permit",
     "serviceNumber": "1.4",
@@ -6791,6 +6927,63 @@
       "description": "See each step for the fee charged"
     },
     "processingTime": "35 mins"
+  },
+  {
+    "service": "Timely Registration of Certificate of Marriage",
+    "slug": "timely-registration-of-marriage",
+    "type": "transaction",
+    "description": "Register a marriage with the City Civil Registry. File within 15 days of the wedding for marriages with a marriage license, and within 30 days for marriages under Art. 34 of the Family Code (cohabitation), PD 1083 (Muslim marriages) and other Family Code articles.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application form for Certificate of Marriage (4 copies, typewritten, no erasures)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Muslim attachment for Marriage (Muslims only, 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Marriage License",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Original Affidavit of Cohabitation (couples living together for at least 5 years, Art. 34 of the Family Code; 4 copies)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Notarized request for the celebration of marriage in a place other than authorized by law (if the wedding was held outside a church or mosque; dated and notarized before the wedding)",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Certificate of Registration of Authority to Solemnize Marriage (CRASM) of the solemnizing officer",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Prepare all original requirements and a valid ID, with 2 photocopies of each.",
+      "Submit them in person at the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, Monday to Friday, 7:00 AM to 4:00 PM. The husband, wife, pastor, ustadz/imam or church clerk must appear personally, with a Special Power of Attorney (SPA) letter from the couple.",
+      "The Certificate of Marriage is released 10 days after posting."
+    ],
+    "quickInfo": {
+      "processingTime": "Released 10 days after posting"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook)",
+        "url": "https://www.facebook.com/ccrtaguig"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
   },
   {
     "service": "Transfer of Ownership of Real Property",

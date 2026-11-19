@@ -109,6 +109,7 @@ The old values came from an outdated copy of the city site ([Google Sites](https
 ## Verification log (2026-11-19)
 
 - **Persons With Disabilities Affairs Office (PDAO) address:** the "Our Departments" data lists the Ricardo Papa Bldg., City Hall. The city's own [Persons With Disabilities page](https://www.taguig.gov.ph/persons-with-disabilities/) says to register at the Ground Floor, Taguig Disability Resource and Development Center (TDRDC), Ipil-ipil St. corner 9th St., Barangay North Signal, where PWD IDs are processed. The directory now uses the TDRDC address. The second phone number, (02) 8642 3590, is kept from the "Our Departments" data; the PWD page lists only (02) 7795 9947.
+- **City Civil Registry contact details:** the office's own posts on its [Facebook page](https://www.facebook.com/ccrtaguig) (marriage and death certificate guides) give the address as the Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan; the email ccrtaguig@gmail.com; and the numbers 7795-8835 and 0968-579-6012, besides (02) 8628 2808. The directory now uses all of these. Office hours from the same posts: Monday to Friday, 7:00 AM to 4:00 PM.
 
 ## Known gaps
 
