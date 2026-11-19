@@ -45,6 +45,8 @@ jobs:
     name: Deploy to Cloudflare Pages
     environment: ${{ github.event_name == 'pull_request' && 'preview' || 'production' }}
     needs: quality-gate
+    # Dependabot runs get no repository secrets, so the deploy would fail without a token.
+    if: github.actor != 'dependabot[bot]'
     permissions:
       contents: write
       deployments: write
