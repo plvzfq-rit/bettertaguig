@@ -1219,7 +1219,7 @@
     "service": "Delayed Registration of Certificate of Marriage",
     "slug": "delayed-registration-of-marriage",
     "type": "transaction",
-    "description": "Register a marriage that was not registered within the deadline (15 days for marriages with a license, 30 days for cohabitation and PD 1083 marriages). Marriages more than 1 year late need extra documents.",
+    "description": "Register a marriage that was not registered within the deadline (15 days for marriages with a license, 30 days for PD 1083 and Art. 34 cohabitation marriages). Marriages more than 1 year late need extra documents.",
     "officeSlug": "city-civil-registry",
     "category": {
       "name": "Certificates & Vital Records",
@@ -1293,8 +1293,8 @@
     },
     "sources": [
       {
-        "name": "City Civil Registry – City of Taguig (Facebook)",
-        "url": "https://www.facebook.com/ccrtaguig"
+        "name": "City Civil Registry – City of Taguig (Facebook): Marriage certificate requirements",
+        "url": "https://www.facebook.com/share/p/1GwEHgGnzk/"
       }
     ],
     "updatedAt": "2026-11-19",
@@ -2153,7 +2153,7 @@
       "name": "Certificates & Vital Records",
       "slug": "certificates-vital-records"
     },
-    "whoMayAvail": "Taguig-born residents whose birth has not yet been registered",
+    "whoMayAvail": "Taguig residents whose birth was not registered within 30 days. If you were born outside Taguig, the City Civil Registry coordinates with the city or town where you were born (out-of-town registration). If the parents are married, either parent may file. If they are not married, both parents must appear, unless one has died, is abroad, or left and abandoned the family. In that case the mother may register alone (the child uses the mother's surname), or the father may; the mother's mother may also register with an Affidavit of Guardianship. Applicants 18 and older may file for themselves; children aged 7–17 must come along.",
     "detailedRequirements": [
       {
         "requirement": "Registration form for Certificate of Live Birth (COLB), typewritten or computerized, signed and notarized",
@@ -2162,6 +2162,10 @@
       {
         "requirement": "Notarized Affidavit for Delayed Registration of Birth",
         "where_to_secure": "Back of the COLB form"
+      },
+      {
+        "requirement": "Negative certification proving the applicant has no birth certificate yet",
+        "where_to_secure": "PSA"
       },
       {
         "requirement": "Certified true copy of the parents' Marriage Certificate (if parents are married)",
@@ -2180,16 +2184,22 @@
         "where_to_secure": "Barangay Hall"
       },
       {
+        "requirement": "Parent's National ID and another valid ID",
+        "where_to_secure": ""
+      },
+      {
         "requirement": "Any 2 of: original Baptismal Certificate; Medical Certification or Immunization Card from the Health Center; certified true copy of Form 137 (ages 7–17); certified true copy of Voter's Registration (18 and above)",
         "where_to_secure": ""
       }
     ],
     "steps": [
-      "Check the City Civil Registry – City of Taguig Facebook page for the free late birth registration schedule in your barangay.",
-      "Bring the complete requirements to the registration site on the scheduled day."
+      "Go to a Mobile Birth Registration site (check the City Civil Registry – City of Taguig Facebook page for the schedule) or to the City Civil Registry office, and get a Certificate of Live Birth (COLB) form.",
+      "Fill out the COLB (typewritten or computerized) and sign it. Fill out and sign the Affidavit for Delayed Registration of Birth at the back, then have the COLB notarized.",
+      "Bring the complete requirements to the registration site or the office. Mobile Birth Registration has only 300 slots, so come early; it may be postponed in bad weather.",
+      "Right after registering, you can get a certified photocopy of the birth certificate at the Records Section of the City Civil Registry. It costs ₱50 per copy."
     ],
     "quickInfo": {
-      "fee": "Free"
+      "fee": "Free registration (you pay for notarization, barangay clearance and the PSA negative certification)"
     },
     "sources": [
       {
@@ -2197,8 +2207,16 @@
         "url": "https://www.taguig.gov.ph/other-services/"
       },
       {
-        "name": "City Civil Registry – City of Taguig (Facebook)",
-        "url": "https://www.facebook.com/ccrtaguig"
+        "name": "City Civil Registry – City of Taguig (Facebook): Mobile Birth Registration and late birth requirements",
+        "url": "https://www.facebook.com/share/p/1DYDsQB9XB/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Late birth registration steps",
+        "url": "https://www.facebook.com/share/p/19nDDvCBQH/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Certified copy after registration",
+        "url": "https://www.facebook.com/share/p/1Be5Fk4wcx/"
       }
     ],
     "updatedAt": "2026-11-19",
@@ -4889,6 +4907,67 @@
     }
   },
   {
+    "service": "On-time Birth Registration",
+    "slug": "on-time-birth-registration",
+    "type": "transaction",
+    "description": "Register a baby born in Taguig within 30 days of birth at the City Civil Registry.",
+    "officeSlug": "city-civil-registry",
+    "category": {
+      "name": "Certificates & Vital Records",
+      "slug": "certificates-vital-records"
+    },
+    "whoMayAvail": "Parents of babies born in Taguig within the last 30 days. If the parents are married, either parent may file. If they are not married, both parents must appear, unless one has died, is abroad, or left and abandoned the family. In that case the mother may register alone (the child uses the mother's surname), or the father may; the mother's mother may also register with an Affidavit of Guardianship.",
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Live Birth form (4 copies)",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "If the parents are married: Marriage Contract",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "If the parents are not married: notarized Affidavit of Admission of Paternity",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "If the parents are not married: notarized Affidavit to Use the Surname of the Father",
+        "where_to_secure": "City Civil Registry office"
+      },
+      {
+        "requirement": "Parent's National ID and another valid government-issued ID",
+        "where_to_secure": ""
+      }
+    ],
+    "steps": [
+      "Bring the requirements to the City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan, or to a Mobile Birth Registration site.",
+      "Right after registering, you can get a certified photocopy of the birth certificate at the Records Section of the City Civil Registry. It costs ₱50 per copy."
+    ],
+    "quickInfo": {
+      "processingTime": "Certified photocopy available right after registration"
+    },
+    "sources": [
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Where to register a newborn",
+        "url": "https://www.facebook.com/share/p/1FEjUjmNze/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): On-time birth registration requirements",
+        "url": "https://www.facebook.com/share/p/1Cz9G7YLsW/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Mobile Birth Registration and on-time birth requirements",
+        "url": "https://www.facebook.com/share/p/1DYDsQB9XB/"
+      },
+      {
+        "name": "City Civil Registry – City of Taguig (Facebook): Certified copy after registration",
+        "url": "https://www.facebook.com/share/p/1Be5Fk4wcx/"
+      }
+    ],
+    "updatedAt": "2026-11-19",
+    "source": "community"
+  },
+  {
     "service": "Online Amending a Business Permit",
     "slug": "online-amending-a-business-permit",
     "serviceNumber": "1.7",
@@ -6205,7 +6284,7 @@
     "service": "Registration of Death Certificate",
     "slug": "death-certificate-registration",
     "type": "transaction",
-    "description": "How to register a death with the City Civil Registry, whether the person died in a hospital or at home. Forms and other requirements are available at the City Civil Registry office.",
+    "description": "A death certificate states the time, place and cause of a person's death. This is how to register one with the City Civil Registry, whether the person died at home or in a hospital. Forms and other requirements are available at the City Civil Registry office.",
     "officeSlug": "city-civil-registry",
     "category": {
       "name": "Certificates & Vital Records",
@@ -6222,12 +6301,20 @@
         "where_to_secure": "City Civil Registry office"
       },
       {
-        "requirement": "Death at home: all medical records of the deceased and a signed deceased retrieval form",
+        "requirement": "Death at home: all medical records of the deceased and the deceased retrieval form signed by the health center",
         "where_to_secure": ""
       },
       {
         "requirement": "Transfer Permit (if needed)",
         "where_to_secure": "Sanitation Office, City Health Office (CHO) Room 5"
+      },
+      {
+        "requirement": "For Muslims: an additional Municipal Form 103, signed by the imam",
+        "where_to_secure": ""
+      },
+      {
+        "requirement": "Medico-legal cases: as required by the health center or the City Health Office doctor",
+        "where_to_secure": ""
       },
       {
         "requirement": "Valid ID or document proving you are a relative of the deceased",
@@ -6236,13 +6323,13 @@
     ],
     "steps": [
       "Death in a hospital: (1) The hospital gives the typewritten death certificate form. (2) Bring the form to City Health Office (CHO) Room 5 for final review. (3) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (4) Register the death certificate at the City Civil Registry.",
-      "Death at home: (1) Get 4 original copies of Municipal Form 103 and have the funeral parlor fill them out. (2) Bring the form, all medical records and the signed deceased retrieval form to the barangay health center for an interview. (3) Bring the form, the cause of death and other documents to the City Health Office (CHO) for final review. (4) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (5) Register the death certificate at the City Civil Registry.",
-      "The City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan is open Monday to Friday, 7:00 AM to 4:00 PM."
+      "Death at home: (1) Get 4 original copies of Municipal Form 103 and have the funeral parlor fill them out. (2) Bring the form, all medical records and the deceased retrieval form signed by the health center to the barangay health center for an interview. (3) Bring the form, the cause of death and other documents to the City Health Office (CHO) for final review. (4) If needed, get a Transfer Permit from the Sanitation Office at CHO Room 5. (5) Register the death certificate at the City Civil Registry.",
+      "The City Civil Registry, Ground Floor, City Hall Annex Bldg., Gen. Luna St., Tuktukan is open Monday to Friday, 7:00 AM to 4:00 PM, and Saturday and Sunday, 8:00 AM to 4:00 PM for death certificates."
     ],
     "sources": [
       {
-        "name": "City Civil Registry – City of Taguig (Facebook)",
-        "url": "https://www.facebook.com/ccrtaguig"
+        "name": "City Civil Registry – City of Taguig (Facebook): How to get a death certificate in Taguig",
+        "url": "https://www.facebook.com/share/p/1JQWVR5mrs/"
       }
     ],
     "updatedAt": "2026-11-19",
@@ -6932,7 +7019,7 @@
     "service": "Timely Registration of Certificate of Marriage",
     "slug": "timely-registration-of-marriage",
     "type": "transaction",
-    "description": "Register a marriage with the City Civil Registry. File within 15 days of the wedding for marriages with a marriage license, and within 30 days for marriages under Art. 34 of the Family Code (cohabitation), PD 1083 (Muslim marriages) and other Family Code articles.",
+    "description": "Register a marriage with the City Civil Registry. File within 15 days of the wedding for marriages with a marriage license, and within 30 days for marriages under PD 1083 (Muslim marriages) or Art. 34 of the Family Code (cohabitation).",
     "officeSlug": "city-civil-registry",
     "category": {
       "name": "Certificates & Vital Records",
@@ -6978,8 +7065,8 @@
     },
     "sources": [
       {
-        "name": "City Civil Registry – City of Taguig (Facebook)",
-        "url": "https://www.facebook.com/ccrtaguig"
+        "name": "City Civil Registry – City of Taguig (Facebook): Marriage certificate requirements",
+        "url": "https://www.facebook.com/share/p/1GwEHgGnzk/"
       }
     ],
     "updatedAt": "2026-11-19",
