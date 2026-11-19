@@ -35,10 +35,11 @@ jobs:
         run: python3 scripts/merge_services.py
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chromium
 
+      # Chromium only, visual tests have their own job; list reporter so failures show in the log
       - name: Run E2E tests
-        run: npm run test:e2e
+        run: npx playwright test --project=chromium --grep-invert @visual --reporter=list
         env:
           CI: true
 
