@@ -16,7 +16,6 @@ import { Badge } from '@/components/ui/Badge';
 import { lguLabels } from '@/lib/lguLabels';
 import SearchInput from '@/components/ui/SearchInput';
 
-import servicesData from '@/data/services/services.json';
 import mergedServicesData from '@/data/citizens-charter/merged-services.json';
 
 interface Service {
@@ -48,7 +47,7 @@ const Hero: FC = () => {
   const [query, setQuery] = useState('');
 
   const fuse = useMemo(() => {
-    return new Fuse(servicesData as Service[], {
+    return new Fuse(mergedServicesData as Service[], {
       keys: [
         'service',
         'office_name',

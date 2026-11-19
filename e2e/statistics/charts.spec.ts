@@ -95,7 +95,7 @@ test.describe('Statistics Page Charts', () => {
       // Find tab buttons
       const tabs = page
         .locator('button')
-        .filter({ hasText: /Municipality|Barangays/i });
+        .filter({ hasText: /City Growth|Barangay Comparison/i });
       const tabCount = await tabs.count();
 
       if (tabCount >= 2) {
@@ -120,10 +120,10 @@ test.describe('Statistics Page Charts', () => {
     test('population page chart displays municipality data correctly', async ({
       page,
     }) => {
-      // Click on Municipality tab if not already active
+      // Click on City Growth tab if not already active
       const municipalityTab = page
         .locator('button')
-        .filter({ hasText: /Municipality/i });
+        .filter({ hasText: /City Growth/i });
 
       if ((await municipalityTab.count()) > 0) {
         await municipalityTab.click();

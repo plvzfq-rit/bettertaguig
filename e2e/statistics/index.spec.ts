@@ -15,7 +15,7 @@ test.describe('Statistics Pages', () => {
 
     // Check PageHeader is visible
     await expect(
-      page.locator('h1').filter({ hasText: 'Municipal Statistics' })
+      page.locator('h1').filter({ hasText: 'City Statistics' })
     ).toBeVisible();
 
     // Verify Kapwa semantic tokens are used
@@ -27,7 +27,7 @@ test.describe('Statistics Pages', () => {
     const pageHeader = page.locator('header');
     await expect(pageHeader).toBeVisible();
     await expect(
-      pageHeader.locator('h1:has-text("Municipal Statistics")')
+      pageHeader.locator('h1:has-text("City Statistics")')
     ).toBeVisible();
 
     // Check description is present
@@ -78,7 +78,7 @@ test.describe('Statistics Pages', () => {
     // Check for tab buttons
     const tabs = page
       .locator('button')
-      .filter({ hasText: /Municipality|Barangays/i });
+      .filter({ hasText: /City Growth|Barangay Comparison/i });
     const tabCount = await tabs.count();
 
     if (tabCount > 0) {
@@ -108,14 +108,14 @@ test.describe('Statistics Pages', () => {
     expect(linkCount).toBeGreaterThan(0);
 
     // Click on municipal income link
-    const incomeLink = sidebarLinks.filter({ hasText: /Municipal Income/i });
+    const incomeLink = sidebarLinks.filter({ hasText: /City Income/i });
     if ((await incomeLink.count()) > 0) {
       await incomeLink.click();
 
       // Should navigate to municipal income page
       await page.waitForURL(/municipal-income/);
       await expect(
-        page.locator('h1').filter({ hasText: /Municipal Income/i })
+        page.locator('h1').filter({ hasText: /City Income/i })
       ).toBeVisible();
     }
   });
@@ -127,7 +127,7 @@ test.describe('Statistics Pages', () => {
 
     // Check page title
     await expect(
-      page.locator('h1').filter({ hasText: /Municipal Income/i })
+      page.locator('h1').filter({ hasText: /City Income/i })
     ).toBeVisible();
 
     // Check for StatCard components
@@ -308,7 +308,7 @@ test.describe('Statistics Pages', () => {
         .first()
         .locator('span, a')
         .filter({
-          hasText: /Municipal Income/i,
+          hasText: /City Income/i,
         });
       await expect(currentPage).toBeVisible();
     }

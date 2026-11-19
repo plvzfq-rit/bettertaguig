@@ -59,15 +59,14 @@ export default function MunicipalCommitteesPage() {
             href: '/government/elected-officials/committees',
           },
         ]}
-        heroActions={
-          <SearchInput
-            value={searchTerm}
-            onChangeValue={setSearchTerm}
-            placeholder='Search committees...'
-            className='md:w-72'
-          />
-        }
-      />
+      >
+        <SearchInput
+          value={searchTerm}
+          onChangeValue={setSearchTerm}
+          placeholder='Search committees...'
+          className='mx-auto md:w-72'
+        />
+      </PageHero>
 
       {/* Back link */}
       <div className='flex items-center gap-1.5'>

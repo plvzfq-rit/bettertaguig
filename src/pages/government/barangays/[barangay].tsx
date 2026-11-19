@@ -44,14 +44,6 @@ export default function BarangayDetail() {
 
   return (
     <div className='animate-in fade-in space-y-6 pb-20 duration-500'>
-      {/* Skip Link for Accessibility */}
-      <a
-        href='#main-content'
-        className='focus:bg-kapwa-bg-surface focus:text-kapwa-text-strong focus:ring-kapwa-border-focus sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:ring-2'
-      >
-        Skip to main content
-      </a>
-
       {/* --- BREADCRUMBS --- */}
       <Breadcrumb>
         <BreadcrumbList>
@@ -77,7 +69,7 @@ export default function BarangayDetail() {
       <BarangayHeader barangay={barangay} />
 
       {/* --- OFFICIALS SECTION (Unified) --- */}
-      <main id='main-content' className='space-y-6'>
+      <section className='space-y-6'>
         {/* Section Header */}
         <div className='border-kapwa-border-weak flex items-center gap-2 border-b pb-3'>
           <UsersIcon
@@ -205,7 +197,7 @@ export default function BarangayDetail() {
             </div>
           </div>
         )}
-      </main>
+      </section>
     </div>
   );
 }

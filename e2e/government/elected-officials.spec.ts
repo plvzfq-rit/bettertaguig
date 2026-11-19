@@ -15,12 +15,11 @@ test.describe('Elected Officials Pages', () => {
   test('elected officials index displays executive branch', async ({
     page,
   }) => {
-    // Mayor and Vice Mayor are now h3 inside DetailSection on the index page
-    const mayorSection = page
-      .locator('h3, h2')
-      .filter({ hasText: /Mayor/i })
-      .first();
-    await expect(mayorSection).toBeVisible();
+    // Each executive card shows the office name above the official's h2
+    await expect(page.getByText('Office of the Mayor').first()).toBeVisible();
+    await expect(
+      page.getByText('Office of the Vice Mayor').first()
+    ).toBeVisible();
   });
 
   test('elected officials index displays legislative branch', async ({
@@ -70,9 +69,7 @@ test.describe('Elected Officials Pages', () => {
 
   test('committees link navigates to committees page', async ({ page }) => {
     // The index now links to /government/elected-officials/committees
-    const committeesLink = page.locator(
-      'a[href*="/government/elected-officials/committees"]'
-    );
+    const committeesLink = page.getByRole('link', { name: 'View Committees' });
     await expect(committeesLink).toBeVisible();
 
     await committeesLink.click();
@@ -96,7 +93,9 @@ test.describe('Elected Officials Pages', () => {
       .or(page.locator('input[type="search"]'));
     await expect(searchInput).toBeVisible();
 
-    await searchInput.fill('finance');
+    // Search for a word from the first listed committee, whatever the data holds
+    const firstCommittee = await page.locator('main h3').first().innerText();
+    await searchInput.fill(firstCommittee.split(' ')[0]);
     await page.waitForTimeout(300);
 
     // Results should filter
