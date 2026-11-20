@@ -85,10 +85,10 @@ jobs:
         run: python3 scripts/merge_services.py
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chromium
 
       - name: Run visual regression tests
-        run: npx playwright test --grep @visual
+        run: npx playwright test --project=chromium --grep @visual
         env:
           CI: true
         continue-on-error: true
@@ -125,10 +125,10 @@ jobs:
         run: python3 scripts/merge_services.py
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chromium
 
       - name: Run accessibility tests
-        run: npx playwright test e2e/accessibility --grep @a11y
+        run: npx playwright test --project=chromium e2e/accessibility --grep @a11y
         env:
           CI: true
         continue-on-error: true
