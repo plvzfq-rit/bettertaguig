@@ -65,6 +65,7 @@ export function StatCard(props: StatCardProps) {
 
   return (
     <Card
+      data-testid='stat-card'
       variant='default'
       hover={hover}
       className={cn('overflow-hidden', className)}

@@ -143,6 +143,7 @@ export default function CompetitivenessPage() {
         <DetailSection title='Pillar Trends' icon={TrendingUp}>
           <ResponsiveChart height={384}>
             <LineChart
+              accessibilityLayer
               data={trendData}
               margin={{ top: 10, right: 10, left: -20, bottom: 20 }}
             >

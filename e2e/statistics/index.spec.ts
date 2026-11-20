@@ -24,7 +24,9 @@ test.describe('Statistics Pages', () => {
 
   test('statistics layout has PageHeader and Sidebar', async ({ page }) => {
     // Check PageHeader with centered variant
-    const pageHeader = page.locator('header');
+    const pageHeader = page.locator('header').filter({
+      has: page.locator('h1:has-text("City Statistics")'),
+    });
     await expect(pageHeader).toBeVisible();
     await expect(
       pageHeader.locator('h1:has-text("City Statistics")')
@@ -47,9 +49,8 @@ test.describe('Statistics Pages', () => {
     await page.waitForLoadState('networkidle');
 
     // Check StatCard components are displayed
-    const statCards = page
-      .locator('[data-testid="stat-card"]')
-      .or(page.locator('.stat-card'));
+    const statCards = page.locator('[data-testid="stat-card"]');
+    await expect(statCards.nth(2)).toBeVisible();
     const count = await statCards.count();
 
     // Should have at least 3 KPI cards
@@ -131,9 +132,7 @@ test.describe('Statistics Pages', () => {
     ).toBeVisible();
 
     // Check for StatCard components
-    const statCards = page
-      .locator('[data-testid="stat-card"]')
-      .or(page.locator('.stat-card'));
+    const statCards = page.locator('[data-testid="stat-card"]');
     await expect(statCards.first()).toBeVisible();
 
     // Check for chart
@@ -154,9 +153,7 @@ test.describe('Statistics Pages', () => {
     ).toBeVisible();
 
     // Check for StatCard components
-    const statCards = page
-      .locator('[data-testid="stat-card"]')
-      .or(page.locator('.stat-card'));
+    const statCards = page.locator('[data-testid="stat-card"]');
     await expect(statCards.first()).toBeVisible();
 
     // Check for chart or data display
@@ -180,9 +177,8 @@ test.describe('Statistics Pages', () => {
       await page.waitForLoadState('networkidle');
 
       // Check for StatCard components
-      const statCards = page
-        .locator('[data-testid="stat-card"]')
-        .or(page.locator('.stat-card'));
+      const statCards = page.locator('[data-testid="stat-card"]');
+      await expect(statCards.nth(1)).toBeVisible();
       const count = await statCards.count();
 
       // Each page should have at least 2 StatCards
@@ -235,9 +231,7 @@ test.describe('Statistics Pages', () => {
       .or(page.locator('[data-testid="sidebar"]'));
 
     // Check for mobile menu button
-    const menuButton = page
-      .locator('button[aria-label*="menu" i]')
-      .or(page.locator('[data-testid="mobile-menu-button"]'));
+    const menuButton = page.getByRole('button', { name: /^Menu$/i });
 
     const menuButtonCount = await menuButton.count();
     if (menuButtonCount > 0) {

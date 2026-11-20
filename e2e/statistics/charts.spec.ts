@@ -42,8 +42,7 @@ test.describe('Statistics Page Charts', () => {
 
       // Check for dots (data points)
       const dots = page.locator('.recharts-line-dot');
-      const dotCount = await dots.count();
-      expect(dotCount).toBeGreaterThan(0);
+      await expect(dots.first()).toBeVisible();
     });
 
     test('population page chart has legend', async ({ page }) => {
@@ -62,20 +61,12 @@ test.describe('Statistics Page Charts', () => {
     });
 
     test('population page chart has working tooltips', async ({ page }) => {
-      // Hover over chart area to trigger tooltip
-      const chartArea = page.locator('.recharts-wrapper');
-      await chartArea.hover();
-
-      // Check for tooltip appearance
-      const tooltip = page.locator('.recharts-tooltip-wrapper');
-      const tooltipCount = await tooltip.count();
-
-      // Tooltip may or may not appear on initial hover
-      if (tooltipCount > 0) {
-        // If tooltip appears, check it has content
-        const tooltipContent = page.locator('.recharts-tooltip-content');
-        await expect(tooltipContent).toBeVisible();
-      }
+      // Hover a data point; the site's custom tooltip shows its value
+      const point = page.locator('.recharts-line-dot').nth(2);
+      await point.hover();
+      await expect(page.locator('.recharts-tooltip-wrapper')).toContainText(
+        /\d/
+      );
     });
 
     test('population page chart has Cartesian grid', async ({ page }) => {
@@ -206,30 +197,20 @@ test.describe('Statistics Page Charts', () => {
     });
 
     test('municipal income page chart tooltips work', async ({ page }) => {
-      // Hover over pie chart
-      const pieChart = page.locator('.recharts-pie');
-      await pieChart.hover();
-
-      // Check for tooltip
-      const tooltip = page.locator('.recharts-tooltip-wrapper');
-      const tooltipCount = await tooltip.count();
-
-      if (tooltipCount > 0) {
-        // Check tooltip has content
-        const tooltipContent = page.locator('.recharts-tooltip-content');
-        await expect(tooltipContent).toBeVisible();
-      }
+      // Hover a data point; the site's custom tooltip shows its value
+      const point = page.locator('.recharts-sector').nth(2);
+      await point.hover();
+      await expect(page.locator('.recharts-tooltip-wrapper')).toContainText(
+        /\d/
+      );
     });
 
     test('municipal income page displays income breakdown with correct colors', async ({
       page,
     }) => {
       // Check for pie chart sectors with different colors
-      const sectors = page.locator('.recharts-pie-sector');
-      const sectorCount = await sectors.count();
-
-      // Should have multiple colored sectors
-      expect(sectorCount).toBeGreaterThanOrEqual(3);
+      const sectors = page.locator('.recharts-pie-sector .recharts-sector');
+      await expect(sectors.nth(2)).toBeAttached();
 
       // Check that sectors have fill colors
       const firstSector = sectors.first();
@@ -311,8 +292,7 @@ test.describe('Statistics Page Charts', () => {
 
       // Check for data points
       const dots = page.locator('.recharts-line-dot');
-      const dotCount = await dots.count();
-      expect(dotCount).toBeGreaterThan(0);
+      await expect(dots.first()).toBeVisible();
     });
 
     test('competitiveness page tab switching works', async ({ page }) => {
@@ -327,9 +307,11 @@ test.describe('Statistics Page Charts', () => {
         await tabs.nth(1).click();
         await page.waitForTimeout(500);
 
-        // Chart should still be visible
-        const chart = page.locator('.recharts-wrapper');
-        await expect(chart).toBeVisible();
+        // Pillars view lists the pillars instead of the trend chart
+        await expect(page.locator('.recharts-wrapper')).toHaveCount(0);
+        await expect(
+          page.getByRole('button', { name: /Economic Dynamism/i })
+        ).toBeVisible();
       }
     });
 
@@ -354,18 +336,12 @@ test.describe('Statistics Page Charts', () => {
     test('competitiveness page chart tooltips display pillar information', async ({
       page,
     }) => {
-      // Hover over chart area
-      const chartArea = page.locator('.recharts-wrapper');
-      await chartArea.hover();
-
-      // Check for tooltip
-      const tooltip = page.locator('.recharts-tooltip-wrapper');
-      const tooltipCount = await tooltip.count();
-
-      if (tooltipCount > 0) {
-        const tooltipContent = page.locator('.recharts-tooltip-content');
-        await expect(tooltipContent).toBeVisible();
-      }
+      // Hover a data point; the site's custom tooltip shows its value
+      const point = page.locator('.recharts-line-dot').nth(2);
+      await point.hover();
+      await expect(page.locator('.recharts-tooltip-wrapper')).toContainText(
+        /\d/
+      );
     });
 
     test('competitiveness page chart has grid lines', async ({ page }) => {
@@ -435,16 +411,20 @@ test.describe('Statistics Page Charts', () => {
       await page.goto('/statistics');
       await page.waitForLoadState('networkidle');
 
-      // Tab to chart area
-      await page.keyboard.press('Tab');
-      await page.waitForTimeout(100);
+      // Tab until the chart (Recharts accessibility layer) has focus
+      const chart = page.locator('.recharts-wrapper svg[tabindex="0"]').first();
+      await expect(chart).toBeVisible();
+      for (let i = 0; i < 40; i++) {
+        await page.keyboard.press('Tab');
+        if (await chart.evaluate(el => el === document.activeElement)) break;
+      }
+      await expect(chart).toBeFocused();
 
-      // Check if chart or chart container receives focus
-      const focusedElement = page.locator(':focus');
-      const focusedTag = await focusedElement.evaluate(el => el.tagName);
-
-      // Chart containers should be focusable or have interactive elements
-      expect(['DIV', 'BUTTON', 'SVG']).toContain(focusedTag);
+      // Arrow keys step through the data points and show the tooltip
+      await page.keyboard.press('ArrowRight');
+      await expect(
+        page.locator('.recharts-tooltip-wrapper').first()
+      ).toContainText(/\d/);
     });
   });
 
@@ -485,7 +465,7 @@ test.describe('Statistics Page Charts', () => {
         await page.goto('/statistics/competitiveness');
         await page.waitForLoadState('networkidle');
 
-        const lineChart = page.locator('.recharts-line-curve');
+        const lineChart = page.locator('.recharts-line-curve').first();
         await expect(lineChart).toBeVisible();
       }
       // Successfully rendered all charts across 3 navigation cycles
@@ -497,12 +477,9 @@ test.describe('Statistics Page Charts', () => {
       await page.goto('/statistics');
       await page.waitForLoadState('networkidle');
 
-      // Check for data points
+      // Should have multiple data points (at least 4 years); dots appear after the animation
       const dots = page.locator('.recharts-line-dot');
-      const dotCount = await dots.count();
-
-      // Should have multiple data points (at least 4 years)
-      expect(dotCount).toBeGreaterThanOrEqual(4);
+      await expect(dots.nth(3)).toBeVisible();
     });
 
     test('municipal income page chart displays all income categories', async ({
@@ -512,11 +489,9 @@ test.describe('Statistics Page Charts', () => {
       await page.waitForLoadState('networkidle');
 
       // Check for pie chart sectors
+      // Should have at least 4 income categories; sectors appear during the animation
       const sectors = page.locator('.recharts-pie-sector');
-      const sectorCount = await sectors.count();
-
-      // Should have at least 4 income categories
-      expect(sectorCount).toBeGreaterThanOrEqual(4);
+      await expect(sectors.nth(3)).toBeAttached();
     });
 
     test('competitiveness page chart displays multi-year data', async ({
@@ -525,12 +500,9 @@ test.describe('Statistics Page Charts', () => {
       await page.goto('/statistics/competitiveness');
       await page.waitForLoadState('networkidle');
 
-      // Check for data points
+      // Should have multiple data points (multiple years); dots appear after the animation
       const dots = page.locator('.recharts-line-dot');
-      const dotCount = await dots.count();
-
-      // Should have multiple data points (multiple years)
-      expect(dotCount).toBeGreaterThanOrEqual(3);
+      await expect(dots.nth(2)).toBeVisible();
     });
   });
 
